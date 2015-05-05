@@ -1012,34 +1012,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-89",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 759.75, 742.0, 86.0, 20.0 ],
-					"text" : "j.savebang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-81",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 759.75, 767.0, 177.0, 18.0 ],
-					"text" : "text \"Drop soundfile here\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-23",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2431,15 +2403,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-81", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-89", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2484,8 +2447,8 @@
 			"obj-47" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-24" : [ "Master Gain", "Master Gain", 0 ],
 			"obj-108" : [ "live.text[8]", "live.text[4]", 0 ],
-			"obj-45" : [ "live.text[3]", "live.text", 0 ],
 			"obj-4" : [ "live.text[9]", "live.text[1]", 0 ],
+			"obj-45" : [ "live.text[3]", "live.text", 0 ],
 			"obj-29::obj-48" : [ "live.menu[1]", "live.menu", 0 ],
 			"obj-74" : [ "live.dial[1]", "Transpose", 0 ],
 			"obj-82" : [ "pan", "Pan", 0 ],
@@ -2505,15 +2468,15 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.savebang.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "j.receive~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.savebang.mxo",
 				"type" : "iLaX"
 			}
 , 			{
