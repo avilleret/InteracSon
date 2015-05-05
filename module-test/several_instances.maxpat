@@ -230,13 +230,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "balance~.model.maxpat",
-				"bootpath" : "/Users/LaFabrika/Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Imaging/balance~",
-				"patcherrelativepath" : "../../../Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Imaging/balance~",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
@@ -294,10 +287,6 @@
 			}
 , 			{
 				"name" : "j.unit.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.panorama~.mxo",
 				"type" : "iLaX"
 			}
  ]
