@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -3.0, 45.0, 1283.0, 698.0 ],
+		"rect" : [ 4.0, 45.0, 1652.0, 944.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -34,7 +34,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 826.0, 800.0, 25.0, 25.0 ]
+					"patching_rect" : [ 822.0, 912.129028, 25.0, 25.0 ]
 				}
 
 			}
@@ -47,7 +47,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1085.0, 678.0, 252.0, 20.0 ],
+					"patching_rect" : [ 1081.0, 742.129028, 252.0, 20.0 ],
 					"text" : "j.parameter active @type boolean @default 1"
 				}
 
@@ -61,7 +61,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1085.0, 734.5, 41.0, 20.0 ],
+					"patching_rect" : [ 1081.0, 792.129028, 41.0, 20.0 ],
 					"text" : "metro"
 				}
 
@@ -75,7 +75,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1107.0, 706.5, 283.0, 20.0 ],
+					"patching_rect" : [ 1103.0, 767.129028, 283.0, 20.0 ],
 					"text" : "j.parameter updaterate @type decimal @default 20"
 				}
 
@@ -89,7 +89,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 877.0, 800.0, 149.0, 20.0 ],
+					"patching_rect" : [ 873.0, 887.129028, 149.0, 20.0 ],
 					"text" : "j.return boids_coordinates"
 				}
 
@@ -103,7 +103,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 230.0, 753.0, 49.0, 20.0 ],
+					"patching_rect" : [ 226.0, 824.0, 49.0, 20.0 ],
 					"text" : "j.model"
 				}
 
@@ -117,7 +117,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 503.0, 351.0, 20.0 ],
+					"patching_rect" : [ 236.0, 574.0, 351.0, 20.0 ],
 					"text" : "j.parameter box/back @description \"Back wall position of flybox\""
 				}
 
@@ -131,7 +131,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 214.0, 474.0, 351.0, 20.0 ],
+					"patching_rect" : [ 210.0, 545.0, 351.0, 20.0 ],
 					"text" : "j.parameter box/front @description \"Front wall position of flybox\""
 				}
 
@@ -145,7 +145,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 189.0, 445.0, 374.0, 20.0 ],
+					"patching_rect" : [ 185.0, 516.0, 374.0, 20.0 ],
 					"text" : "j.parameter box/bottom @description \"Bottom wall position of flybox\""
 				}
 
@@ -159,7 +159,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.0, 586.0, 90.0, 20.0 ],
+					"patching_rect" : [ 110.0, 657.0, 90.0, 20.0 ],
 					"text" : "prepend flyrect"
 				}
 
@@ -173,7 +173,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.0, 554.0, 110.0, 20.0 ],
+					"patching_rect" : [ 110.0, 625.0, 110.0, 20.0 ],
 					"text" : "pak 0. 0. 0. 0. 0. 0."
 				}
 
@@ -187,7 +187,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 165.0, 416.0, 351.0, 20.0 ],
+					"patching_rect" : [ 161.0, 487.0, 351.0, 20.0 ],
 					"text" : "j.parameter box/right @description \"Right wall position of flybox\""
 				}
 
@@ -201,7 +201,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 139.0, 387.0, 335.0, 20.0 ],
+					"patching_rect" : [ 135.0, 458.0, 335.0, 20.0 ],
 					"text" : "j.parameter box/top @description \"Top wall position of flybox\""
 				}
 
@@ -215,7 +215,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 114.0, 358.0, 335.0, 20.0 ],
+					"patching_rect" : [ 110.0, 429.0, 335.0, 20.0 ],
 					"text" : "j.parameter box/left @description \"Left wall position of flybox\""
 				}
 
@@ -229,7 +229,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1052.0, 590.0, 97.0, 20.0 ],
+					"patching_rect" : [ 1048.0, 667.129028, 97.0, 20.0 ],
 					"text" : "prepend prefdist"
 				}
 
@@ -243,7 +243,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1010.0, 542.0, 86.0, 20.0 ],
+					"patching_rect" : [ 1006.0, 617.129028, 86.0, 20.0 ],
 					"text" : "prepend accel"
 				}
 
@@ -257,7 +257,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 968.0, 494.0, 91.0, 20.0 ],
+					"patching_rect" : [ 964.0, 567.129028, 91.0, 20.0 ],
 					"text" : "prepend inertia"
 				}
 
@@ -271,7 +271,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 926.0, 446.0, 103.0, 20.0 ],
+					"patching_rect" : [ 922.0, 517.129028, 103.0, 20.0 ],
 					"text" : "prepend edgedist"
 				}
 
@@ -285,7 +285,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 884.0, 398.0, 85.0, 20.0 ],
+					"patching_rect" : [ 880.0, 467.129028, 85.0, 20.0 ],
 					"text" : "prepend repel"
 				}
 
@@ -299,7 +299,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 841.0, 350.0, 87.0, 20.0 ],
+					"patching_rect" : [ 837.0, 417.129028, 87.0, 20.0 ],
 					"text" : "prepend avoid"
 				}
 
@@ -313,7 +313,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 800.0, 302.0, 91.0, 20.0 ],
+					"patching_rect" : [ 796.0, 367.129028, 91.0, 20.0 ],
 					"text" : "prepend match"
 				}
 
@@ -327,8 +327,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 758.0, 254.0, 101.0, 20.0 ],
-					"text" : "prepend attractpt"
+					"patching_rect" : [ 754.0, 317.129028, 91.0, 20.0 ],
+					"text" : "prepend attract"
 				}
 
 			}
@@ -341,7 +341,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 716.0, 206.0, 91.0, 20.0 ],
+					"patching_rect" : [ 712.0, 267.129028, 91.0, 20.0 ],
 					"text" : "prepend center"
 				}
 
@@ -355,7 +355,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 674.0, 158.0, 113.0, 20.0 ],
+					"patching_rect" : [ 670.0, 217.129028, 113.0, 20.0 ],
 					"text" : "prepend maxspeed"
 				}
 
@@ -369,7 +369,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 632.0, 110.0, 110.0, 20.0 ],
+					"patching_rect" : [ 628.0, 167.129028, 110.0, 20.0 ],
 					"text" : "prepend minspeed"
 				}
 
@@ -383,7 +383,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 590.0, 62.0, 111.0, 20.0 ],
+					"patching_rect" : [ 586.0, 117.129036, 111.0, 20.0 ],
 					"text" : "prepend neighbors"
 				}
 
@@ -397,7 +397,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1067.0, 646.5, 99.0, 20.0 ],
+					"patching_rect" : [ 1063.0, 717.129028, 99.0, 20.0 ],
 					"text" : "prepend number"
 				}
 
@@ -411,7 +411,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.0, 310.0, 101.0, 20.0 ],
+					"patching_rect" : [ 110.0, 381.0, 101.0, 20.0 ],
 					"text" : "prepend attractpt"
 				}
 
@@ -425,7 +425,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.0, 278.0, 70.0, 20.0 ],
+					"patching_rect" : [ 110.0, 349.0, 70.0, 20.0 ],
 					"text" : "pak 0. 0. 0."
 				}
 
@@ -439,7 +439,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 877.0, 769.0, 63.0, 20.0 ],
+					"patching_rect" : [ 873.0, 862.129028, 63.0, 20.0 ],
 					"text" : "boids3d 9"
 				}
 
@@ -453,7 +453,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1067.0, 618.5, 426.0, 20.0 ],
+					"patching_rect" : [ 1063.0, 692.129028, 426.0, 20.0 ],
 					"text" : "j.parameter number @description \"number of boids\" @default 9 @type integer"
 				}
 
@@ -467,7 +467,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 165.0, 242.0, 392.0, 20.0 ],
+					"patching_rect" : [ 161.0, 313.0, 392.0, 20.0 ],
 					"text" : "j.parameter attractionpoint/z @description \"Z position of attraction point\""
 				}
 
@@ -481,7 +481,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 139.5, 215.5, 393.0, 20.0 ],
+					"patching_rect" : [ 135.5, 286.5, 393.0, 20.0 ],
 					"text" : "j.parameter attractionpoint/y @description \"Y position of attraction point\""
 				}
 
@@ -495,7 +495,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 114.0, 188.0, 393.0, 20.0 ],
+					"patching_rect" : [ 110.0, 259.0, 393.0, 20.0 ],
 					"text" : "j.parameter attractionpoint/x @description \"X position of attraction point\""
 				}
 
@@ -509,7 +509,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1052.0, 566.0, 441.0, 20.0 ],
+					"patching_rect" : [ 1048.0, 642.129028, 441.0, 20.0 ],
 					"text" : "j.parameter neighbors/distance @description \"preferred distance from neighbors\""
 				}
 
@@ -523,7 +523,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1010.0, 518.0, 339.0, 20.0 ],
+					"patching_rect" : [ 1006.0, 592.129028, 339.0, 20.0 ],
 					"text" : "j.parameter acceleration @description \"speed of acceleration\""
 				}
 
@@ -537,7 +537,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 968.0, 474.0, 415.0, 20.0 ],
+					"patching_rect" : [ 964.0, 542.129028, 415.0, 20.0 ],
 					"text" : "j.parameter inertia @description \"willingness to change speed and direction\""
 				}
 
@@ -551,7 +551,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 926.0, 422.0, 423.0, 20.0 ],
+					"patching_rect" : [ 922.0, 492.129028, 423.0, 20.0 ],
 					"text" : "j.parameter edgedist @description \"distance of vision for avoiding wall edges\""
 				}
 
@@ -565,7 +565,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 884.0, 374.0, 363.0, 20.0 ],
+					"patching_rect" : [ 880.0, 442.129028, 363.0, 20.0 ],
 					"text" : "j.parameter repel @description \"strengh of wall avoidance instinct\""
 				}
 
@@ -579,7 +579,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 842.0, 326.0, 394.0, 20.0 ],
+					"patching_rect" : [ 838.0, 392.129028, 394.0, 20.0 ],
 					"text" : "j.parameter avoid @description \"strength of neighbor avoidance instinct\""
 				}
 
@@ -593,7 +593,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 800.0, 278.0, 428.0, 20.0 ],
+					"patching_rect" : [ 796.0, 342.129028, 428.0, 20.0 ],
 					"text" : "j.parameter match @description \"strength of neighbor speed matching instinct\""
 				}
 
@@ -607,7 +607,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 758.0, 230.0, 462.0, 20.0 ],
+					"patching_rect" : [ 754.0, 292.129028, 462.0, 20.0 ],
 					"text" : "j.parameter attractionpoint/attraction @description \"strength of attraction to 'attractpt'\""
 				}
 
@@ -621,7 +621,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 716.0, 182.0, 343.0, 20.0 ],
+					"patching_rect" : [ 712.0, 242.129028, 343.0, 20.0 ],
 					"text" : "j.parameter center @description \"strength of centering instinct\""
 				}
 
@@ -635,7 +635,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 674.0, 134.0, 390.0, 20.0 ],
+					"patching_rect" : [ 670.0, 192.129028, 390.0, 20.0 ],
 					"text" : "j.parameter speed/max @description \"Maximum speed of speed range\""
 				}
 
@@ -649,7 +649,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 632.0, 86.0, 383.0, 20.0 ],
+					"patching_rect" : [ 628.0, 142.129028, 383.0, 20.0 ],
 					"text" : "j.parameter speed/min @description \"Minimum speed of speed range\""
 				}
 
@@ -664,7 +664,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 590.0, 21.0, 568.0, 33.0 ],
+					"patching_rect" : [ 586.0, 77.0, 568.0, 33.0 ],
 					"text" : "j.parameter neighbors/see @description \"Number of neighbors each boid consults when flocking\" @type decimal @default 4"
 				}
 

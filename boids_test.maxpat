@@ -8,8 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 70.0, 640.0, 480.0 ],
-		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+		"rect" : [ 29.0, 69.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,79 +29,61 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"annotation" : "none",
-					"args" : [ "#1", "#1_view" ],
+					"args" : [ "boids.2", "EEE" ],
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
-					"name" : "mapping.view.maxpat",
+					"name" : "boids.module.maxpat",
 					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 450.0, 175.0 ],
-					"presentation_rect" : [ 15.0, 15.0, 450.0, 175.0 ]
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ -1.0, 227.0, 600.0, 175.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 600.0, 175.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "none",
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"args" : [ "boids.1", "test" ],
 					"id" : "obj-1",
-					"maxclass" : "newobj",
+					"maxclass" : "bpatcher",
+					"name" : "boids.module.maxpat",
 					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 181.0, 246.0, 151.0, 20.0 ],
-					"text" : "mapping.model #1"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ -1.0, 15.0, 600.0, 175.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 600.0, 175.0 ]
 				}
 
 			}
  ],
 		"lines" : [  ],
-		"parameters" : 		{
-			"obj-2::obj-30" : [ "live.numbox[9]", "live.numbox[8]", 0 ],
-			"obj-2::obj-33" : [ "live.numbox[10]", "live.numbox[8]", 0 ],
-			"obj-2::obj-55" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-2::obj-24" : [ "live.numbox[8]", "live.numbox[8]", 0 ],
-			"obj-2::obj-56" : [ "live.menu[3]", "live.menu", 0 ],
-			"obj-2::obj-36" : [ "live.numbox[11]", "live.numbox[8]", 0 ]
-		}
-,
 		"dependency_cache" : [ 			{
-				"name" : "mapping.model.maxpat",
+				"name" : "boids.module.maxpat",
 				"bootpath" : "/Users/LaFabrika/lib-src/InteracSon",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mapping.view.maxpat",
+				"name" : "boids.view.maxpat",
 				"bootpath" : "/Users/LaFabrika/lib-src/InteracSon",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
+				"name" : "boids.model.maxpat",
+				"bootpath" : "/Users/LaFabrika/lib-src/InteracSon",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.namespace.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
+				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -110,7 +91,19 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.view.mxo",
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "boids3d.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
 				"type" : "iLaX"
 			}
  ]

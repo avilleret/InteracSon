@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -48,15 +48,15 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 242.0, 271.0, 75.0, 20.0 ],
-					"text" : "boids.model"
+					"patching_rect" : [ 242.0, 271.0, 92.0, 20.0 ],
+					"text" : "boids.model #1"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"annotation" : "none",
-					"args" : [ "#1" ],
+					"args" : [ "#1", "#1_view" ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "boids.view.maxpat",
@@ -81,14 +81,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "boids.view.maxpat",
-				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/InteracSon",
+				"bootpath" : "/Users/LaFabrika/lib-src/InteracSon",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "boids.model.maxpat",
-				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/InteracSon",
+				"bootpath" : "/Users/LaFabrika/lib-src/InteracSon",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

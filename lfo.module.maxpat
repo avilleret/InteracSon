@@ -4,11 +4,12 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 25.0, 70.0, 640.0, 480.0 ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +45,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "none",
-					"args" : [ "#1" ],
+					"args" : [ "#1", "#1_view" ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "lfo.view.maxpat",
@@ -57,7 +58,46 @@
 
 			}
  ],
-		"lines" : [  ]
+		"lines" : [  ],
+		"parameters" : 		{
+			"obj-1::obj-12" : [ "live.menu[10]", "live.menu", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "lfo.view.maxpat",
+				"bootpath" : "/Users/LaFabrika/lib-src/InteracSon",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lfo.model.maxpat",
+				"bootpath" : "/Users/LaFabrika/lib-src/InteracSon",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+ ]
 	}
 
 }

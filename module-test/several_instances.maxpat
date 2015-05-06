@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 29.0, 69.0, 758.0, 479.0 ],
+		"rect" : [ 1007.0, 468.0, 758.0, 479.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,7 +35,7 @@
 					"name" : "test.module.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "" ],
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 353.0, 242.0, 300.0, 175.0 ],
 					"presentation_rect" : [ 30.0, 30.0, 300.0, 175.0 ]
 				}
@@ -49,7 +49,7 @@
 					"name" : "test.module.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "" ],
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 353.0, 52.0, 300.0, 175.0 ],
 					"presentation_rect" : [ 15.0, 15.0, 300.0, 175.0 ]
 				}
@@ -63,7 +63,7 @@
 					"name" : "test.module.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "" ],
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 30.0, 242.0, 300.0, 175.0 ],
 					"presentation_rect" : [ 15.0, 15.0, 300.0, 175.0 ]
 				}
@@ -77,7 +77,7 @@
 					"name" : "test.module.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "" ],
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 30.0, 52.0, 300.0, 175.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 175.0 ]
 				}
@@ -86,62 +86,18 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-4::obj-1::obj-62" : [ "live.text[11]", "live.text[3]", 0 ],
-			"obj-1::obj-1::obj-111" : [ "live.numbox[11]", "live.numbox[2]", 0 ],
-			"obj-1::obj-1::obj-62" : [ "live.text[23]", "live.text[3]", 0 ],
-			"obj-2::obj-1::obj-111" : [ "live.numbox[8]", "live.numbox[2]", 0 ],
 			"obj-1::obj-1::obj-82" : [ "pan[3]", "Pan", 0 ],
-			"obj-4::obj-1::obj-4" : [ "live.text[15]", "live.text[1]", 0 ],
-			"obj-1::obj-1::obj-58" : [ "live.text[25]", "live.text[4]", 0 ],
-			"obj-2::obj-1::obj-62" : [ "live.text[17]", "live.text[3]", 0 ],
-			"obj-1::obj-1::obj-24" : [ "Master Gain[3]", "Master Gain", 0 ],
-			"obj-1::obj-1::obj-29::obj-48" : [ "live.menu[8]", "live.menu", 0 ],
-			"obj-3::obj-1::obj-48" : [ "live.menu[2]", "live.menu", 0 ],
-			"obj-3::obj-1::obj-111" : [ "live.numbox[2]", "live.numbox[2]", 0 ],
-			"obj-3::obj-1::obj-110" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
-			"obj-1::obj-1::obj-45" : [ "live.text[22]", "live.text", 0 ],
-			"obj-2::obj-1::obj-110" : [ "live.numbox[9]", "live.numbox[1]", 0 ],
-			"obj-1::obj-1::obj-110" : [ "live.numbox[12]", "live.numbox[1]", 0 ],
-			"obj-4::obj-1::obj-59" : [ "live.text[12]", "live.text[3]", 0 ],
-			"obj-4::obj-1::obj-58" : [ "live.text[13]", "live.text[4]", 0 ],
+			"obj-2::obj-1::obj-5" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-4::obj-1::obj-5" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-3::obj-1::obj-5" : [ "live.numbox[12]", "live.numbox", 0 ],
 			"obj-2::obj-1::obj-82" : [ "pan[2]", "Pan", 0 ],
-			"obj-4::obj-1::obj-108" : [ "live.text[14]", "live.text[4]", 0 ],
-			"obj-2::obj-1::obj-45" : [ "live.text[16]", "live.text", 0 ],
-			"obj-2::obj-1::obj-48" : [ "live.menu[5]", "live.menu", 0 ],
-			"obj-1::obj-1::obj-4" : [ "live.text[27]", "live.text[1]", 0 ],
-			"obj-4::obj-1::obj-74" : [ "live.dial[2]", "Transpose", 0 ],
-			"obj-2::obj-1::obj-58" : [ "live.text[19]", "live.text[4]", 0 ],
-			"obj-2::obj-1::obj-24" : [ "Master Gain[2]", "Master Gain", 0 ],
-			"obj-1::obj-1::obj-47" : [ "live.numbox[10]", "live.numbox", 0 ],
-			"obj-1::obj-1::obj-48" : [ "live.menu[7]", "live.menu", 0 ],
-			"obj-3::obj-1::obj-58" : [ "live.text[6]", "live.text[4]", 0 ],
-			"obj-4::obj-1::obj-110" : [ "live.numbox[6]", "live.numbox[1]", 0 ],
+			"obj-1::obj-1::obj-1" : [ "live.button[3]", "live.button", 0 ],
 			"obj-4::obj-1::obj-82" : [ "pan[1]", "Pan", 0 ],
-			"obj-4::obj-1::obj-48" : [ "live.menu[3]", "live.menu", 0 ],
-			"obj-3::obj-1::obj-62" : [ "live.text[5]", "live.text[3]", 0 ],
-			"obj-4::obj-1::obj-45" : [ "live.text[10]", "live.text", 0 ],
-			"obj-4::obj-1::obj-24" : [ "Master Gain[1]", "Master Gain", 0 ],
-			"obj-2::obj-1::obj-29::obj-48" : [ "live.menu[6]", "live.menu", 0 ],
-			"obj-3::obj-1::obj-47" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-4::obj-1::obj-111" : [ "live.numbox[5]", "live.numbox[2]", 0 ],
-			"obj-1::obj-1::obj-59" : [ "live.text[24]", "live.text[3]", 0 ],
-			"obj-1::obj-1::obj-108" : [ "live.text[26]", "live.text[4]", 0 ],
-			"obj-3::obj-1::obj-24" : [ "Master Gain", "Master Gain", 0 ],
-			"obj-3::obj-1::obj-45" : [ "live.text[3]", "live.text", 0 ],
-			"obj-3::obj-1::obj-108" : [ "live.text[8]", "live.text[4]", 0 ],
-			"obj-3::obj-1::obj-4" : [ "live.text[9]", "live.text[1]", 0 ],
-			"obj-3::obj-1::obj-74" : [ "live.dial[1]", "Transpose", 0 ],
-			"obj-3::obj-1::obj-29::obj-48" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-1::obj-1::obj-74" : [ "live.dial[4]", "Transpose", 0 ],
-			"obj-2::obj-1::obj-74" : [ "live.dial[3]", "Transpose", 0 ],
+			"obj-2::obj-1::obj-1" : [ "live.button[2]", "live.button", 0 ],
+			"obj-1::obj-1::obj-5" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-4::obj-1::obj-1" : [ "live.button[1]", "live.button", 0 ],
 			"obj-3::obj-1::obj-82" : [ "pan", "Pan", 0 ],
-			"obj-2::obj-1::obj-4" : [ "live.text[21]", "live.text[1]", 0 ],
-			"obj-4::obj-1::obj-47" : [ "live.numbox[4]", "live.numbox", 0 ],
-			"obj-2::obj-1::obj-47" : [ "live.numbox[7]", "live.numbox", 0 ],
-			"obj-2::obj-1::obj-59" : [ "live.text[18]", "live.text[3]", 0 ],
-			"obj-4::obj-1::obj-29::obj-48" : [ "live.menu[4]", "live.menu", 0 ],
-			"obj-2::obj-1::obj-108" : [ "live.text[20]", "live.text[4]", 0 ],
-			"obj-3::obj-1::obj-59" : [ "live.text[7]", "live.text[3]", 0 ]
+			"obj-3::obj-1::obj-1" : [ "live.button", "live.button", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -166,32 +122,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "limiter~.model.maxpat",
-				"bootpath" : "/Users/LaFabrika/Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Dynamics/limiter~",
-				"patcherrelativepath" : "../../../Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Dynamics/limiter~",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "limiter.parametersAndMessages.maxpat",
-				"bootpath" : "/Users/LaFabrika/Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Dynamics/limiter~",
-				"patcherrelativepath" : "../../../Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Dynamics/limiter~",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -199,11 +130,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.savebang.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
+				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -211,15 +138,27 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.send.mxo",
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "analyzer~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.oscinstance.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -228,22 +167,6 @@
 			}
 , 			{
 				"name" : "j.out~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.limiter~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.unit.mxo",
 				"type" : "iLaX"
 			}
  ]

@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 65.0, 1213.0, 679.0 ],
+		"rect" : [ 4.0, 65.0, 1366.0, 679.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.595187,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 776.0, 116.0, 99.0, 20.0 ],
+					"text" : "route none bang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
@@ -112,27 +126,27 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
+					"fontsize" : 12.0,
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 776.0, 116.0, 448.0, 19.0 ],
-					"text" : "j.parameter buffer/name @type symbol @description 'Name of the buffer to work with"
+					"patching_rect" : [ 776.0, 86.0, 455.0, 20.0 ],
+					"text" : "j.parameter buffer/name @type string @description 'Name of the buffer to work with"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
+					"fontsize" : 12.0,
 					"id" : "obj-28",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 776.0, 143.0, 74.0, 17.0 ],
+					"patching_rect" : [ 776.0, 143.0, 78.0, 18.0 ],
 					"text" : "set $1, bang"
 				}
 
@@ -140,13 +154,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
+					"fontsize" : 12.0,
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 776.0, 86.0, 109.0, 19.0 ],
+					"patching_rect" : [ 776.0, 56.0, 114.0, 20.0 ],
 					"text" : "r mongrano-set-buf"
 				}
 
@@ -154,13 +168,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 13.0,
+					"fontsize" : 12.0,
 					"id" : "obj-65",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 857.0, 199.0, 121.0, 21.0 ],
+					"patching_rect" : [ 857.0, 199.0, 112.0, 20.0 ],
 					"text" : "j.send buffer/length"
 				}
 
@@ -168,13 +182,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 13.0,
+					"fontsize" : 12.0,
 					"id" : "obj-66",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 9,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
-					"patching_rect" : [ 776.0, 169.0, 127.0, 21.0 ],
+					"patching_rect" : [ 776.0, 169.0, 119.0, 20.0 ],
 					"text" : "info~ grain-sample"
 				}
 
@@ -182,13 +196,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
+					"fontsize" : 12.0,
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 256.0, 182.0, 411.0, 19.0 ],
+					"patching_rect" : [ 256.0, 182.0, 426.0, 20.0 ],
 					"text" : "j.parameter speed @description \"Playback speed\" @type decimal @default 1."
 				}
 
@@ -196,13 +210,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
+					"fontsize" : 12.0,
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 93.0, 86.0, 94.0, 19.0 ],
+					"patching_rect" : [ 93.0, 86.0, 98.0, 20.0 ],
 					"text" : "j.parameter play"
 				}
 
@@ -224,13 +238,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 220.0, 206.0, 55.0, 18.0 ],
+					"patching_rect" : [ 220.0, 206.0, 62.0, 20.0 ],
 					"text" : "1."
 				}
 
@@ -238,13 +252,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 7,
 					"numoutlets" : 7,
 					"outlettype" : [ "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 93.0, 116.0, 173.0, 18.0 ],
+					"patching_rect" : [ 93.0, 116.0, 207.0, 20.0 ],
 					"text" : "route stop resume int float bang play"
 				}
 
@@ -263,7 +277,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"id" : "obj-104",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -273,7 +287,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -891,7 +905,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 93.0, 253.0, 94.0, 18.0 ],
+					"patching_rect" : [ 93.0, 253.0, 111.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -984,13 +998,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
+					"fontsize" : 12.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 586.0, 530.0, 48.0, 19.0 ],
+					"patching_rect" : [ 586.0, 530.0, 50.0, 20.0 ],
 					"text" : "j.model"
 				}
 
@@ -998,13 +1012,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
+					"fontsize" : 12.0,
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 285.0, 263.0, 306.0, 19.0 ],
+					"patching_rect" : [ 285.0, 263.0, 318.0, 20.0 ],
 					"text" : "j.parameter enable @description \"Start / stop granulation\""
 				}
 
@@ -1177,7 +1191,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1783,7 +1797,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
+					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-19", 0 ]
@@ -1796,6 +1810,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-21", 2 ]
 				}
 
 			}
@@ -1831,7 +1854,7 @@
 					"destination" : [ "obj-101", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 230.833328, 150.0, 229.5, 150.0 ],
+					"midpoints" : [ 259.166656, 150.0, 229.5, 150.0 ],
 					"source" : [ "obj-35", 5 ]
 				}
 
@@ -1841,7 +1864,7 @@
 					"destination" : [ "obj-101", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 205.166672, 147.0, 229.5, 147.0 ],
+					"midpoints" : [ 227.833328, 147.0, 229.5, 147.0 ],
 					"source" : [ "obj-35", 4 ]
 				}
 

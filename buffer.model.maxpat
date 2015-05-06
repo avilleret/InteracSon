@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 825.0, 527.0, 1279.0, 930.0 ],
+		"rect" : [ 312.0, 52.0, 1279.0, 930.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -34,11 +34,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-39",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 538.0, 99.0, 68.0, 20.0 ],
-					"text" : "route bang"
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 538.0, 99.0, 98.0, 20.0 ],
+					"text" : "route bang none"
 				}
 
 			}
@@ -246,6 +246,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1215.0, 602.0, 30.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -260,7 +264,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 869.5, 274.0, 98.0, 18.0 ],
-					"text" : "#1-buf"
+					"text" : "buffer.4-buf"
 				}
 
 			}
@@ -419,10 +423,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1215.0, 673.0, 37.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 1"
 				}
 
@@ -623,7 +623,7 @@
 					"presentation_rect" : [ 307.0, 150.5, 136.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "spat[9]",
+							"parameter_longname" : "spat[12]",
 							"parameter_shortname" : "spat",
 							"parameter_type" : 0,
 							"parameter_mmin" : -70.0,
@@ -694,7 +694,7 @@
 					"presentation_rect" : [ 162.0, 150.5, 136.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "harm[9]",
+							"parameter_longname" : "harm[12]",
 							"parameter_shortname" : "harm",
 							"parameter_type" : 0,
 							"parameter_mmin" : -70.0,
@@ -737,7 +737,7 @@
 					"presentation_rect" : [ 20.5, 150.5, 136.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "delay[10]",
+							"parameter_longname" : "delay[12]",
 							"parameter_shortname" : "delay",
 							"parameter_type" : 0,
 							"parameter_mmin" : -70.0,
@@ -1320,7 +1320,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-39", 1 ]
+					"source" : [ "obj-39", 2 ]
 				}
 
 			}

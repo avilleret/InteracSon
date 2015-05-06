@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1039.0, 173.0, 814.0, 707.0 ],
+		"rect" : [ 1000.0, 595.0, 814.0, 707.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,60 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-36",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "signal", "", "" ],
+					"patching_rect" : [ 523.5, 46.0, 125.0, 20.0 ],
+					"text" : "j.receive~ audio/out.4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "signal", "", "" ],
+					"patching_rect" : [ 369.0, 48.0, 125.0, 20.0 ],
+					"text" : "j.receive~ audio/out.3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "live.meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "list" ],
+					"patching_rect" : [ 524.0, 71.0, 15.0, 42.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 290.0, 25.0, 5.0, 75.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "live.meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "list" ],
+					"patching_rect" : [ 369.0, 73.0, 15.0, 42.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 283.0, 25.0, 5.0, 75.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -346,7 +400,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 265.0, 424.545441, 100.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 148.5, 117.0, 100.0, 15.0 ],
+					"presentation_rect" : [ 137.5, 117.0, 100.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.menu[5]",
@@ -385,7 +439,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 443.361084, 167.0, 100.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 148.5, 85.0, 127.0, 15.0 ],
+					"presentation_rect" : [ 137.5, 85.0, 127.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.menu[4]",
@@ -463,8 +517,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 508.0, 48.0, 134.0, 20.0 ],
-					"text" : "j.receive~ audio/out.R1"
+					"patching_rect" : [ 494.0, 23.0, 125.0, 20.0 ],
+					"text" : "j.receive~ audio/out.2"
 				}
 
 			}
@@ -477,8 +531,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 353.0, 48.0, 132.0, 20.0 ],
-					"text" : "j.receive~ audio/out.L1"
+					"patching_rect" : [ 339.0, 23.0, 125.0, 20.0 ],
+					"text" : "j.receive~ audio/out.1"
 				}
 
 			}
@@ -489,9 +543,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 508.0, 71.0, 15.0, 42.0 ],
+					"patching_rect" : [ 494.0, 46.0, 15.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 288.0, 25.0, 5.0, 75.0 ]
+					"presentation_rect" : [ 275.0, 25.0, 5.0, 75.0 ]
 				}
 
 			}
@@ -502,9 +556,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 353.0, 73.0, 15.0, 42.0 ],
+					"patching_rect" : [ 339.0, 48.0, 15.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 281.0, 25.0, 5.0, 75.0 ]
+					"presentation_rect" : [ 268.0, 25.0, 5.0, 75.0 ]
 				}
 
 			}
@@ -664,7 +718,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 479.694427, 280.59021, 123.054077, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 148.5, 25.0, 127.0, 57.0 ],
+					"presentation_rect" : [ 137.5, 25.0, 127.0, 57.0 ],
 					"prototypename" : "M4L.black",
 					"range" : [ 0.041667, 24.0 ],
 					"setfilter" : [ 0, 6, 1, 1, 0, 20.0, 1.0, 1.333, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
@@ -737,7 +791,7 @@
 					"patching_rect" : [ 15.0, 15.0, 300.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
-					"text" : "/echo"
+					"text" : "/no_model_address"
 				}
 
 			}
@@ -1094,10 +1148,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-39", 0 ]
 				}
 
 			}
@@ -1174,6 +1246,68 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"parameters" : 		{
+			"obj-23" : [ "live.dial[29]", "Delay 1", 0 ],
+			"obj-31" : [ "live.dial[28]", "Delay 4", 0 ],
+			"obj-3::obj-15" : [ "Postamp", "Postamp", 0 ],
+			"obj-3::obj-12" : [ "Lookahead", "Lookahead", 0 ],
+			"obj-3::obj-27" : [ "Threshold", "Threshold", 0 ],
+			"obj-17" : [ "live.menu[4]", "live.menu[1]", 0 ],
+			"obj-32" : [ "live.dial[26]", "Delay 3", 0 ],
+			"obj-3::obj-42" : [ "live.text[1]", "live.text", 0 ],
+			"obj-3::obj-5" : [ "Preamp", "Preamp", 0 ],
+			"obj-3::obj-30" : [ "live.menu", "live.menu", 0 ],
+			"obj-25" : [ "Feedback[1]", "Feedback", 0 ],
+			"obj-21" : [ "live.menu[5]", "live.menu[2]", 0 ],
+			"obj-3::obj-45" : [ "live.text[2]", "live.text", 0 ],
+			"obj-24" : [ "live.dial[27]", "Delay 2", 0 ],
+			"obj-3::obj-6" : [ "live.text", "live.text", 0 ],
+			"obj-18" : [ "live.text[15]", "live.text[3]", 0 ],
+			"obj-3::obj-13" : [ "Release", "Release", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "limiter~.view.maxpat",
+				"bootpath" : "/Users/LaFabrika/Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Dynamics/limiter~",
+				"patcherrelativepath" : "../../Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Dynamics/limiter~",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.octavebandwidth2q.maxpat",
+				"bootpath" : "/Users/LaFabrika/Documents/Max/Packages/Jamoma/patchers/components/audio/octavebandwidth2q",
+				"patcherrelativepath" : "../../Documents/Max/Packages/Jamoma/patchers/components/audio/octavebandwidth2q",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.q2octavebandwidth.maxpat",
+				"bootpath" : "/Users/LaFabrika/Documents/Max/Packages/Jamoma/patchers/components/audio/q2octavebandwith",
+				"patcherrelativepath" : "../../Documents/Max/Packages/Jamoma/patchers/components/audio/q2octavebandwith",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote_array.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive~.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
