@@ -29,6 +29,89 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-52",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 540.0, 299.0, 181.0, 20.0 ],
+					"text" : "j.remote /spectral/gain @unit dB"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "live.slider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 460.0, 263.59021, 39.0, 95.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 227.5, 3.0, 39.0, 67.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.slider",
+							"parameter_shortname" : "live.slider",
+							"parameter_type" : 0,
+							"parameter_mmin" : -70.0,
+							"parameter_mmax" : 0.0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"showname" : 0,
+					"varname" : "live.slider"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 608.0, 339.59021, 44.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 172.5, 20.0, 44.0, 47.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "Echo",
+							"parameter_shortname" : "Echo",
+							"parameter_type" : 0,
+							"parameter_mmin" : -70.0,
+							"parameter_mmax" : 0.0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "Echo"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-95",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 660.5, 347.59021, 242.0, 20.0 ],
+					"text" : "j.remote_array send/echo.[4]/gain @unit dB"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -37,11 +120,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 501.0, 145.0, 70.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 199.0, 20.5, 70.0, 47.0 ],
+					"presentation_rect" : [ 129.5, 20.0, 51.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[3]",
-							"parameter_shortname" : "Feedback time",
+							"parameter_shortname" : "Fb time",
 							"parameter_type" : 0,
 							"parameter_mmax" : 200.0,
 							"parameter_unitstyle" : 2
@@ -63,11 +146,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 336.0, 145.0, 69.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 122.666664, 20.5, 70.0, 47.0 ],
+					"presentation_rect" : [ 86.5, 20.0, 44.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[2]",
-							"parameter_shortname" : "Feedback gain",
+							"parameter_shortname" : "Fb gain",
 							"parameter_type" : 0,
 							"parameter_mmin" : -60.0,
 							"parameter_mmax" : 6.0,
@@ -91,7 +174,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 501.0, 23.0, 53.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 62.333336, 20.5, 53.0, 47.0 ],
+					"presentation_rect" : [ 43.5, 20.0, 48.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[1]",
@@ -146,7 +229,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 336.0, 205.0, 133.0, 35.0 ],
+					"patching_rect" : [ 336.0, 205.0, 133.0, 33.0 ],
 					"text" : "j.remote feedback/gain @unit db",
 					"varname" : "feedback"
 				}
@@ -161,7 +244,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 501.0, 205.0, 132.0, 22.0 ],
+					"patching_rect" : [ 501.0, 205.0, 132.0, 20.0 ],
 					"text" : "j.remote feedback/time",
 					"varname" : "right"
 				}
@@ -176,7 +259,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 501.0, 77.0, 135.0, 22.0 ],
+					"patching_rect" : [ 501.0, 77.0, 135.0, 20.0 ],
 					"text" : "j.remote frequency/shift"
 				}
 
@@ -190,7 +273,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 336.0, 76.0, 141.0, 22.0 ],
+					"patching_rect" : [ 336.0, 76.0, 141.0, 20.0 ],
 					"text" : "j.remote frequency/scale"
 				}
 
@@ -204,7 +287,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 273.5, 299.0, 127.0, 22.0 ],
+					"patching_rect" : [ 273.5, 299.0, 127.0, 20.0 ],
 					"text" : "j.receive~ audio/out.R"
 				}
 
@@ -218,7 +301,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 123.5, 299.0, 125.0, 22.0 ],
+					"patching_rect" : [ 123.5, 299.0, 125.0, 20.0 ],
 					"text" : "j.receive~ audio/out.L"
 				}
 
@@ -982,7 +1065,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 0.0, 80.0, 133.0, 22.0 ],
+					"patching_rect" : [ 0.0, 80.0, 133.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1009,7 +1092,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 205.0, 288.0, 22.0 ],
+					"patching_rect" : [ 15.0, 205.0, 288.0, 20.0 ],
 					"text" : "j.view @description \"Spectral shifting with feedback\""
 				}
 
@@ -1039,6 +1122,7 @@
 			}
 , 			{
 				"box" : 				{
+					"background" : 1,
 					"bgcolor" : [ 0.93, 0.93, 0.93, 1.0 ],
 					"headercolor" : [ 0.82, 0.82, 0.82, 1.0 ],
 					"id" : "obj-1",
@@ -1140,10 +1224,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-95", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-52", 0 ]
 				}
 
 			}
@@ -1174,12 +1276,32 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-95", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
+			"obj-49" : [ "Echo", "Echo", 0 ],
 			"obj-3" : [ "live.dial", "Pitch shift", 0 ],
 			"obj-4" : [ "live.dial[1]", "Freq shift", 0 ],
-			"obj-6" : [ "live.dial[2]", "Feedback gain", 0 ],
-			"obj-7" : [ "live.dial[3]", "Feedback time", 0 ]
+			"obj-9" : [ "live.slider", "live.slider", 0 ],
+			"obj-6" : [ "live.dial[2]", "Fb gain", 0 ],
+			"obj-7" : [ "live.dial[3]", "Fb time", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1196,6 +1318,10 @@
 			}
 , 			{
 				"name" : "j.receive~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote_array.mxo",
 				"type" : "iLaX"
 			}
  ]

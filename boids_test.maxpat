@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 29.0, 69.0, 640.0, 480.0 ],
+		"rect" : [ 29.0, 69.0, 827.0, 457.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,38 +29,61 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "boids.2", "EEE" ],
-					"id" : "obj-2",
+					"annotation" : "none",
+					"id" : "obj-3",
 					"maxclass" : "bpatcher",
-					"name" : "boids.module.maxpat",
-					"numinlets" : 0,
+					"name" : "boids.view.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -1.0, 227.0, 600.0, 175.0 ],
-					"presentation_rect" : [ 15.0, 15.0, 600.0, 175.0 ]
+					"patching_rect" : [ 76.0, 77.0, 600.0, 175.0 ],
+					"presentation_rect" : [ 30.0, 30.0, 600.0, 175.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "boids.1", "test" ],
+					"annotation" : "boids2d model",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 398.0, 349.0, 117.0, 20.0 ],
+					"text" : "boids.model boids.2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "boids2d model",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-1",
-					"maxclass" : "bpatcher",
-					"name" : "boids.module.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ -1.0, 15.0, 600.0, 175.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 600.0, 175.0 ]
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 398.0, 317.0, 117.0, 20.0 ],
+					"text" : "boids.model boids.1"
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "boids.module.maxpat",
+				"name" : "boids.model.maxpat",
 				"bootpath" : "/Users/LaFabrika/lib-src/InteracSon",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -72,11 +95,28 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "boids.model.maxpat",
-				"bootpath" : "/Users/LaFabrika/lib-src/InteracSon",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.boids2d.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "xray.jit.boidsrender.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "boids3d.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "j.ui.mxo",
@@ -91,19 +131,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.parameter.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "boids3d.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
+				"name" : "hoa.map.mxo",
 				"type" : "iLaX"
 			}
  ]

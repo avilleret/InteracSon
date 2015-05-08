@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1007.0, 468.0, 758.0, 479.0 ],
+		"rect" : [ 437.0, 176.0, 758.0, 646.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,32 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "bpatcher",
+					"name" : "test.module.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 353.0, 434.0, 300.0, 175.0 ],
+					"presentation_rect" : [ 45.0, 45.0, 300.0, 175.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "bpatcher",
+					"name" : "test.module.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 30.0, 426.0, 300.0, 175.0 ],
+					"presentation_rect" : [ 30.0, 30.0, 300.0, 175.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ "groupe.1" ],
 					"id" : "obj-3",
@@ -86,18 +112,36 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-1::obj-82" : [ "pan[3]", "Pan", 0 ],
-			"obj-2::obj-1::obj-5" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-4::obj-1::obj-5" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-3::obj-1::obj-5" : [ "live.numbox[12]", "live.numbox", 0 ],
-			"obj-2::obj-1::obj-82" : [ "pan[2]", "Pan", 0 ],
-			"obj-1::obj-1::obj-1" : [ "live.button[3]", "live.button", 0 ],
-			"obj-4::obj-1::obj-82" : [ "pan[1]", "Pan", 0 ],
-			"obj-2::obj-1::obj-1" : [ "live.button[2]", "live.button", 0 ],
-			"obj-1::obj-1::obj-5" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-4::obj-1::obj-1" : [ "live.button[1]", "live.button", 0 ],
-			"obj-3::obj-1::obj-82" : [ "pan", "Pan", 0 ],
-			"obj-3::obj-1::obj-1" : [ "live.button", "live.button", 0 ]
+			"obj-8::obj-1::obj-5" : [ "live.numbox[34]", "live.numbox", 0 ],
+			"obj-3::obj-1::obj-4" : [ "live.numbox[19]", "live.numbox", 0 ],
+			"obj-1::obj-1::obj-5" : [ "live.numbox[12]", "live.numbox", 0 ],
+			"obj-1::obj-1::obj-4" : [ "live.numbox[13]", "live.numbox", 0 ],
+			"obj-8::obj-1::obj-4" : [ "live.numbox[35]", "live.numbox", 0 ],
+			"obj-1::obj-1::obj-31" : [ "live.button", "live.button", 0 ],
+			"obj-4::obj-1::obj-17" : [ "live.numbox[15]", "live.numbox", 0 ],
+			"obj-4::obj-1::obj-27" : [ "live.numbox[17]", "live.numbox", 0 ],
+			"obj-5::obj-1::obj-5" : [ "live.numbox[25]", "live.numbox", 0 ],
+			"obj-8::obj-1::obj-31" : [ "live.button[6]", "live.button", 0 ],
+			"obj-8::obj-1::obj-27" : [ "live.numbox[29]", "live.numbox", 0 ],
+			"obj-3::obj-1::obj-31" : [ "live.button[3]", "live.button", 0 ],
+			"obj-2::obj-1::obj-4" : [ "live.numbox[14]", "live.numbox", 0 ],
+			"obj-1::obj-1::obj-27" : [ "live.numbox[10]", "live.numbox", 0 ],
+			"obj-1::obj-1::obj-17" : [ "live.numbox[11]", "live.numbox", 0 ],
+			"obj-5::obj-1::obj-31" : [ "live.button[4]", "live.button", 0 ],
+			"obj-3::obj-1::obj-5" : [ "live.numbox[21]", "live.numbox", 0 ],
+			"obj-5::obj-1::obj-27" : [ "live.numbox[23]", "live.numbox", 0 ],
+			"obj-2::obj-1::obj-17" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-4::obj-1::obj-31" : [ "live.button[2]", "live.button", 0 ],
+			"obj-2::obj-1::obj-5" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-4::obj-1::obj-5" : [ "live.numbox[18]", "live.numbox", 0 ],
+			"obj-5::obj-1::obj-4" : [ "live.numbox[26]", "live.numbox", 0 ],
+			"obj-3::obj-1::obj-27" : [ "live.numbox[22]", "live.numbox", 0 ],
+			"obj-8::obj-1::obj-17" : [ "live.numbox[32]", "live.numbox", 0 ],
+			"obj-2::obj-1::obj-31" : [ "live.button[1]", "live.button", 0 ],
+			"obj-4::obj-1::obj-4" : [ "live.numbox[16]", "live.numbox", 0 ],
+			"obj-2::obj-1::obj-27" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-3::obj-1::obj-17" : [ "live.numbox[20]", "live.numbox", 0 ],
+			"obj-5::obj-1::obj-17" : [ "live.numbox[24]", "live.numbox", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -130,15 +174,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.remote.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "j.receive~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{

@@ -91,13 +91,11 @@
 , 			{
 				"box" : 				{
 					"annotation" : "none",
-					"args" : [ "#1" ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "test.view.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numinlets" : 0,
+					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 300.0, 175.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 175.0 ]
@@ -125,44 +123,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-5" : [ "live.numbox[12]", "live.numbox", 0 ],
-			"obj-1::obj-82" : [ "pan", "Pan", 0 ],
-			"obj-1::obj-1" : [ "live.button", "live.button", 0 ]
+
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "test.view.maxpat",
-				"bootpath" : "/Users/LaFabrika/lib-src/InteracSon/module-test",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "test.model.maxpat",
 				"bootpath" : "/Users/LaFabrika/lib-src/InteracSon/module-test",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "j.model.mxo",
