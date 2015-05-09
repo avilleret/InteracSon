@@ -9,6 +9,7 @@
 		}
 ,
 		"rect" : [ 142.0, 96.0, 984.0, 527.0 ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -31,18 +32,61 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-52",
+					"id" : "obj-76",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 540.0, 299.0, 181.0, 20.0 ],
-					"text" : "j.remote /spectral/gain @unit dB"
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 43.25, 269.953796, 73.0, 20.0 ],
+					"text" : "regexp /(.+)"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-47",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 56.75, 299.0, 103.0, 20.0 ],
+					"text" : "sprintf set %s-out"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-50",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 43.25, 240.953796, 120.0, 20.0 ],
+					"text" : "route model:address"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-52",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 540.0, 299.0, 133.0, 20.0 ],
+					"text" : "j.remote gain @unit dB"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Output gain in dB.",
 					"id" : "obj-9",
 					"maxclass" : "live.slider",
 					"numinlets" : 1,
@@ -54,7 +98,7 @@
 					"presentation_rect" : [ 227.5, 3.0, 39.0, 67.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.slider",
+							"parameter_longname" : "live.slider[1]",
 							"parameter_shortname" : "live.slider",
 							"parameter_type" : 0,
 							"parameter_mmin" : -70.0,
@@ -112,6 +156,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Feedback delay time in milliseconds.",
 					"id" : "obj-7",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -138,6 +183,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Feedback gain leven (dB).",
 					"id" : "obj-6",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -166,6 +212,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Slide all frequency bins up or down (Hz).",
 					"id" : "obj-4",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -193,6 +240,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Pitch shift in semitones.",
 					"id" : "obj-3",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -282,41 +330,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-51",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 273.5, 299.0, 127.0, 20.0 ],
-					"text" : "j.receive~ audio/out.R"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 123.5, 299.0, 125.0, 20.0 ],
-					"text" : "j.receive~ audio/out.L"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "amplitude of output signal 2",
-					"id" : "obj-19",
-					"maxclass" : "live.meter~",
-					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "list" ],
-					"patching_rect" : [ 275.0, 330.0, 14.0, 78.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 288.0, 24.0, 5.0, 40.0 ]
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 56.75, 330.0, 132.0, 20.0 ],
+					"text" : "receive~ #1-out"
 				}
 
 			}
@@ -328,7 +348,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 125.0, 330.0, 14.0, 78.0 ],
+					"patching_rect" : [ 58.25, 358.59021, 14.0, 78.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 281.0, 24.0, 5.0, 40.0 ]
 				}
@@ -485,7 +505,7 @@
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "Limiter: Set release time as ms.",
+									"annotation" : "The release time (ms).",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-11",
@@ -507,7 +527,7 @@
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "Limiter: Preamp as dB.",
+									"annotation" : "The gain in dB applied to the signal before limiting.",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-36",
@@ -590,7 +610,7 @@
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "DC Blocker: Active or bypassed.",
+									"annotation" : "Filter out eventual DC component of signal before limiting.",
 									"disabled" : [ 0 ],
 									"id" : "obj-9",
 									"itemtype" : 1,
@@ -704,7 +724,7 @@
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "Limiter: Set the function to be used for calculating the scaling.",
+									"annotation" : "Set the function to be used for calculating the scaling. Possible values: exponential | linear",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-29",
@@ -723,7 +743,7 @@
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "Limiter: Set threshold as dB.",
+									"annotation" : "The limiter threshold (in dB below full scale). When the input signal level exceeds this threshold, it will be attenuated as necessary to keep the level below the threshold.",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-32",
@@ -742,7 +762,7 @@
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "Limiter: The number of samples to look ahead.",
+									"annotation" : "The number of samples (up to 256) to look ahead into the signal to see what is coming.",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-34",
@@ -823,7 +843,7 @@
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "Limiter: Postamp as dB.",
+									"annotation" : "The gain in dB applied to the signal after limiting. ",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-35",
@@ -1132,7 +1152,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/no_model_address"
+					"text" : "/spectral.2"
 				}
 
 			}
@@ -1162,6 +1182,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -1224,6 +1253,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-95", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1233,10 +1271,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
+					"destination" : [ "obj-76", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-51", 0 ]
+					"source" : [ "obj-50", 0 ]
 				}
 
 			}
@@ -1269,6 +1307,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-76", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1293,36 +1340,6 @@
 					"source" : [ "obj-95", 0 ]
 				}
 
-			}
- ],
-		"parameters" : 		{
-			"obj-49" : [ "Echo", "Echo", 0 ],
-			"obj-3" : [ "live.dial", "Pitch shift", 0 ],
-			"obj-4" : [ "live.dial[1]", "Freq shift", 0 ],
-			"obj-9" : [ "live.slider", "live.slider", 0 ],
-			"obj-6" : [ "live.dial[2]", "Fb gain", 0 ],
-			"obj-7" : [ "live.dial[3]", "Fb time", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote_array.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
