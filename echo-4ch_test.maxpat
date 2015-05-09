@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -29,14 +29,14 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"annotation" : "Stereo echo module.",
+					"annotation" : "Quadriphonic echo module.",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 231.0, 259.0, 142.0, 20.0 ],
 					"text" : "echo-4ch~.model echo.1"
 				}
@@ -60,100 +60,86 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-21" : [ "live.menu[5]", "live.menu[2]", 0 ],
 			"obj-1::obj-3::obj-5" : [ "Preamp", "Preamp", 0 ],
-			"obj-1::obj-3::obj-42" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1::obj-31" : [ "live.dial[28]", "Delay 4", 0 ],
+			"obj-1::obj-32" : [ "live.dial[26]", "Delay 3", 0 ],
+			"obj-1::obj-25" : [ "Feedback[1]", "Feedback", 0 ],
+			"obj-1::obj-18" : [ "live.text[52]", "live.text[3]", 0 ],
+			"obj-1::obj-3::obj-6" : [ "live.text", "live.text", 0 ],
+			"obj-1::obj-3::obj-27" : [ "Threshold", "Threshold", 0 ],
+			"obj-1::obj-3::obj-15" : [ "Postamp", "Postamp", 0 ],
+			"obj-1::obj-21" : [ "live.menu[5]", "live.menu[2]", 0 ],
 			"obj-1::obj-3::obj-13" : [ "Release", "Release", 0 ],
 			"obj-1::obj-17" : [ "live.menu[4]", "live.menu[1]", 0 ],
-			"obj-1::obj-18" : [ "live.text[52]", "live.text[3]", 0 ],
-			"obj-1::obj-3::obj-15" : [ "Postamp", "Postamp", 0 ],
-			"obj-1::obj-49" : [ "Spectra", "Spectra", 0 ],
-			"obj-1::obj-32" : [ "live.dial[26]", "Delay 3", 0 ],
-			"obj-1::obj-24" : [ "live.dial[27]", "Delay 2", 0 ],
-			"obj-1::obj-3::obj-30" : [ "live.menu", "live.menu", 0 ],
-			"obj-1::obj-3::obj-27" : [ "Threshold", "Threshold", 0 ],
-			"obj-1::obj-51" : [ "live.slider", "live.slider", 0 ],
-			"obj-1::obj-25" : [ "Feedback[1]", "Feedback", 0 ],
-			"obj-1::obj-23" : [ "live.dial[29]", "Delay 1", 0 ],
-			"obj-1::obj-31" : [ "live.dial[28]", "Delay 4", 0 ],
 			"obj-1::obj-3::obj-45" : [ "live.text[2]", "live.text", 0 ],
 			"obj-1::obj-3::obj-12" : [ "Lookahead", "Lookahead", 0 ],
-			"obj-1::obj-3::obj-6" : [ "live.text", "live.text", 0 ]
+			"obj-1::obj-49" : [ "Spectra", "Spectra", 0 ],
+			"obj-1::obj-3::obj-42" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1::obj-3::obj-30" : [ "live.menu", "live.menu", 0 ],
+			"obj-1::obj-51" : [ "live.slider", "live.slider", 0 ],
+			"obj-1::obj-24" : [ "live.dial[27]", "Delay 2", 0 ],
+			"obj-1::obj-23" : [ "live.dial[29]", "Delay 1", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "echo-4ch~.view.maxpat",
-				"bootpath" : "/Users/LaFabrika/lib-src/InteracSon",
+				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/InteracSon",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "limiter~.view.maxpat",
-				"bootpath" : "/Users/LaFabrika/Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Dynamics/limiter~",
-				"patcherrelativepath" : "../../Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Dynamics/limiter~",
+				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Dynamics/limiter~",
+				"patcherrelativepath" : "../Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Dynamics/limiter~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.octavebandwidth2q.maxpat",
-				"bootpath" : "/Users/LaFabrika/Documents/Max/Packages/Jamoma/patchers/components/audio/octavebandwidth2q",
-				"patcherrelativepath" : "../../Documents/Max/Packages/Jamoma/patchers/components/audio/octavebandwidth2q",
+				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/Documents/Max/Packages/Jamoma/patchers/components/audio/octavebandwidth2q",
+				"patcherrelativepath" : "../Documents/Max/Packages/Jamoma/patchers/components/audio/octavebandwidth2q",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.q2octavebandwidth.maxpat",
-				"bootpath" : "/Users/LaFabrika/Documents/Max/Packages/Jamoma/patchers/components/audio/q2octavebandwith",
-				"patcherrelativepath" : "../../Documents/Max/Packages/Jamoma/patchers/components/audio/q2octavebandwith",
+				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/Documents/Max/Packages/Jamoma/patchers/components/audio/q2octavebandwith",
+				"patcherrelativepath" : "../Documents/Max/Packages/Jamoma/patchers/components/audio/q2octavebandwith",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "echo-4ch~.model.maxpat",
-				"bootpath" : "/Users/LaFabrika/lib-src/InteracSon",
+				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/InteracSon",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "limiter~.model.maxpat",
-				"bootpath" : "/Users/LaFabrika/Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Dynamics/limiter~",
-				"patcherrelativepath" : "../../Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Dynamics/limiter~",
+				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Dynamics/limiter~",
+				"patcherrelativepath" : "../Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Dynamics/limiter~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "limiter.parametersAndMessages.maxpat",
-				"bootpath" : "/Users/LaFabrika/Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Dynamics/limiter~",
-				"patcherrelativepath" : "../../Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Dynamics/limiter~",
+				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Dynamics/limiter~",
+				"patcherrelativepath" : "../Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/Dynamics/limiter~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filter~.model.maxpat",
-				"bootpath" : "/Users/LaFabrika/Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/EQ/filter~",
-				"patcherrelativepath" : "../../Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/EQ/filter~",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.multi.out~.maxpat",
-				"bootpath" : "/Users/LaFabrika/Documents/Max/Packages/Jamoma/patchers/components/multi.out%",
-				"patcherrelativepath" : "../../Documents/Max/Packages/Jamoma/patchers/components/multi.out%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.multi.in~.maxpat",
-				"bootpath" : "/Users/LaFabrika/Documents/Max/Packages/Jamoma/patchers/components/multi.in%",
-				"patcherrelativepath" : "../../Documents/Max/Packages/Jamoma/patchers/components/multi.in%",
+				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/EQ/filter~",
+				"patcherrelativepath" : "../Documents/Max/Packages/Jamoma/patchers/modules/audio/stereo/EQ/filter~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "boids.model.maxpat",
-				"bootpath" : "/Users/LaFabrika/lib-src/InteracSon",
+				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/InteracSon",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -161,21 +147,21 @@
 , 			{
 				"name" : "thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vbap=.model.maxpat",
-				"bootpath" : "/Users/LaFabrika/Documents/Max/Packages/Jamoma/patchers/modules/audio/surround/vbap=",
-				"patcherrelativepath" : "../../Documents/Max/Packages/Jamoma/patchers/modules/audio/surround/vbap=",
+				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/Documents/Max/Packages/Jamoma/patchers/modules/audio/surround/vbap=",
+				"patcherrelativepath" : "../Documents/Max/Packages/Jamoma/patchers/modules/audio/surround/vbap=",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.initialized.maxpat",
-				"bootpath" : "/Users/LaFabrika/Documents/Max/Packages/Jamoma/patchers/components/data/initialized",
-				"patcherrelativepath" : "../../Documents/Max/Packages/Jamoma/patchers/components/data/initialized",
+				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/Documents/Max/Packages/Jamoma/patchers/components/data/initialized",
+				"patcherrelativepath" : "../Documents/Max/Packages/Jamoma/patchers/components/data/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -225,10 +211,6 @@
 			}
 , 			{
 				"name" : "j.unit.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.oscroute.mxo",
 				"type" : "iLaX"
 			}
 , 			{
