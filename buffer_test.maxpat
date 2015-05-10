@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 908.0, 111.0, 938.0, 685.0 ],
+		"rect" : [ 342.0, 111.0, 938.0, 685.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -131,20 +131,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-19" : [ "harm[13]", "harm", 0 ],
 			"obj-1::obj-35" : [ "live.tab", "live.tab", 0 ],
-			"obj-2::obj-18" : [ "delay[13]", "delay", 0 ],
-			"obj-3::obj-18" : [ "delay[1]", "delay", 0 ],
 			"obj-1::obj-33" : [ "live.dial", "live.dial", 0 ],
-			"obj-3::obj-19" : [ "harm[1]", "harm", 0 ],
-			"obj-2::obj-32" : [ "spat[13]", "spat", 0 ],
-			"obj-3::obj-32" : [ "spat[1]", "spat", 0 ],
+			"obj-1::obj-39" : [ "Out Gain", "Gain", 0 ],
 			"obj-1::obj-58" : [ "live.text[53]", "live.text[4]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "buffer.view.maxpat",
-				"bootpath" : "/Users/LaFabrika/lib-src/InteracSon",
+				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/InteracSon",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -152,49 +147,21 @@
 , 			{
 				"name" : "wfmodes.png",
 				"bootpath" : "/Applications/Max 6.1/patches/picts",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/patches/picts",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/patches/picts",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wfknob.png",
 				"bootpath" : "/Applications/Max 6.1/patches/picts",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/patches/picts",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/patches/picts",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "buffer.model.maxpat",
-				"bootpath" : "/Users/LaFabrika/lib-src/InteracSon",
+				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/InteracSon",
 				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "monspat4.maxpat",
-				"bootpath" : "/Users/LaFabrika/lib-src/InteracSon",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pan2S.maxpat",
-				"bootpath" : "/Applications/Max 6.1/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pan4S.maxpat",
-				"bootpath" : "/Applications/Max 6.1/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "yafr2.maxpat",
-				"bootpath" : "/Applications/Max 6.1/examples/effects/reverb/lib",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/examples/effects/reverb/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -219,15 +186,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.receive~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "j.remote_array.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.in~.mxo",
+				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -251,7 +214,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.send.mxo",
+				"name" : "j.unit.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
  ]
