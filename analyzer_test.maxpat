@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 29.0, 95.0, 1256.0, 614.0 ],
+		"rect" : [ 269.0, 74.0, 1256.0, 614.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,13 +31,40 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 560.0, 473.0, 82.0, 20.0 ],
+					"text" : "print MATRIX"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 558.0, 395.0, 50.0, 20.0 ],
+					"text" : "r matrix"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-6",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 365.0, 96.0, 112.0, 18.0 ],
-					"text" : "model:address /bla"
+					"patching_rect" : [ 365.0, 96.0, 128.0, 18.0 ],
+					"text" : "model:address /solo.2"
 				}
 
 			}
@@ -51,8 +78,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 251.0, 381.0, 118.0, 20.0 ],
-					"text" : "analyzer~.model bla"
+					"patching_rect" : [ 251.0, 381.0, 134.0, 20.0 ],
+					"text" : "analyzer~.model solo.2"
 				}
 
 			}
@@ -66,8 +93,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 251.0, 354.0, 122.0, 20.0 ],
-					"text" : "analyzer~.model test"
+					"patching_rect" : [ 251.0, 354.0, 134.0, 20.0 ],
+					"text" : "analyzer~.model solo.1"
 				}
 
 			}
@@ -80,8 +107,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 238.0, 96.0, 115.0, 18.0 ],
-					"text" : "model:address /test"
+					"patching_rect" : [ 238.0, 96.0, 128.0, 18.0 ],
+					"text" : "model:address /solo.1"
 				}
 
 			}
@@ -94,13 +121,22 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 221.0, 130.0, 300.0, 105.0 ],
+					"patching_rect" : [ 220.0, 129.0, 300.0, 105.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
@@ -120,27 +156,27 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-12" : [ "live.numbox[9]", "live.numbox", 0 ],
-			"obj-1::obj-31" : [ "live.button", "live.button", 0 ],
-			"obj-1::obj-91" : [ "live.tab", "live.tab", 0 ],
-			"obj-1::obj-27" : [ "live.numbox[10]", "live.numbox", 0 ],
 			"obj-1::obj-5" : [ "live.numbox[12]", "live.numbox", 0 ],
-			"obj-1::obj-4" : [ "live.numbox[13]", "live.numbox", 0 ],
 			"obj-1::obj-13" : [ "live.numbox[8]", "live.numbox", 0 ],
+			"obj-1::obj-25" : [ "live.dial", "live.dial", 0 ],
+			"obj-1::obj-31" : [ "live.button", "live.button", 0 ],
+			"obj-1::obj-12" : [ "live.numbox[9]", "live.numbox", 0 ],
+			"obj-1::obj-27" : [ "live.numbox[10]", "live.numbox", 0 ],
 			"obj-1::obj-17" : [ "live.numbox[11]", "live.numbox", 0 ],
-			"obj-1::obj-25" : [ "live.dial", "live.dial", 0 ]
+			"obj-1::obj-91" : [ "live.tab", "live.tab", 0 ],
+			"obj-1::obj-4" : [ "live.numbox[13]", "live.numbox", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "analyzer~.view.maxpat",
-				"bootpath" : "/Users/LaFabrika/lib-src/InteracSon",
+				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/InteracSon",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "analyzer~.model.maxpat",
-				"bootpath" : "/Users/LaFabrika/lib-src/InteracSon",
+				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/InteracSon",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

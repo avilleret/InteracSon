@@ -34,7 +34,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 605.0, 176.0, 25.0, 25.0 ]
+					"patching_rect" : [ 696.0, 176.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -46,7 +46,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 605.0, 119.0, 25.0, 25.0 ]
+					"patching_rect" : [ 696.0, 119.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -155,7 +155,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 619.0, 273.0, 50.0, 20.0 ]
+					"patching_rect" : [ 710.0, 273.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -168,7 +168,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 635.0, 181.0, 84.0, 20.0 ],
+					"patching_rect" : [ 726.0, 181.0, 84.0, 20.0 ],
 					"text" : "route address"
 				}
 
@@ -182,7 +182,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 635.0, 240.0, 80.0, 20.0 ],
+					"patching_rect" : [ 726.0, 240.0, 80.0, 20.0 ],
 					"text" : "j.oscinstance"
 				}
 
@@ -224,8 +224,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 246.0, 181.0, 250.0, 20.0 ],
-					"text" : "j.parameter size @type decimal @default 0.2"
+					"patching_rect" : [ 246.0, 181.0, 408.0, 20.0 ],
+					"text" : "j.parameter size @type decimal @default 0.2 @range 0. 5. @clipmode low"
 				}
 
 			}
@@ -238,8 +238,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 227.5, 149.0, 163.0, 20.0 ],
-					"text" : "j.parameter y @type decimal"
+					"patching_rect" : [ 227.5, 149.0, 327.0, 20.0 ],
+					"text" : "j.parameter y @type decimal @range 0. 1. @clipmode both"
 				}
 
 			}
@@ -252,7 +252,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 605.0, 149.0, 49.0, 20.0 ],
+					"patching_rect" : [ 696.0, 149.0, 49.0, 20.0 ],
 					"text" : "j.model"
 				}
 
@@ -266,8 +266,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 209.0, 119.0, 163.0, 20.0 ],
-					"text" : "j.parameter x @type decimal"
+					"patching_rect" : [ 209.0, 119.0, 327.0, 20.0 ],
+					"text" : "j.parameter x @type decimal @range 0. 1. @clipmode both"
 				}
 
 			}

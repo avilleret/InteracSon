@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 158.0, 60.0, 1439.0, 610.0 ],
+		"rect" : [ 338.0, 45.0, 636.0, 292.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -29,6 +29,66 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-75",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 699.0, 433.0, 46.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 496.5, 138.0, 46.0, 20.0 ],
+					"text" : "vzoom"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-70",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 741.0, 485.0, 63.0, 18.0 ],
+					"text" : "vzoom $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-63",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 741.0, 455.0, 41.0, 20.0 ],
+					"text" : "dbtoa"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-60",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 741.0, 433.0, 50.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 542.5, 139.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -1459,9 +1519,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 22.5, 23.5, 570.0, 110.0 ],
 					"selectioncolor" : [ 1.0, 1.0, 0.4, 0.5 ],
-					"setmode" : 1,
+					"setmode" : 3,
 					"ticks" : 8,
 					"vlabels" : 1,
+					"vzoom" : 0.251189,
 					"waveformcolor" : [ 0.062745, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1511,7 +1572,7 @@
 					"patching_rect" : [ 14.0, 14.5, 600.0, 210.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 600.0, 210.0 ],
-					"text" : "/buffer.1"
+					"text" : "/no_model_address"
 				}
 
 			}
@@ -1970,6 +2031,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1983,6 +2053,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-70", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-63", 0 ]
 				}
 
 			}
@@ -2091,6 +2170,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-70", 0 ]
 				}
 
 			}
@@ -2265,6 +2353,52 @@
 					"source" : [ "obj-95", 0 ]
 				}
 
+			}
+ ],
+		"parameters" : 		{
+			"obj-33" : [ "live.dial[33]", "live.dial", 0 ],
+			"obj-58" : [ "live.text[53]", "live.text[4]", 0 ],
+			"obj-35" : [ "live.tab", "live.tab", 0 ],
+			"obj-39" : [ "Out Gain", "Gain", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "wfmodes.png",
+				"bootpath" : "/Applications/Max 6.1/patches/picts",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/patches/picts",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "wfknob.png",
+				"bootpath" : "/Applications/Max 6.1/patches/picts",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/patches/picts",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.savebang.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote_array.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
