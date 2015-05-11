@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -106,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 206.5, 336.0, 85.0, 18.0 ],
+					"patching_rect" : [ 63.5, 369.0, 85.0, 18.0 ],
 					"text" : "directory/build"
 				}
 
@@ -120,7 +120,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 48.5, 364.0, 135.0, 20.0 ],
+					"patching_rect" : [ 48.5, 394.0, 135.0, 20.0 ],
 					"text" : "j.modular i-score Minuit"
 				}
 
@@ -135,8 +135,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 48.5, 323.0, 154.0, 31.0 ],
-					"text" : "protocol/setup ip localhost, protocol/setup port 13579"
+					"patching_rect" : [ 48.5, 323.0, 281.0, 31.0 ],
+					"text" : "protocol/setup ip 192.168.10.2, protocol/setup port 13579"
 				}
 
 			}
@@ -177,7 +177,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 58.5, 465.0, 122.0, 20.0 ],
+					"patching_rect" : [ 48.5, 495.0, 122.0, 20.0 ],
 					"text" : "j.receive /:activity/out"
 				}
 
@@ -190,7 +190,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 58.5, 487.0, 94.0, 20.0 ],
+					"patching_rect" : [ 48.5, 517.0, 94.0, 20.0 ],
 					"text" : "print activity/out"
 				}
 
@@ -204,7 +204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 58.5, 404.0, 115.0, 20.0 ],
+					"patching_rect" : [ 48.5, 434.0, 115.0, 20.0 ],
 					"text" : "j.receive /:activity/in"
 				}
 
@@ -217,7 +217,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 58.5, 426.0, 87.0, 20.0 ],
+					"patching_rect" : [ 48.5, 456.0, 87.0, 20.0 ],
 					"text" : "print activity/in"
 				}
 
@@ -308,7 +308,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 216.0, 359.0, 58.0, 359.0 ],
+					"midpoints" : [ 73.0, 389.0, 58.0, 389.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
