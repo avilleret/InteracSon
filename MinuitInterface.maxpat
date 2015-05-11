@@ -130,13 +130,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-13",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 48.5, 323.0, 281.0, 31.0 ],
-					"text" : "protocol/setup ip 192.168.10.2, protocol/setup port 13579"
+					"patching_rect" : [ 48.5, 323.0, 292.0, 18.0 ],
+					"text" : "protocol/setup ip localhost, protocol/setup port 13579"
 				}
 
 			}
@@ -260,7 +259,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 123.5, 195.5, 154.0, 31.0 ],
+					"patching_rect" : [ 123.5, 195.5, 156.0, 31.0 ],
 					"text" : "protocol/setup ip localhost, protocol/setup port $1"
 				}
 
