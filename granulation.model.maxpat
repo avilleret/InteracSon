@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -134,7 +134,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -490,7 +490,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 586.0, 137.0, 147.0, 17.0 ],
-					"text" : "0-buf"
+					"text" : "buffer.1-buf"
 				}
 
 			}
@@ -698,7 +698,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -1358,8 +1358,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 158.0, 340.0, 515.0, 33.0 ],
-					"text" : "j.parameter polyphony @description \"Number of voices\" @type integer @range 1 64 @default 16 @ramp/function rectangular"
+					"patching_rect" : [ 158.0, 340.0, 531.0, 33.0 ],
+					"text" : "j.parameter polyphony @description \"Number of voices\" @type integer @range 1 64 @default 32 @ramp/function rectangular"
 				}
 
 			}
@@ -1540,7 +1540,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 285.0, 530.0, 208.0, 20.0 ],
-					"text" : "poly~ grain~.model 16 @args grain.1"
+					"text" : "poly~ grain~.model 32 @args grain.1"
 				}
 
 			}
@@ -1558,7 +1558,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
