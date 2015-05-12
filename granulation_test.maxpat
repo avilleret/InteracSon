@@ -145,7 +145,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 16.0, 600.0, 280.0 ],
+					"patching_rect" : [ 22.0, 15.0, 600.0, 280.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 600.0, 280.0 ]
 				}
 
@@ -189,20 +189,20 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3::obj-7::obj-125" : [ "live.numbox[25]", "live.numbox[6]", 0 ],
-			"obj-3::obj-7::obj-22" : [ "live.numbox[26]", "live.numbox[6]", 0 ],
-			"obj-3::obj-7::obj-58" : [ "live.text[53]", "live.text[4]", 0 ],
-			"obj-3::obj-7::obj-123" : [ "live.numbox[27]", "live.numbox[6]", 0 ],
-			"obj-3::obj-7::obj-35" : [ "live.tab", "live.tab", 0 ],
-			"obj-1::obj-15" : [ "live.slider[2]", "live.slider", 0 ],
-			"obj-3::obj-7::obj-167" : [ "live.numbox[21]", "live.numbox[6]", 0 ],
-			"obj-3::obj-7::obj-39" : [ "Out Gain", "Gain", 0 ],
-			"obj-3::obj-7::obj-33" : [ "live.dial[33]", "live.dial", 0 ],
-			"obj-3::obj-7::obj-168" : [ "live.numbox[22]", "live.numbox[6]", 0 ],
-			"obj-1::obj-45" : [ "live.text[49]", "live.text[16]", 0 ],
-			"obj-3::obj-7::obj-169" : [ "live.numbox[23]", "live.numbox[6]", 0 ],
 			"obj-3::obj-7::obj-170" : [ "live.numbox[24]", "live.numbox[6]", 0 ],
-			"obj-3::obj-7::obj-24" : [ "live.numbox[28]", "live.numbox[6]", 0 ]
+			"obj-3::obj-7::obj-39" : [ "Out Gain", "Gain", 0 ],
+			"obj-3::obj-7::obj-125" : [ "live.numbox[25]", "live.numbox[6]", 0 ],
+			"obj-3::obj-7::obj-35" : [ "live.tab", "live.tab", 0 ],
+			"obj-3::obj-7::obj-22" : [ "live.numbox[26]", "live.numbox[6]", 0 ],
+			"obj-1::obj-15" : [ "live.slider[2]", "live.slider", 0 ],
+			"obj-1::obj-45" : [ "live.text[49]", "live.text[16]", 0 ],
+			"obj-3::obj-7::obj-168" : [ "live.numbox[22]", "live.numbox[6]", 0 ],
+			"obj-3::obj-7::obj-33" : [ "live.dial[33]", "live.dial", 0 ],
+			"obj-3::obj-7::obj-123" : [ "live.numbox[27]", "live.numbox[6]", 0 ],
+			"obj-3::obj-7::obj-58" : [ "live.text[53]", "live.text[4]", 0 ],
+			"obj-3::obj-7::obj-24" : [ "live.numbox[28]", "live.numbox[6]", 0 ],
+			"obj-3::obj-7::obj-169" : [ "live.numbox[23]", "live.numbox[6]", 0 ],
+			"obj-3::obj-7::obj-167" : [ "live.numbox[21]", "live.numbox[6]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -319,15 +319,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.remote_array.mxo",
+				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -364,6 +360,10 @@
 			}
 , 			{
 				"name" : "j.savebang.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote_array.mxo",
 				"type" : "iLaX"
 			}
  ]

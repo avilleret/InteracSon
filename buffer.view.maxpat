@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 329.0, 120.0, 1649.0, 836.0 ],
+		"rect" : [ 235.0, 70.0, 1649.0, 836.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -1594,10 +1594,10 @@
 					"id" : "obj-95",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1223.5, 331.0, 242.0, 20.0 ],
-					"text" : "j.remote_array send/echo.[4]/gain @unit dB"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1223.5, 331.0, 249.0, 20.0 ],
+					"text" : "_j.remote_array send/echo.[4]/gain @unit dB"
 				}
 
 			}
@@ -2785,7 +2785,7 @@
 					"patching_rect" : [ 14.0, 14.5, 600.0, 210.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 600.0, 245.0 ],
-					"text" : "/view/buffer.1"
+					"text" : "/buffer"
 				}
 
 			}
@@ -3128,6 +3128,7 @@
 					"destination" : [ "obj-96", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 1609.333252, 769.0, 1503.0, 769.0, 1503.0, 25.0, 1595.0, 25.0 ],
 					"source" : [ "obj-142", 0 ]
 				}
 
@@ -3254,6 +3255,7 @@
 					"destination" : [ "obj-97", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 2070.5, 810.0, 1965.0, 810.0, 1965.0, 40.0, 2043.666748, 40.0 ],
 					"source" : [ "obj-157", 0 ]
 				}
 
