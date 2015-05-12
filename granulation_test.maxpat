@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -142,8 +142,9 @@
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "granulation.view.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 16.0, 600.0, 280.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 600.0, 280.0 ]
 				}
@@ -188,38 +189,46 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-3::obj-7::obj-125" : [ "live.numbox[25]", "live.numbox[6]", 0 ],
+			"obj-3::obj-7::obj-22" : [ "live.numbox[26]", "live.numbox[6]", 0 ],
 			"obj-3::obj-7::obj-58" : [ "live.text[53]", "live.text[4]", 0 ],
-			"obj-3::obj-7::obj-33" : [ "live.dial[33]", "live.dial", 0 ],
-			"obj-1::obj-15" : [ "live.slider[1]", "live.slider", 0 ],
+			"obj-3::obj-7::obj-123" : [ "live.numbox[27]", "live.numbox[6]", 0 ],
 			"obj-3::obj-7::obj-35" : [ "live.tab", "live.tab", 0 ],
+			"obj-1::obj-15" : [ "live.slider[2]", "live.slider", 0 ],
+			"obj-3::obj-7::obj-167" : [ "live.numbox[21]", "live.numbox[6]", 0 ],
 			"obj-3::obj-7::obj-39" : [ "Out Gain", "Gain", 0 ],
-			"obj-1::obj-45" : [ "live.text[49]", "live.text[16]", 0 ]
+			"obj-3::obj-7::obj-33" : [ "live.dial[33]", "live.dial", 0 ],
+			"obj-3::obj-7::obj-168" : [ "live.numbox[22]", "live.numbox[6]", 0 ],
+			"obj-1::obj-45" : [ "live.text[49]", "live.text[16]", 0 ],
+			"obj-3::obj-7::obj-169" : [ "live.numbox[23]", "live.numbox[6]", 0 ],
+			"obj-3::obj-7::obj-170" : [ "live.numbox[24]", "live.numbox[6]", 0 ],
+			"obj-3::obj-7::obj-24" : [ "live.numbox[28]", "live.numbox[6]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "granulation.view.maxpat",
-				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/InteracSon",
+				"bootpath" : "/Users/leon_mb/InteracSon",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "granulation.model.maxpat",
-				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/InteracSon",
+				"bootpath" : "/Users/leon_mb/InteracSon",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grain~.model.maxpat",
-				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/InteracSon",
+				"bootpath" : "/Users/leon_mb/InteracSon",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "monspat4.maxpat",
-				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/InteracSon",
+				"bootpath" : "/Users/leon_mb/InteracSon",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -227,27 +236,27 @@
 , 			{
 				"name" : "pan2S.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pan4S.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/effects/reverb/lib",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/examples/effects/reverb/lib",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/examples/effects/reverb/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rchoose.maxpat",
-				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/InteracSon",
+				"bootpath" : "/Users/leon_mb/InteracSon",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -255,27 +264,27 @@
 , 			{
 				"name" : "transratio.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "buffer.module.maxpat",
-				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/InteracSon",
+				"bootpath" : "/Users/leon_mb/InteracSon",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "buffer.model.maxpat",
-				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/InteracSon",
+				"bootpath" : "/Users/leon_mb/InteracSon",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "buffer.view.maxpat",
-				"bootpath" : "/Volumes/Big Data/Users/antoinevilleret/InteracSon",
+				"bootpath" : "/Users/leon_mb/InteracSon",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -283,15 +292,22 @@
 , 			{
 				"name" : "wfmodes.png",
 				"bootpath" : "/Applications/Max 6.1/patches/picts",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/patches/picts",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/patches/picts",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wfknob.png",
 				"bootpath" : "/Applications/Max 6.1/patches/picts",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/patches/picts",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/patches/picts",
 				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -340,6 +356,10 @@
 			}
 , 			{
 				"name" : "j.send.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
