@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 35.0, 84.0, 679.0, 377.0 ],
+		"rect" : [ -5.0, 125.0, 679.0, 377.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -4228,7 +4228,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 889.0, 167.0, 640.0, 480.0 ],
+						"rect" : [ 527.0, 111.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4247,7 +4247,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ "lfo.1" ],
@@ -4314,7 +4313,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 255.0, 95.0, 1090.0, 741.0 ],
+						"rect" : [ 209.0, 87.0, 1090.0, 741.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -5195,7 +5194,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 277.0, 653.0, 750.0, 175.0 ],
+										"rect" : [ 231.0, 645.0, 750.0, 175.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -7594,7 +7593,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -7783,7 +7781,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 74.0, 651.0, 905.0, 227.0 ],
+						"rect" : [ 146.0, 613.0, 905.0, 227.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
