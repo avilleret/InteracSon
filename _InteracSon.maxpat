@@ -6394,7 +6394,7 @@
 													"outlettype" : [ "" ],
 													"presentation" : 1,
 													"presentation_rect" : [ 0.0, 0.0, 750.0, 175.0 ],
-													"text" : "/boids/buffer"
+													"text" : "/boids/spectral"
 												}
 
 											}
@@ -7594,6 +7594,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -7617,8 +7618,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 302.0, 243.0, 179.0, 18.0 ],
-									"text" : "host 192.168.10.104, post 8000"
+									"patching_rect" : [ 302.0, 243.0, 166.0, 18.0 ],
+									"text" : "host 192.168.10.4, post 8000"
 								}
 
 							}
@@ -7683,8 +7684,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 221.0, 309.0, 173.0, 20.0 ],
-									"text" : "udpsend 192.168.10.104 8000"
+									"patching_rect" : [ 221.0, 309.0, 160.0, 20.0 ],
+									"text" : "udpsend 192.168.10.4 8000"
 								}
 
 							}
