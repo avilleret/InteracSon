@@ -1262,7 +1262,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 586.0, 137.0, 147.0, 17.0 ],
-					"text" : "none"
+					"text" : "buffer.1-buf"
 				}
 
 			}
@@ -2312,7 +2312,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 285.0, 530.0, 208.0, 20.0 ],
-					"text" : "poly~ grain~.model 32 @args grain.1"
+					"text" : "poly~ grain~.model 16 @args grain.1"
 				}
 
 			}
@@ -2853,16 +2853,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 167.5, 466.0, 294.5, 466.0 ],
-					"source" : [ "obj-16", 0 ]
 				}
 
 			}
