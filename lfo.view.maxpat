@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -51,7 +51,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 618.5, 228.0, 120.0, 18.0 ]
+					"patching_rect" : [ 618.5, 228.0, 120.0, 18.0 ],
+					"text" : "address /lfo.1_view"
 				}
 
 			}
@@ -169,8 +170,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 605.5, 330.5, 146.0, 20.0 ],
-					"text" : "j.remote lfo:ramp/function"
+					"patching_rect" : [ 638.5, 331.5, 191.0, 20.0 ],
+					"text" : "j.remote lfo:ramp/function function"
 				}
 
 			}
@@ -185,7 +186,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 605.5, 287.5, 100.0, 20.0 ],
+					"patching_rect" : [ 638.5, 288.5, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 16.5, 70.0, 100.0, 20.0 ]
 				}
@@ -220,7 +221,7 @@
 					"presentation_rect" : [ 9.5, 26.0, 54.0, 37.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.menu[1]",
+							"parameter_longname" : "live.menu[2]",
 							"parameter_shortname" : "live.menu",
 							"parameter_type" : 2,
 							"parameter_enum" : [ "linear", "easeInBack", "easeInOutBack", "easeOutBack", "easeInBounce", "easeInOutBounce", "easeOutBounce", "easeInCircular", "easeInOutCircular", "easeOutCircular", "easeInCubic", "easeInOutCubic", "easeOutCubic", "easeInElastic", "easeInOutElastic", "easeOutElastic", "easeInExponential", "easeInOutExponential", "easeOutExponential", "easeInQuadratic", "easeInOutQuadratic", "easeOutQuadratic", "easeInQuartic", "easeInOutQuartic", "easeOutQuartic", "easeInQuintic", "easeInOutQuintic", "easeOutQuintic", "easeInSine", "easeInOutSine", "easeOutSine", "exponential", "freehand", "logarithm", "lowpass", "power", "smoothPolynomial", "tanh", "bartlett", "blackman", "blackmanHarris", "expodec", "gauss", "hamming", "hanning", "kaiser", "nuttall", "rectangular", "rosenbergGlottalPulse", "trapezoid", "tukey", "welch" ]
@@ -242,8 +243,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 398.5, 330.5, 146.0, 20.0 ],
-					"text" : "j.remote lfo:ramp/function"
+					"patching_rect" : [ 398.5, 330.5, 207.0, 20.0 ],
+					"text" : "j.remote lfo:ramp/function function_ui"
 				}
 
 			}
@@ -331,7 +332,7 @@
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 615.0, 362.5, 594.0, 362.5, 594.0, 276.5, 615.0, 276.5 ],
+					"midpoints" : [ 648.0, 363.5, 627.0, 363.5, 627.0, 277.5, 648.0, 277.5 ],
 					"source" : [ "obj-34", 0 ]
 				}
 
