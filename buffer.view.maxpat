@@ -2604,7 +2604,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 22.5, 23.5, 570.0, 110.0 ],
 					"selectioncolor" : [ 1.0, 1.0, 0.4, 0.5 ],
-					"setmode" : 1,
+					"setmode" : 3,
 					"snapto" : 2,
 					"ticks" : 8,
 					"vlabels" : 1,
@@ -2639,7 +2639,7 @@
 					"patching_rect" : [ 14.0, 14.5, 600.0, 210.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 600.0, 245.0 ],
-					"text" : "/buffer.1"
+					"text" : "/no_model_address"
 				}
 
 			}
@@ -4150,6 +4150,73 @@
 					"source" : [ "obj-99", 0 ]
 				}
 
+			}
+ ],
+		"parameters" : 		{
+			"obj-24" : [ "live.numbox[28]", "live.numbox[6]", 0 ],
+			"obj-168" : [ "live.numbox[22]", "live.numbox[6]", 0 ],
+			"obj-123" : [ "live.numbox[27]", "live.numbox[6]", 0 ],
+			"obj-167" : [ "live.numbox[21]", "live.numbox[6]", 0 ],
+			"obj-22" : [ "live.numbox[26]", "live.numbox[6]", 0 ],
+			"obj-125" : [ "live.numbox[25]", "live.numbox[6]", 0 ],
+			"obj-58" : [ "live.text[53]", "live.text[4]", 0 ],
+			"obj-170" : [ "live.numbox[24]", "live.numbox[6]", 0 ],
+			"obj-169" : [ "live.numbox[23]", "live.numbox[6]", 0 ],
+			"obj-39" : [ "Out Gain", "Gain", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "wfmodes.png",
+				"bootpath" : "/Applications/Max 6.1/patches/picts",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/patches/picts",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "wfknob.png",
+				"bootpath" : "/Applications/Max 6.1/patches/picts",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/patches/picts",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.savebang.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.send.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote_array.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.unit.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
