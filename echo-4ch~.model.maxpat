@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -9.0, 101.0, 1869.0, 738.0 ],
+		"rect" : [ 0.0, 101.0, 1869.0, 738.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1397,8 +1397,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1054.0, 146.5, 580.0, 33.0 ],
-					"text" : "j.parameter delay.4 @type decimal @ramp/drive max @repetitions/filter 1 @range 0 1000 @clipmode both @dataspace time @unit ms @description \"Delay time in milliseconds for channel 4.\" @default 250",
+					"patching_rect" : [ 1054.0, 146.5, 587.0, 33.0 ],
+					"text" : "j.parameter delay.4 @type decimal @ramp/drive max @repetitions/filter 1 @range 0 10000 @clipmode both @dataspace time @unit ms @description \"Delay time in milliseconds for channel 4.\" @default 250",
 					"varname" : "right[2]"
 				}
 
@@ -1413,8 +1413,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 945.5, 102.5, 580.0, 33.0 ],
-					"text" : "j.parameter delay.3 @type decimal @ramp/drive max @repetitions/filter 1 @range 0 1000 @clipmode both @dataspace time @unit ms @description \"Delay time in milliseconds for channe 3l.\" @default 750",
+					"patching_rect" : [ 945.5, 102.5, 587.0, 33.0 ],
+					"text" : "j.parameter delay.3 @type decimal @ramp/drive max @repetitions/filter 1 @range 0 10000 @clipmode both @dataspace time @unit ms @description \"Delay time in milliseconds for channe 3l.\" @default 750",
 					"varname" : "left[2]"
 				}
 
@@ -1513,8 +1513,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 146.999939, 177.5, 580.0, 33.0 ],
-					"text" : "j.parameter delay.2 @type decimal @ramp/drive max @repetitions/filter 1 @range 0 1000 @clipmode both @dataspace time @unit ms @description \"Delay time in milliseconds for channel 2.\" @default 750",
+					"patching_rect" : [ 146.999939, 177.5, 587.0, 33.0 ],
+					"text" : "j.parameter delay.2 @type decimal @ramp/drive max @repetitions/filter 1 @range 0 10000 @clipmode both @dataspace time @unit ms @description \"Delay time in milliseconds for channel 2.\" @default 750",
 					"varname" : "right[1]"
 				}
 
@@ -1529,8 +1529,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 38.5, 131.5, 580.0, 33.0 ],
-					"text" : "j.parameter delay.1 @type decimal @ramp/drive max @repetitions/filter 1 @range 0 1000 @clipmode both @dataspace time @unit ms @description \"Delay time in milliseconds for channel 1.\" @default 250",
+					"patching_rect" : [ 38.5, 131.5, 587.0, 33.0 ],
+					"text" : "j.parameter delay.1 @type decimal @ramp/drive max @repetitions/filter 1 @range 0 10000 @clipmode both @dataspace time @unit ms @description \"Delay time in milliseconds for channel 1.\" @default 250",
 					"varname" : "left[1]"
 				}
 
