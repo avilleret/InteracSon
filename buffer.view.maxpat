@@ -32,6 +32,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 376.0, 493.0, 56.0, 20.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-89",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1294,34 +1308,6 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1027.5, 493.0, 139.0, 20.0 ],
 					"text" : "j.remote gain clear_gain"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-83",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 640.0, 250.0, 50.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-77",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 636.5, 210.0, 32.5, 20.0 ],
-					"text" : "* 1."
 				}
 
 			}
@@ -2604,7 +2590,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 22.5, 23.5, 570.0, 110.0 ],
 					"selectioncolor" : [ 1.0, 1.0, 0.4, 0.5 ],
-					"setmode" : 1,
+					"setmode" : 3,
 					"snapto" : 2,
 					"ticks" : 8,
 					"vlabels" : 1,
@@ -2639,7 +2625,7 @@
 					"patching_rect" : [ 14.0, 14.5, 600.0, 210.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 600.0, 245.0 ],
-					"text" : "/buffer.1"
+					"text" : "/no_model_address"
 				}
 
 			}
@@ -3233,7 +3219,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
+					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-17", 0 ]
@@ -3345,6 +3331,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -3918,24 +3913,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-77", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-83", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-77", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4150,6 +4127,73 @@
 					"source" : [ "obj-99", 0 ]
 				}
 
+			}
+ ],
+		"parameters" : 		{
+			"obj-167" : [ "live.numbox[21]", "live.numbox[6]", 0 ],
+			"obj-22" : [ "live.numbox[26]", "live.numbox[6]", 0 ],
+			"obj-125" : [ "live.numbox[25]", "live.numbox[6]", 0 ],
+			"obj-170" : [ "live.numbox[24]", "live.numbox[6]", 0 ],
+			"obj-58" : [ "live.text[53]", "live.text[4]", 0 ],
+			"obj-169" : [ "live.numbox[23]", "live.numbox[6]", 0 ],
+			"obj-24" : [ "live.numbox[28]", "live.numbox[6]", 0 ],
+			"obj-39" : [ "Out Gain", "Gain", 0 ],
+			"obj-168" : [ "live.numbox[22]", "live.numbox[6]", 0 ],
+			"obj-123" : [ "live.numbox[27]", "live.numbox[6]", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "wfmodes.png",
+				"bootpath" : "/Applications/Max 6.1/patches/picts",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/patches/picts",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "wfknob.png",
+				"bootpath" : "/Applications/Max 6.1/patches/picts",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/patches/picts",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.savebang.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.send.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote_array.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.unit.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
