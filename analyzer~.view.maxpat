@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 99.0, 73.0, 1404.0, 870.0 ],
+		"rect" : [ -135.0, 73.0, 2058.0, 893.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -29,6 +29,47 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 1616.0, 286.5, 142.0, 20.0 ],
+					"text" : "j.remote send/comb/gain"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1545.0, 273.0, 44.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 247.0, 89.0, 44.0, 47.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "Comb",
+							"parameter_shortname" : "Comb",
+							"parameter_type" : 0,
+							"parameter_mmin" : -70.0,
+							"parameter_mmax" : 0.0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "Comb"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -1759,7 +1800,7 @@
 					"patching_rect" : [ 0.0, 1.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, -1.5, 300.0, 140.0 ],
-					"text" : "/no_model_address"
+					"text" : "/solo.1"
 				}
 
 			}
@@ -2270,6 +2311,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2310,6 +2360,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -2627,60 +2686,6 @@
 					"source" : [ "obj-99", 0 ]
 				}
 
-			}
- ],
-		"parameters" : 		{
-			"obj-169" : [ "live.numbox[19]", "live.numbox[6]", 0 ],
-			"obj-122" : [ "live.numbox[6]", "live.numbox[6]", 0 ],
-			"obj-168" : [ "live.numbox[18]", "live.numbox[6]", 0 ],
-			"obj-167" : [ "live.numbox[17]", "live.numbox[6]", 0 ],
-			"obj-5" : [ "live.numbox[12]", "live.numbox", 0 ],
-			"obj-124" : [ "live.numbox[15]", "live.numbox[6]", 0 ],
-			"obj-4" : [ "live.numbox[13]", "live.numbox", 0 ],
-			"obj-123" : [ "live.numbox[14]", "live.numbox[6]", 0 ],
-			"obj-27" : [ "live.numbox[10]", "live.numbox", 0 ],
-			"obj-17" : [ "live.numbox[11]", "live.numbox", 0 ],
-			"obj-13" : [ "live.numbox[8]", "live.numbox", 0 ],
-			"obj-12" : [ "live.numbox[9]", "live.numbox", 0 ],
-			"obj-125" : [ "live.numbox[16]", "live.numbox[6]", 0 ],
-			"obj-31" : [ "live.button", "live.button", 0 ],
-			"obj-170" : [ "live.numbox[20]", "live.numbox[6]", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote_array.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.unit.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

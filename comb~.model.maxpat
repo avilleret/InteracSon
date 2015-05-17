@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 711.0, 119.0, 945.0, 810.0 ],
+		"rect" : [ 0.0, 115.0, 945.0, 810.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -260,7 +260,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 319.0, 612.5, 583.0, 47.0 ],
-					"text" : "j.parameter master @type decimal @ramp/drive max @repetitions/filter 1 @range -70. 10. @clipmode both @description Output Gain. @dataspace gain @unit db @description \"Master echo volume in dB.\" @default -70.",
+					"text" : "j.message master @type decimal @ramp/drive max @repetitions/filter 1 @range -70. 10. @clipmode both @description Output Gain. @dataspace gain @unit db @description \"Master echo volume in dB.\" @default -70.",
 					"varname" : "feedback[3]"
 				}
 

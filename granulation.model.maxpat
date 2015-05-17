@@ -440,7 +440,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 884.0, 382.0, 583.0, 47.0 ],
-					"text" : "j.parameter master @type decimal @ramp/drive max @repetitions/filter 1 @range -70. 10. @clipmode both @description Output Gain. @dataspace gain @unit db @description \"Master echo volume in dB.\" @default -70.",
+					"text" : "j.message master @type decimal @ramp/drive max @repetitions/filter 1 @range -70. 10. @clipmode both @description Output Gain. @dataspace gain @unit db @description \"Master echo volume in dB.\" @default -70.",
 					"varname" : "feedback[3]"
 				}
 
@@ -1500,7 +1500,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 586.0, 137.0, 147.0, 17.0 ],
-					"text" : "buffer.1-buf"
+					"text" : "buffer.5-buf"
 				}
 
 			}
