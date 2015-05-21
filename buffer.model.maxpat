@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 201.0, 192.0, 1141.0, 672.0 ],
+		"rect" : [ 137.0, 68.0, 1464.0, 880.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -697,7 +697,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 336.0, 188.0, 145.0, 18.0 ],
-									"text" : "address /buffer.2/send"
+									"text" : "address /buffer/send"
 								}
 
 							}
@@ -1377,7 +1377,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 711.5, 270.0, 98.0, 18.0 ],
-					"text" : "buffer.2-buf"
+					"text" : "buffer.1-buf"
 				}
 
 			}
@@ -2302,6 +2302,43 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.oscinstance.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter_array.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.send.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.unit.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "vbapan~.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
