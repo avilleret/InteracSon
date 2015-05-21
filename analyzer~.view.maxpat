@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -135.0, 73.0, 2058.0, 893.0 ],
+		"rect" : [ 186.0, 79.0, 2058.0, 893.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -32,6 +32,22 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-41",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 133.0, 134.0, 50.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 105.0, 41.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-25",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -44,6 +60,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"id" : "obj-20",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -1087,7 +1104,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 252.0, 72.0, 18.0, 18.0 ],
 					"size" : 1,
-					"values" : [ 0 ]
+					"values" : [ 1 ]
 				}
 
 			}
@@ -1800,7 +1817,7 @@
 					"patching_rect" : [ 0.0, 1.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, -1.5, 300.0, 140.0 ],
-					"text" : "/solo.1"
+					"text" : "/solo.3"
 				}
 
 			}
@@ -2555,6 +2572,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
