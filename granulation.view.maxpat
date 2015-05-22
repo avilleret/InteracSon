@@ -980,7 +980,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 29.0, 183.5, 68.0, 30.0 ],
-					"text" : "set buffer.2-buf"
+					"text" : "set buffer.3-buf"
 				}
 
 			}
@@ -1583,7 +1583,7 @@
 					"patching_rect" : [ 107.75, 266.0, 167.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.499146, 255.0, 378.0, 26.0 ],
-					"text" : "buffer.2-buf"
+					"text" : "buffer.3-buf"
 				}
 
 			}
@@ -2279,7 +2279,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 561.622559, 293.0, 95.19696, 20.090565 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 55.0, 567.488342, 62.090565 ],
+					"presentation_rect" : [ 128.0, 359.0, 567.488342, 62.090565 ],
 					"size" : 1000.0,
 					"varname" : "location-lo-hi"
 				}
@@ -2290,7 +2290,7 @@
 					"annotation" : "'Name",
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bordercolor" : [ 0.780392, 0.372549, 0.635294, 1.0 ],
-					"buffername" : "buffer.2-buf",
+					"buffername" : "buffer.3-buf",
 					"fontsize" : 11.595187,
 					"grid" : 1.0,
 					"gridcolor" : [ 0.392157, 0.392157, 0.392157, 1.0 ],
@@ -2311,7 +2311,7 @@
 					"setmode" : 1,
 					"ticks" : 4,
 					"vticks" : 0,
-					"vzoom" : 0.070795,
+					"vzoom" : 0.007079,
 					"waveformcolor" : [ 0.930122, 1.0, 0.92153, 1.0 ]
 				}
 
