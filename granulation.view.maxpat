@@ -980,7 +980,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 29.0, 183.5, 68.0, 30.0 ],
-					"text" : "set buffer.1-buf"
+					"text" : "set buffer.2-buf"
 				}
 
 			}
@@ -1583,7 +1583,7 @@
 					"patching_rect" : [ 107.75, 266.0, 167.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.499146, 255.0, 378.0, 26.0 ],
-					"text" : "buffer.1-buf"
+					"text" : "buffer.2-buf"
 				}
 
 			}
@@ -2279,7 +2279,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 561.622559, 293.0, 95.19696, 20.090565 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.499146, 54.747467, 567.488342, 62.090565 ],
+					"presentation_rect" : [ 15.0, 55.0, 567.488342, 62.090565 ],
 					"size" : 1000.0,
 					"varname" : "location-lo-hi"
 				}
@@ -2290,7 +2290,7 @@
 					"annotation" : "'Name",
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bordercolor" : [ 0.780392, 0.372549, 0.635294, 1.0 ],
-					"buffername" : "buffer.1-buf",
+					"buffername" : "buffer.2-buf",
 					"fontsize" : 11.595187,
 					"grid" : 1.0,
 					"gridcolor" : [ 0.392157, 0.392157, 0.392157, 1.0 ],
@@ -2342,7 +2342,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.0, 1.0, 600.0, 280.0 ],
-					"text" : "/no_model_address"
+					"text" : "/granu.1"
 				}
 
 			}
@@ -3165,28 +3165,6 @@
 					"source" : [ "obj-98", 0 ]
 				}
 
-			}
- ],
-		"parameters" : 		{
-			"obj-45" : [ "live.text[49]", "live.text[16]", 0 ],
-			"obj-15" : [ "live.slider[2]", "live.slider", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
