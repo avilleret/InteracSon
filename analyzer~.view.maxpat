@@ -1298,20 +1298,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-26",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 498.0, 71.0, 32.5, 20.0 ],
-					"text" : "t b i"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1773,7 +1759,7 @@
 					"patching_rect" : [ 0.0, 1.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, -1.5, 300.0, 140.0 ],
-					"text" : "/solo.1"
+					"text" : "/no_model_address"
 				}
 
 			}
@@ -2641,6 +2627,60 @@
 					"source" : [ "obj-99", 0 ]
 				}
 
+			}
+ ],
+		"parameters" : 		{
+			"obj-169" : [ "live.numbox[19]", "live.numbox[6]", 0 ],
+			"obj-122" : [ "live.numbox[6]", "live.numbox[6]", 0 ],
+			"obj-168" : [ "live.numbox[18]", "live.numbox[6]", 0 ],
+			"obj-167" : [ "live.numbox[17]", "live.numbox[6]", 0 ],
+			"obj-5" : [ "live.numbox[12]", "live.numbox", 0 ],
+			"obj-124" : [ "live.numbox[15]", "live.numbox[6]", 0 ],
+			"obj-4" : [ "live.numbox[13]", "live.numbox", 0 ],
+			"obj-123" : [ "live.numbox[14]", "live.numbox[6]", 0 ],
+			"obj-27" : [ "live.numbox[10]", "live.numbox", 0 ],
+			"obj-17" : [ "live.numbox[11]", "live.numbox", 0 ],
+			"obj-13" : [ "live.numbox[8]", "live.numbox", 0 ],
+			"obj-12" : [ "live.numbox[9]", "live.numbox", 0 ],
+			"obj-125" : [ "live.numbox[16]", "live.numbox[6]", 0 ],
+			"obj-31" : [ "live.button", "live.button", 0 ],
+			"obj-170" : [ "live.numbox[20]", "live.numbox[6]", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote_array.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.unit.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

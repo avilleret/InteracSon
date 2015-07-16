@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -176.0, 108.0, 1751.0, 824.0 ],
+		"rect" : [ 327.0, 96.0, 1751.0, 824.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -777,8 +777,9 @@
 							"parameter_longname" : "live.dial[28]",
 							"parameter_shortname" : "Delay 4",
 							"parameter_type" : 0,
-							"parameter_mmax" : 1000.0,
-							"parameter_unitstyle" : 2
+							"parameter_mmax" : 10000.0,
+							"parameter_unitstyle" : 2,
+							"parameter_exponent" : 3.0
 						}
 
 					}
@@ -804,8 +805,9 @@
 							"parameter_longname" : "live.dial[26]",
 							"parameter_shortname" : "Delay 3",
 							"parameter_type" : 0,
-							"parameter_mmax" : 1000.0,
-							"parameter_unitstyle" : 2
+							"parameter_mmax" : 10000.0,
+							"parameter_unitstyle" : 2,
+							"parameter_exponent" : 3.0
 						}
 
 					}
@@ -974,8 +976,9 @@
 							"parameter_longname" : "live.dial[27]",
 							"parameter_shortname" : "Delay 2",
 							"parameter_type" : 0,
-							"parameter_mmax" : 1000.0,
-							"parameter_unitstyle" : 2
+							"parameter_mmax" : 10000.0,
+							"parameter_unitstyle" : 2,
+							"parameter_exponent" : 3.0
 						}
 
 					}
@@ -1001,8 +1004,9 @@
 							"parameter_longname" : "live.dial[29]",
 							"parameter_shortname" : "Delay 1",
 							"parameter_type" : 0,
-							"parameter_mmax" : 1000.0,
-							"parameter_unitstyle" : 2
+							"parameter_mmax" : 10000.0,
+							"parameter_unitstyle" : 2,
+							"parameter_exponent" : 3.0
 						}
 
 					}
@@ -1357,7 +1361,7 @@
 					"presentation_rect" : [ 137.5, 25.0, 127.0, 57.0 ],
 					"prototypename" : "M4L.black",
 					"range" : [ 0.041667, 24.0 ],
-					"setfilter" : [ 0, 2, 0, 1, 0, 20.0, 1.0, 14.424063, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 0, 1, 0, 1, 0, 9407.900391, 1.0, 0.768865, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"textcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 					"varname" : "FilterGraph"
 				}
