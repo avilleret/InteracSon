@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 132.0, 259.0, 466.0, 336.0 ],
+		"rect" : [ 118.0, 113.0, 741.0, 667.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -193,6 +193,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
@@ -228,6 +229,20 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 128.0, 371.0, 49.0, 20.0 ],
+									"text" : "j.model"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"annotation" : "edit a one to one data mapping",
 									"fontname" : "Arial",
@@ -672,7 +687,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 150.0, 559.0, 86.0, 20.0 ],
+					"patching_rect" : [ 150.0, 559.0, 89.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -686,7 +701,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p map.models"
+					"text" : "p map_models"
 				}
 
 			}
