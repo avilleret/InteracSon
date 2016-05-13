@@ -1,5 +1,5 @@
 - cue "cue-056"
-- description "Reset"
+- description "Reset + Fin M4 M5 M6"
 # ###########################################
 # 
 # 
@@ -571,7 +571,7 @@
 /map.3/function/parameters.1 none
 /map.3/data/active 1
 /map.3/data/bypass 0
-/map.3/input /solo.1/loudness
+/map.3/input none
 /map.3/input/going.down/action.1 none
 /map.3/input/going.down/action.2 none
 /map.3/input/going.down/action.3 none
@@ -580,7 +580,7 @@
 /map.3/input/going.up/action.3 none
 /map.3/input/index 0
 /map.3/input/max 0.000000
-/map.3/input/min -50.000000
+/map.3/input/min -30.000000
 /map.3/input/threshold/active 0
 /map.3/input/threshold.down 0.000000
 /map.3/input/threshold.up 1.000000
@@ -591,7 +591,7 @@
 /map.3/output/going.up/action.1 none
 /map.3/output/going.up/action.2 none
 /map.3/output/going.up/action.3 none
-/map.3/output/max 12.000000
+/map.3/output/max 20.000000
 /map.3/output/min 0.000000
 /map.3/output/threshold/active 0
 /map.3/output/threshold.down 0.000000
@@ -664,7 +664,7 @@
 /map.6/function/parameters.1 none
 /map.6/data/active 1
 /map.6/data/bypass 0
-/map.6/input /solo.2/loudness
+/map.6/input none
 /map.6/input/going.down/action.1 none
 /map.6/input/going.down/action.2 none
 /map.6/input/going.down/action.3 none
@@ -684,7 +684,7 @@
 /map.6/output/going.up/action.1 none
 /map.6/output/going.up/action.2 none
 /map.6/output/going.up/action.3 none
-/map.6/output/max 3.000000
+/map.6/output/max 5.000000
 /map.6/output/min 0.000000
 /map.6/output/threshold/active 0
 /map.6/output/threshold.down 0.000000
@@ -757,7 +757,7 @@
 /map.9/function/parameters.1 none
 /map.9/data/active 1
 /map.9/data/bypass 0
-/map.9/input /solo.3/loudness
+/map.9/input none
 /map.9/input/going.down/action.1 none
 /map.9/input/going.down/action.2 none
 /map.9/input/going.down/action.3 none
@@ -765,8 +765,8 @@
 /map.9/input/going.up/action.2 none
 /map.9/input/going.up/action.3 none
 /map.9/input/index 0
-/map.9/input/max 0.000000
-/map.9/input/min -50.000000
+/map.9/input/max 1.000000
+/map.9/input/min -30.000000
 /map.9/input/threshold/active 0
 /map.9/input/threshold.down 0.000000
 /map.9/input/threshold.up 1.000000
@@ -777,7 +777,7 @@
 /map.9/output/going.up/action.1 none
 /map.9/output/going.up/action.2 none
 /map.9/output/going.up/action.3 none
-/map.9/output/max 12.000000
+/map.9/output/max 1.000000
 /map.9/output/min 0.000000
 /map.9/output/threshold/active 0
 /map.9/output/threshold.down 0.000000
