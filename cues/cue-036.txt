@@ -1,5 +1,5 @@
 - cue "cue-036"
-- description "Reset"
+- description "Reset + fin M123"
 # ###########################################
 # 
 # 
@@ -495,13 +495,13 @@
 /groupe.3/threshold 10.000000
 /groupe.3/time 100.000000
 # 
-/lfo.1/lfo 0.828000
+/lfo.1/lfo 0.656000
 /lfo.1/rate 5000.000000
 /lfo.1/active 1
 # 
 # 
 # 
-/lfo.2/lfo 0.240000
+/lfo.2/lfo 0.320000
 /lfo.2/rate 1000.000000
 /lfo.2/active 1
 # 
@@ -571,7 +571,7 @@
 /map.3/function/parameters.1 none
 /map.3/data/active 1
 /map.3/data/bypass 0
-/map.3/input /solo.1/loudness
+/map.3/input none
 /map.3/input/going.down/action.1 none
 /map.3/input/going.down/action.2 none
 /map.3/input/going.down/action.3 none
@@ -664,7 +664,7 @@
 /map.6/function/parameters.1 none
 /map.6/data/active 1
 /map.6/data/bypass 0
-/map.6/input /solo.2/loudness
+/map.6/input none
 /map.6/input/going.down/action.1 none
 /map.6/input/going.down/action.2 none
 /map.6/input/going.down/action.3 none
@@ -757,7 +757,7 @@
 /map.9/function/parameters.1 none
 /map.9/data/active 1
 /map.9/data/bypass 0
-/map.9/input /solo.3/loudness
+/map.9/input none
 /map.9/input/going.down/action.1 none
 /map.9/input/going.down/action.2 none
 /map.9/input/going.down/action.3 none
