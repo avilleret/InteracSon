@@ -6,7 +6,7 @@
 # 
 # 
 /analyzer-fx 0
-# 
+#
 # 
 /boids/buffer/acceleration 2.000000
 /boids/buffer/active 1
@@ -3983,7 +3983,7 @@
 # 
 # 
 # 
-/buffer.1/clear 1
+/buffer.1/clear 0
 /buffer.1/file/path none
 /buffer.1/gain -70.000000
 /buffer.1/granu 1
@@ -5923,7 +5923,7 @@
 # 
 # 
 # 
-/buffer.1/clear 1
+/buffer.1/clear 0
 /buffer.1/file/path none
 /buffer.1/gain -70.000000
 /buffer.1/granu 1
@@ -7863,7 +7863,7 @@
 # 
 # 
 # 
-/buffer.1/clear 1
+/buffer.1/clear 0
 /buffer.1/file/path none
 /buffer.1/gain -70.000000
 /buffer.1/granu 1
@@ -9803,7 +9803,7 @@
 # 
 # 
 # 
-/buffer.1/clear 1
+/buffer.1/clear 0
 /buffer.1/file/path none
 /buffer.1/gain -70.000000
 /buffer.1/granu 1
@@ -9822,7 +9822,7 @@
 /buffer.1/send/spectra.4/gain 0.000000
 /buffer.1/speed 1.000000
 # 
-/buffer.2/clear 1
+/buffer.2/clear 0
 /buffer.2/file/path none
 /buffer.2/gain -70.000000
 /buffer.2/granu 0.000000
@@ -11743,7 +11743,7 @@
 # 
 # 
 # 
-/buffer.1/clear 1
+/buffer.1/clear 0
 /buffer.1/file/path none
 /buffer.1/gain -70.000000
 /buffer.1/granu 1
@@ -11762,7 +11762,7 @@
 /buffer.1/send/spectra.4/gain 0.000000
 /buffer.1/speed 1.000000
 # 
-/buffer.2/clear 1
+/buffer.2/clear 0
 /buffer.2/file/path none
 /buffer.2/gain -70.000000
 /buffer.2/granu 0.000000
@@ -23402,7 +23402,7 @@
 /buffer.1/send/spectra.4/gain 0.000000
 /buffer.1/speed 1.000000
 # 
-/buffer.2/clear 1
+/buffer.2/clear 0
 /buffer.2/file/path none
 /buffer.2/gain -70.000000
 /buffer.2/granu 0.000000
@@ -23421,7 +23421,7 @@
 /buffer.2/send/spectra.4/gain 0.000000
 /buffer.2/speed 1.000000
 # 
-/buffer.3/clear 1.000000
+/buffer.3/clear 0
 /buffer.3/file/path none
 /buffer.3/gain -70.000000
 /buffer.3/granu 0.000000
@@ -23440,7 +23440,7 @@
 /buffer.3/send/spectra.4/gain 0.000000
 /buffer.3/speed 1.000000
 # 
-/buffer.4/clear 1
+/buffer.4/clear 0
 /buffer.4/file/path none
 /buffer.4/gain -70.000000
 /buffer.4/granu 1
@@ -25342,7 +25342,6 @@
 /buffer.1/send/spectra.4/gain 0.000000
 /buffer.1/speed 1.000000
 # 
-/buffer.2/clear 1
 /buffer.2/file/path none
 /buffer.2/gain -70.000000
 /buffer.2/granu 0.000000
@@ -25361,7 +25360,6 @@
 /buffer.2/send/spectra.4/gain 0.000000
 /buffer.2/speed 1.000000
 # 
-/buffer.3/clear 1.000000
 /buffer.3/file/path none
 /buffer.3/gain -70.000000
 /buffer.3/granu 0.000000
@@ -25380,7 +25378,6 @@
 /buffer.3/send/spectra.4/gain 0.000000
 /buffer.3/speed 1.000000
 # 
-/buffer.4/clear 1
 /buffer.4/file/path none
 /buffer.4/gain -70.000000
 /buffer.4/granu 1
@@ -27282,7 +27279,6 @@
 /buffer.1/send/spectra.4/gain 0.000000
 /buffer.1/speed 1.000000
 # 
-/buffer.2/clear 1
 /buffer.2/file/path none
 /buffer.2/gain -70.000000
 /buffer.2/granu 0.000000
@@ -27301,7 +27297,6 @@
 /buffer.2/send/spectra.4/gain 0.000000
 /buffer.2/speed 1.000000
 # 
-/buffer.3/clear 1
 /buffer.3/file/path none
 /buffer.3/gain -70.000000
 /buffer.3/granu 0.000000
@@ -27320,7 +27315,6 @@
 /buffer.3/send/spectra.4/gain 0.000000
 /buffer.3/speed 1.000000
 # 
-/buffer.4/clear 1
 /buffer.4/file/path none
 /buffer.4/gain -70.000000
 /buffer.4/granu 0.000000
@@ -28829,9 +28823,9 @@
 /solo.1/send/buffer.7/gain 0.000000
 /solo.1/send/buffer.8/gain 0.000000
 /solo.1/send/comb/gain -70.000000
-/solo.1/send/echo.1/gain 1.000000
-/solo.1/send/echo.2/gain 1.000000
-/solo.1/send/echo.3/gain 1.000000
+/solo.1/send/echo.1/gain 1.000000 ramp 500
+/solo.1/send/echo.2/gain 1.000000 ramp 500
+/solo.1/send/echo.3/gain 1.000000 ramp 500
 /solo.1/send/echo.4/gain 0.000000
 /solo.1/send/spectra.1/gain 0.000000
 /solo.1/send/spectra.2/gain 0.000000
@@ -50543,7 +50537,6 @@
 # 
 # 
 # 
-/buffer.1/clear 1
 /buffer.1/file/path none
 /buffer.1/gain -70.000000
 /buffer.1/granu 1
@@ -50562,7 +50555,6 @@
 /buffer.1/send/spectra.4/gain 0.000000
 /buffer.1/speed 1.000000
 # 
-/buffer.2/clear 1
 /buffer.2/file/path none
 /buffer.2/gain -70.000000
 /buffer.2/granu 0.000000
@@ -50581,7 +50573,6 @@
 /buffer.2/send/spectra.4/gain 0.000000
 /buffer.2/speed 1.000000
 # 
-/buffer.3/clear 1.000000
 /buffer.3/file/path none
 /buffer.3/gain -70.000000
 /buffer.3/granu 0.000000
@@ -50600,7 +50591,6 @@
 /buffer.3/send/spectra.4/gain 0.000000
 /buffer.3/speed 1.000000
 # 
-/buffer.4/clear 1
 /buffer.4/file/path none
 /buffer.4/gain -70.000000
 /buffer.4/granu 0.000000
@@ -50619,7 +50609,6 @@
 /buffer.4/send/spectra.4/gain 0.000000
 /buffer.4/speed 1.000000
 # 
-/buffer.5/clear 1.000000
 /buffer.5/file/path none
 /buffer.5/gain -70.000000
 /buffer.5/granu 0.000000
@@ -50638,7 +50627,6 @@
 /buffer.5/send/spectra.4/gain 0.000000
 /buffer.5/speed 1.000000
 # 
-/buffer.6/clear 1
 /buffer.6/file/path none
 /buffer.6/gain -70.000000
 /buffer.6/granu 0.000000
@@ -62183,7 +62171,6 @@
 # 
 # 
 # 
-/buffer.1/clear 1
 /buffer.1/file/path none
 /buffer.1/gain -70.000000
 /buffer.1/granu 1
@@ -64123,7 +64110,6 @@
 # 
 # 
 # 
-/buffer.1/clear 1
 /buffer.1/file/path none
 /buffer.1/gain -70.000000
 /buffer.1/granu 1
@@ -69943,7 +69929,6 @@
 # 
 # 
 # 
-/buffer.1/clear 0.000000
 /buffer.1/file/path none
 /buffer.1/gain -70.000000
 /buffer.1/granu 1
@@ -71883,7 +71868,6 @@
 # 
 # 
 # 
-/buffer.1/clear 0.000000
 /buffer.1/file/path none
 /buffer.1/gain -70.000000
 /buffer.1/granu 1
@@ -73823,7 +73807,6 @@
 # 
 # 
 # 
-/buffer.1/clear 0.000000
 /buffer.1/file/path none
 /buffer.1/gain -70.000000
 /buffer.1/granu 1
@@ -81583,7 +81566,7 @@
 # 
 # 
 # 
-/buffer.1/clear 1
+/buffer.1/clear 0
 /buffer.1/file/path none
 /buffer.1/gain -70.000000
 /buffer.1/granu 0.000000
@@ -83523,7 +83506,6 @@
 # 
 # 
 # 
-/buffer.1/clear 1
 /buffer.1/file/path none
 /buffer.1/gain -70.000000
 /buffer.1/granu 0.000000
@@ -83542,7 +83524,6 @@
 /buffer.1/send/spectra.4/gain 0.000000
 /buffer.1/speed 1.000000
 # 
-/buffer.2/clear 1
 /buffer.2/file/path none
 /buffer.2/gain -70.000000
 /buffer.2/granu 1
@@ -95163,7 +95144,6 @@
 # 
 # 
 # 
-/buffer.1/clear 1
 /buffer.1/file/path none
 /buffer.1/gain -70.000000
 /buffer.1/granu 0.000000
@@ -97103,7 +97083,6 @@
 # 
 # 
 # 
-/buffer.1/clear 1
 /buffer.1/file/path none
 /buffer.1/gain -70.000000
 /buffer.1/granu 0.000000
@@ -97122,7 +97101,6 @@
 /buffer.1/send/spectra.4/gain 0.000000
 /buffer.1/speed 1.000000
 # 
-/buffer.2/clear 1
 /buffer.2/file/path none
 /buffer.2/gain -70.000000
 /buffer.2/granu 0.000000
@@ -102923,7 +102901,6 @@
 # 
 # 
 # 
-/buffer.1/clear 1
 /buffer.1/file/path none
 /buffer.1/gain -70.000000
 /buffer.1/granu 0.000000
@@ -102942,7 +102919,6 @@
 /buffer.1/send/spectra.4/gain 0.000000
 /buffer.1/speed 1.000000
 # 
-/buffer.2/clear 1
 /buffer.2/file/path none
 /buffer.2/gain -70.000000
 /buffer.2/granu 0.000000
@@ -102961,7 +102937,6 @@
 /buffer.2/send/spectra.4/gain 0.000000
 /buffer.2/speed 1.000000
 # 
-/buffer.3/clear 1
 /buffer.3/file/path none
 /buffer.3/gain -70.000000
 /buffer.3/granu 0.000000
