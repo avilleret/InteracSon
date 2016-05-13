@@ -160,7 +160,7 @@
 /buffer.3/send/spectra.4/gain 0.000000
 /buffer.3/speed 0.250000
 # 
-/buffer.4/clear 1
+/buffer.4/clear 0
 /buffer.4/file/path none
 /buffer.4/gain -70.000000
 /buffer.4/granu 0.000000
@@ -198,7 +198,7 @@
 /buffer.5/send/spectra.4/gain 0.000000
 /buffer.5/speed 1.000000
 # 
-/buffer.6/clear 1
+/buffer.6/clear 0
 /buffer.6/file/path none
 /buffer.6/gain -70.000000
 /buffer.6/granu 0.000000

@@ -141,7 +141,7 @@
 /buffer.2/send/spectra.4/gain 0.000000
 /buffer.2/speed 1.000000
 # 
-/buffer.3/clear 1.000000
+/buffer.3/clear 1
 /buffer.3/file/path none
 /buffer.3/gain -70.000000
 /buffer.3/granu 0.000000
@@ -179,7 +179,7 @@
 /buffer.4/send/spectra.4/gain 0.000000
 /buffer.4/speed 1.000000
 # 
-/buffer.5/clear 0
+/buffer.5/clear 1
 /buffer.5/file/path none
 /buffer.5/gain -70.000000
 /buffer.5/granu 0.000000
@@ -217,7 +217,7 @@
 /buffer.6/send/spectra.4/gain 0.000000
 /buffer.6/speed 1.000000
 # 
-/buffer.7/clear 0.000000
+/buffer.7/clear 1
 /buffer.7/file/path none
 /buffer.7/gain -70.000000
 /buffer.7/granu 0.000000
@@ -236,7 +236,7 @@
 /buffer.7/send/spectra.4/gain 0.000000
 /buffer.7/speed 1.000000
 # 
-/buffer.8/clear 0.000000
+/buffer.8/clear 1
 /buffer.8/file/path none
 /buffer.8/gain -70.000000
 /buffer.8/granu 0.000000
