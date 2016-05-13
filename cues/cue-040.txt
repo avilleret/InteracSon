@@ -442,8 +442,8 @@
 /groupe.1/send/comb/gain 0.000000
 /groupe.1/send/echo.1/gain 0.000000
 /groupe.1/send/echo.2/gain 0.000000
-/groupe.1/send/echo.3/gain 1.000000
-/groupe.1/send/echo.4/gain 1.000000
+/groupe.1/send/echo.3/gain 1.000000 ramp 2000
+/groupe.1/send/echo.4/gain 1.000000 ramp 2000
 /groupe.1/send/spectra.1/gain 0.000000
 /groupe.1/send/spectra.2/gain 0.000000
 /groupe.1/send/spectra.3/gain 0.000000

@@ -495,13 +495,13 @@
 /groupe.3/threshold 10.000000
 /groupe.3/time 100.000000
 # 
-/lfo.1/lfo 0.216000
+/lfo.1/lfo 0.152000
 /lfo.1/rate 5000.000000
 /lfo.1/active 1
 # 
 # 
 # 
-/lfo.2/lfo 0.160000
+/lfo.2/lfo 0.800000
 /lfo.2/rate 1000.000000
 /lfo.2/active 1
 # 
