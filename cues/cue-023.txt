@@ -1,5 +1,5 @@
 - cue "cue-023"
-- description "T8 Pitch -3 +9"
+- description "T10 - All pitch"
 # ###########################################
 # 
 # 
@@ -141,7 +141,7 @@
 /buffer.2/send/spectra.4/gain 0.000000
 /buffer.2/speed 1.000000
 # 
-/buffer.3/clear 0
+/buffer.3/clear 0.000000
 /buffer.3/file/path none
 /buffer.3/gain -70.000000
 /buffer.3/granu 0.000000
@@ -192,10 +192,10 @@
 /buffer.5/send/echo.2/gain 0.000000
 /buffer.5/send/echo.3/gain 0.000000
 /buffer.5/send/echo.4/gain 0.000000
-/buffer.5/send/spectra.1/gain 1.000000 ramp 500
-/buffer.5/send/spectra.2/gain 1.000000 ramp 500
-/buffer.5/send/spectra.3/gain 0.700000 ramp 500
-/buffer.5/send/spectra.4/gain 0.700000 ramp 500
+/buffer.5/send/spectra.1/gain 1.000000
+/buffer.5/send/spectra.2/gain 1.000000
+/buffer.5/send/spectra.3/gain 0.700000
+/buffer.5/send/spectra.4/gain 0.700000
 /buffer.5/speed 1.000000
 # 
 /buffer.6/clear 0
@@ -204,27 +204,27 @@
 /buffer.6/granu 0.000000
 /buffer.6/loop/max 0.000000
 /buffer.6/loop/min 0.000000
-/buffer.6/play 0
-/buffer.6/rec 0
+/buffer.6/play 1
+/buffer.6/rec 1
 # 
 /buffer.6/send/echo.1/gain 0.000000
 /buffer.6/send/echo.2/gain 0.000000
 /buffer.6/send/echo.3/gain 0.000000
 /buffer.6/send/echo.4/gain 0.000000
-/buffer.6/send/spectra.1/gain 0.000000
-/buffer.6/send/spectra.2/gain 0.000000
-/buffer.6/send/spectra.3/gain 0.000000
-/buffer.6/send/spectra.4/gain 0.000000
+/buffer.6/send/spectra.1/gain 0.501187 ramp 500
+/buffer.6/send/spectra.2/gain 0.501187 ramp 500
+/buffer.6/send/spectra.3/gain 0.501187 ramp 500
+/buffer.6/send/spectra.4/gain 0.354813 ramp 500
 /buffer.6/speed 1.000000
 # 
-/buffer.7/clear 0.000000
+/buffer.7/clear 0
 /buffer.7/file/path none
 /buffer.7/gain -70.000000
 /buffer.7/granu 0.000000
-/buffer.7/loop/max 0.000000
+/buffer.7/loop/max 10157.959961
 /buffer.7/loop/min 0.000000
-/buffer.7/play 0
-/buffer.7/rec 0
+/buffer.7/play 1
+/buffer.7/rec 1
 # 
 /buffer.7/send/echo.1/gain 0.000000
 /buffer.7/send/echo.2/gain 0.000000
@@ -232,8 +232,8 @@
 /buffer.7/send/echo.4/gain 0.000000
 /buffer.7/send/spectra.1/gain 0.000000
 /buffer.7/send/spectra.2/gain 0.000000
-/buffer.7/send/spectra.3/gain 0.000000
-/buffer.7/send/spectra.4/gain 0.000000
+/buffer.7/send/spectra.3/gain 1.000000
+/buffer.7/send/spectra.4/gain 0.251189
 /buffer.7/speed 1.000000
 # 
 /buffer.8/clear 0.000000
@@ -458,7 +458,7 @@
 /groupe.2/send/buffer.3/gain 0.000000
 /groupe.2/send/buffer.4/gain 0.000000
 /groupe.2/send/buffer.5/gain 0.000000
-/groupe.2/send/buffer.6/gain 0.000000
+/groupe.2/send/buffer.6/gain 1.000000
 /groupe.2/send/buffer.7/gain 0.000000
 /groupe.2/send/buffer.8/gain 0.000000
 /groupe.2/send/comb/gain -70.000000
@@ -481,7 +481,7 @@
 /groupe.3/send/buffer.4/gain 0.000000
 /groupe.3/send/buffer.5/gain 0.000000
 /groupe.3/send/buffer.6/gain 0.000000
-/groupe.3/send/buffer.7/gain 0.000000
+/groupe.3/send/buffer.7/gain 1.000000
 /groupe.3/send/buffer.8/gain 0.000000
 /groupe.3/send/comb/gain -70.000000
 /groupe.3/send/echo.1/gain 0.000000
@@ -495,13 +495,13 @@
 /groupe.3/threshold 10.000000
 /groupe.3/time 100.000000
 # 
-/lfo.1/lfo 0.152000
+/lfo.1/lfo 0.308000
 /lfo.1/rate 5000.000000
 /lfo.1/active 1
 # 
 # 
 # 
-/lfo.2/lfo 0.460000
+/lfo.2/lfo 0.680000
 /lfo.2/rate 1000.000000
 /lfo.2/active 1
 # 

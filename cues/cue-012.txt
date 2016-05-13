@@ -1,5 +1,5 @@
 - cue "cue-012"
-- description "Reset"
+- description "T5"
 # ###########################################
 # 
 # 
@@ -128,14 +128,14 @@
 /buffer.2/granu 0.000000
 /buffer.2/loop/max 59999.980469
 /buffer.2/loop/min 578.888916
-/buffer.2/play 0
-/buffer.2/rec 0
+/buffer.2/play 1
+/buffer.2/rec 1
 # 
 /buffer.2/send/echo.1/gain 0.000000
 /buffer.2/send/echo.2/gain 0.000000
 /buffer.2/send/echo.3/gain 0.000000
 /buffer.2/send/echo.4/gain 0.000000
-/buffer.2/send/spectra.1/gain 0.000000
+/buffer.2/send/spectra.1/gain 1.000000 ramp 1000
 /buffer.2/send/spectra.2/gain 0.000000
 /buffer.2/send/spectra.3/gain 0.000000
 /buffer.2/send/spectra.4/gain 0.000000
@@ -147,15 +147,15 @@
 /buffer.3/granu 0.000000
 /buffer.3/loop/max 4684.444824
 /buffer.3/loop/min 1841.859497
-/buffer.3/play 0
-/buffer.3/rec 0
+/buffer.3/play 1
+/buffer.3/rec 1
 # 
 /buffer.3/send/echo.1/gain 0.000000
 /buffer.3/send/echo.2/gain 0.000000
 /buffer.3/send/echo.3/gain 0.000000
 /buffer.3/send/echo.4/gain 0.000000
 /buffer.3/send/spectra.1/gain 0.000000
-/buffer.3/send/spectra.2/gain 0.000000
+/buffer.3/send/spectra.2/gain 1.000000 ramp 1000
 /buffer.3/send/spectra.3/gain 0.000000
 /buffer.3/send/spectra.4/gain 0.000000
 /buffer.3/speed 1.000000
@@ -166,7 +166,7 @@
 /buffer.4/granu 1
 /buffer.4/loop/max 40580.816406
 /buffer.4/loop/min 30052.541016
-/buffer.4/play 0
+/buffer.4/play 1
 /buffer.4/rec 1
 # 
 /buffer.4/send/echo.1/gain 0.000000
@@ -175,7 +175,7 @@
 /buffer.4/send/echo.4/gain 0.000000
 /buffer.4/send/spectra.1/gain 0.000000
 /buffer.4/send/spectra.2/gain 0.000000
-/buffer.4/send/spectra.3/gain 0.000000
+/buffer.4/send/spectra.3/gain 1.000000 ramp 1000
 /buffer.4/send/spectra.4/gain 0.000000
 /buffer.4/speed 1.000000
 # 
@@ -412,7 +412,7 @@
 /echo/send/spectra.3/gain 0.000000
 /echo/send/spectra.4/gain 0.000000
 # 
-/granu.1/buffer/name buffer.5-buf
+/granu.1/buffer/name buffer.4-buf
 /granu.1/duration/high 4000.000000
 /granu.1/duration/low 1000.000000
 /granu.1/enable 1
@@ -495,13 +495,13 @@
 /groupe.3/threshold 10.000000
 /groupe.3/time 100.000000
 # 
-/lfo.1/lfo 0.224000
+/lfo.1/lfo 0.716000
 /lfo.1/rate 5000.000000
 /lfo.1/active 1
 # 
 # 
 # 
-/lfo.2/lfo 0.160000
+/lfo.2/lfo 0.900000
 /lfo.2/rate 1000.000000
 /lfo.2/active 1
 # 
@@ -1595,7 +1595,7 @@
 /percu.1/audio/mute 0
 # 
 /percu.1/send/buffer.1/gain 0.000000
-/percu.1/send/buffer.2/gain 0.000000
+/percu.1/send/buffer.2/gain 1.000000
 /percu.1/send/buffer.3/gain 0.000000
 /percu.1/send/buffer.4/gain 0.000000
 /percu.1/send/buffer.5/gain 0.000000
@@ -1618,7 +1618,7 @@
 # 
 /percu.2/send/buffer.1/gain 0.000000
 /percu.2/send/buffer.2/gain 0.000000
-/percu.2/send/buffer.3/gain 0.000000
+/percu.2/send/buffer.3/gain 1.000000
 /percu.2/send/buffer.4/gain 0.000000
 /percu.2/send/buffer.5/gain 0.000000
 /percu.2/send/buffer.6/gain 0.000000
@@ -1641,7 +1641,7 @@
 /percu.3/send/buffer.1/gain 0.000000
 /percu.3/send/buffer.2/gain 0.000000
 /percu.3/send/buffer.3/gain 0.000000
-/percu.3/send/buffer.4/gain 0.000000
+/percu.3/send/buffer.4/gain 1.000000
 /percu.3/send/buffer.5/gain 0.000000
 /percu.3/send/buffer.6/gain 0.000000
 /percu.3/send/buffer.7/gain 0.000000

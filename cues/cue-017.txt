@@ -1,5 +1,5 @@
 - cue "cue-017"
-- description "T6"
+- description "Pitch"
 # ###########################################
 # 
 # 
@@ -103,52 +103,52 @@
 # 
 # 
 # 
-/buffer.1/clear 1
+/buffer.1/clear 0
 /buffer.1/file/path none
 /buffer.1/gain -70.000000
 /buffer.1/granu 1
 /buffer.1/loop/max 19421.746094
 /buffer.1/loop/min 0.000000
-/buffer.1/play 0
-/buffer.1/rec 0
+/buffer.1/play 1
+/buffer.1/rec 1
 # 
 /buffer.1/send/echo.1/gain 0.000000
 /buffer.1/send/echo.2/gain 0.000000
 /buffer.1/send/echo.3/gain 0.000000
 /buffer.1/send/echo.4/gain 0.000000
-/buffer.1/send/spectra.1/gain 0.000000
+/buffer.1/send/spectra.1/gain 0.251189 ramp 2000
 /buffer.1/send/spectra.2/gain 0.000000
 /buffer.1/send/spectra.3/gain 0.000000
 /buffer.1/send/spectra.4/gain 0.000000
-/buffer.1/speed 1.000000
+/buffer.1/speed 0.500000
 # 
-/buffer.2/clear 1
+/buffer.2/clear 0
 /buffer.2/file/path none
 /buffer.2/gain -70.000000
 /buffer.2/granu 0.000000
-/buffer.2/loop/max 0.000000
-/buffer.2/loop/min 0.000000
-/buffer.2/play 0
-/buffer.2/rec 0
+/buffer.2/loop/max 59999.980469
+/buffer.2/loop/min 578.888916
+/buffer.2/play 1
+/buffer.2/rec 1
 # 
 /buffer.2/send/echo.1/gain 0.000000
 /buffer.2/send/echo.2/gain 0.000000
 /buffer.2/send/echo.3/gain 0.000000
 /buffer.2/send/echo.4/gain 0.000000
 /buffer.2/send/spectra.1/gain 0.000000
-/buffer.2/send/spectra.2/gain 0.000000
+/buffer.2/send/spectra.2/gain 0.251189 ramp 2000
 /buffer.2/send/spectra.3/gain 0.000000
 /buffer.2/send/spectra.4/gain 0.000000
 /buffer.2/speed 1.000000
 # 
-/buffer.3/clear 1
+/buffer.3/clear 0
 /buffer.3/file/path none
 /buffer.3/gain -70.000000
 /buffer.3/granu 0.000000
-/buffer.3/loop/max 0.000000
-/buffer.3/loop/min 0.000000
-/buffer.3/play 0
-/buffer.3/rec 0
+/buffer.3/loop/max 4684.444824
+/buffer.3/loop/min 1841.859497
+/buffer.3/play 1
+/buffer.3/rec 1
 # 
 /buffer.3/send/echo.1/gain 0.000000
 /buffer.3/send/echo.2/gain 0.000000
@@ -156,16 +156,16 @@
 /buffer.3/send/echo.4/gain 0.000000
 /buffer.3/send/spectra.1/gain 0.000000
 /buffer.3/send/spectra.2/gain 0.000000
-/buffer.3/send/spectra.3/gain 0.000000
+/buffer.3/send/spectra.3/gain 0.251189 ramp 2000
 /buffer.3/send/spectra.4/gain 0.000000
-/buffer.3/speed 1.000000
+/buffer.3/speed 0.250000
 # 
-/buffer.4/clear 1
+/buffer.4/clear 0
 /buffer.4/file/path none
 /buffer.4/gain -70.000000
 /buffer.4/granu 0.000000
-/buffer.4/loop/max 0.000000
-/buffer.4/loop/min 0.000000
+/buffer.4/loop/max 40580.816406
+/buffer.4/loop/min 30052.541016
 /buffer.4/play 0
 /buffer.4/rec 0
 # 
@@ -179,12 +179,12 @@
 /buffer.4/send/spectra.4/gain 0.000000
 /buffer.4/speed 1.000000
 # 
-/buffer.5/clear 0.000000
+/buffer.5/clear 0
 /buffer.5/file/path none
 /buffer.5/gain -70.000000
 /buffer.5/granu 0.000000
-/buffer.5/loop/max 54684.378906
-/buffer.5/loop/min 1525.147461
+/buffer.5/loop/max 28053.900391
+/buffer.5/loop/min 0.000000
 /buffer.5/play 0
 /buffer.5/rec 0
 # 
@@ -198,7 +198,7 @@
 /buffer.5/send/spectra.4/gain 0.000000
 /buffer.5/speed 1.000000
 # 
-/buffer.6/clear 1
+/buffer.6/clear 0
 /buffer.6/file/path none
 /buffer.6/gain -70.000000
 /buffer.6/granu 0.000000
@@ -236,7 +236,7 @@
 /buffer.7/send/spectra.4/gain 0.000000
 /buffer.7/speed 1.000000
 # 
-/buffer.8/clear 1
+/buffer.8/clear 0.000000
 /buffer.8/file/path none
 /buffer.8/gain -70.000000
 /buffer.8/granu 0.000000
@@ -412,7 +412,7 @@
 /echo/send/spectra.3/gain 0.461933
 /echo/send/spectra.4/gain 0.000000
 # 
-/granu.1/buffer/name buffer.4-buf
+/granu.1/buffer/name buffer.3-buf
 /granu.1/duration/high 4000.000000
 /granu.1/duration/low 1000.000000
 /granu.1/enable 0
@@ -495,13 +495,13 @@
 /groupe.3/threshold 10.000000
 /groupe.3/time 100.000000
 # 
-/lfo.1/lfo 0.036000
+/lfo.1/lfo 0.100000
 /lfo.1/rate 5000.000000
 /lfo.1/active 1
 # 
 # 
 # 
-/lfo.2/lfo 0.180000
+/lfo.2/lfo 0.820000
 /lfo.2/rate 1000.000000
 /lfo.2/active 1
 # 
@@ -509,7 +509,7 @@
 /map.1/function/parameters.1 none
 /map.1/data/active 1
 /map.1/data/bypass 0
-/map.1/input /boids/spectral/position.1/x
+/map.1/input /boids/buffer/position.1/x
 /map.1/input/going.down/action.1 none
 /map.1/input/going.down/action.2 none
 /map.1/input/going.down/action.3 none
@@ -517,8 +517,8 @@
 /map.1/input/going.up/action.2 none
 /map.1/input/going.up/action.3 none
 /map.1/input/index 0
-/map.1/input/max 1.000000
-/map.1/input/min 0.000000
+/map.1/input/max 0.700000
+/map.1/input/min -0.700000
 /map.1/input/threshold/active 0
 /map.1/input/threshold.down 0.000000
 /map.1/input/threshold.up 1.000000
@@ -540,7 +540,7 @@
 /map.2/function/parameters.1 none
 /map.2/data/active 1
 /map.2/data/bypass 0
-/map.2/input /boids/spectral/position.1/y
+/map.2/input /boids/buffer/position.1/y
 /map.2/input/going.down/action.1 none
 /map.2/input/going.down/action.2 none
 /map.2/input/going.down/action.3 none
@@ -548,8 +548,8 @@
 /map.2/input/going.up/action.2 none
 /map.2/input/going.up/action.3 none
 /map.2/input/index 0
-/map.2/input/max 0.700000
-/map.2/input/min -0.700000
+/map.2/input/max 1.000000
+/map.2/input/min -1.000000
 /map.2/input/threshold/active 0
 /map.2/input/threshold.down 0.000000
 /map.2/input/threshold.up 1.000000
@@ -560,8 +560,8 @@
 /map.2/output/going.up/action.1 none
 /map.2/output/going.up/action.2 none
 /map.2/output/going.up/action.3 none
-/map.2/output/max 0.700000
-/map.2/output/min 0.200000
+/map.2/output/max 1.000000
+/map.2/output/min 0.000000
 /map.2/output/threshold/active 0
 /map.2/output/threshold.down 0.000000
 /map.2/output/threshold.up 1.000000
@@ -571,7 +571,7 @@
 /map.3/function/parameters.1 none
 /map.3/data/active 1
 /map.3/data/bypass 0
-/map.3/input /solo.1/loudness
+/map.3/input none
 /map.3/input/going.down/action.1 none
 /map.3/input/going.down/action.2 none
 /map.3/input/going.down/action.3 none
@@ -579,8 +579,8 @@
 /map.3/input/going.up/action.2 none
 /map.3/input/going.up/action.3 none
 /map.3/input/index 0
-/map.3/input/max -10.000000
-/map.3/input/min -50.000000
+/map.3/input/max 0.000000
+/map.3/input/min -30.000000
 /map.3/input/threshold/active 0
 /map.3/input/threshold.down 0.000000
 /map.3/input/threshold.up 1.000000
@@ -591,7 +591,7 @@
 /map.3/output/going.up/action.1 none
 /map.3/output/going.up/action.2 none
 /map.3/output/going.up/action.3 none
-/map.3/output/max 8.000000
+/map.3/output/max 20.000000
 /map.3/output/min 0.000000
 /map.3/output/threshold/active 0
 /map.3/output/threshold.down 0.000000
@@ -602,7 +602,7 @@
 /map.4/function/parameters.1 none
 /map.4/data/active 1
 /map.4/data/bypass 0
-/map.4/input /boids/spectral/position.3/x
+/map.4/input /boids/buffer/position.2/x
 /map.4/input/going.down/action.1 none
 /map.4/input/going.down/action.2 none
 /map.4/input/going.down/action.3 none
@@ -610,7 +610,7 @@
 /map.4/input/going.up/action.2 none
 /map.4/input/going.up/action.3 none
 /map.4/input/index 0
-/map.4/input/max 0.700000
+/map.4/input/max -0.700000
 /map.4/input/min -0.700000
 /map.4/input/threshold/active 0
 /map.4/input/threshold.down 0.000000
@@ -633,7 +633,7 @@
 /map.5/function/parameters.1 none
 /map.5/data/active 1
 /map.5/data/bypass 0
-/map.5/input /boids/spectral/position.3/y
+/map.5/input /boids/buffer/position.2/y
 /map.5/input/going.down/action.1 none
 /map.5/input/going.down/action.2 none
 /map.5/input/going.down/action.3 none
@@ -641,7 +641,7 @@
 /map.5/input/going.up/action.2 none
 /map.5/input/going.up/action.3 none
 /map.5/input/index 0
-/map.5/input/max 0.700000
+/map.5/input/max -0.700000
 /map.5/input/min -0.700000
 /map.5/input/threshold/active 0
 /map.5/input/threshold.down 0.000000
@@ -664,7 +664,7 @@
 /map.6/function/parameters.1 none
 /map.6/data/active 1
 /map.6/data/bypass 0
-/map.6/input /spectral.1/analyzer~/loudness
+/map.6/input none
 /map.6/input/going.down/action.1 none
 /map.6/input/going.down/action.2 none
 /map.6/input/going.down/action.3 none
@@ -672,7 +672,7 @@
 /map.6/input/going.up/action.2 none
 /map.6/input/going.up/action.3 none
 /map.6/input/index 0
-/map.6/input/max -12.000000
+/map.6/input/max 0.000000
 /map.6/input/min -50.000000
 /map.6/input/threshold/active 0
 /map.6/input/threshold.down 0.000000
@@ -684,7 +684,7 @@
 /map.6/output/going.up/action.1 none
 /map.6/output/going.up/action.2 none
 /map.6/output/going.up/action.3 none
-/map.6/output/max 8.000000
+/map.6/output/max 5.000000
 /map.6/output/min 0.000000
 /map.6/output/threshold/active 0
 /map.6/output/threshold.down 0.000000
@@ -1567,13 +1567,13 @@
 # 
 /paintbrush.1/brush 2
 /paintbrush.1/size 0.000000
-/paintbrush.1/x 0.483514
-/paintbrush.1/y 0.435359
+/paintbrush.1/x 0.627934
+/paintbrush.1/y 0.576939
 # 
 /paintbrush.2/brush 2
 /paintbrush.2/size 0.000000
-/paintbrush.2/x 0.634844
-/paintbrush.2/y 1.000000
+/paintbrush.2/x 0.810693
+/paintbrush.2/y 0.774380
 # 
 /paintbrush.6/brush 0
 /paintbrush.6/size 0.200000
@@ -1594,8 +1594,8 @@
 # 
 /percu.1/audio/mute 0
 # 
-/percu.1/send/buffer.1/gain 0.000000
-/percu.1/send/buffer.2/gain 1.000000
+/percu.1/send/buffer.1/gain 1.000000
+/percu.1/send/buffer.2/gain 0.000000
 /percu.1/send/buffer.3/gain 0.000000
 /percu.1/send/buffer.4/gain 0.000000
 /percu.1/send/buffer.5/gain 0.000000
@@ -1617,8 +1617,8 @@
 /percu.2/audio/mute 0
 # 
 /percu.2/send/buffer.1/gain 0.000000
-/percu.2/send/buffer.2/gain 0.000000
-/percu.2/send/buffer.3/gain 1.000000
+/percu.2/send/buffer.2/gain 1.000000
+/percu.2/send/buffer.3/gain 0.000000
 /percu.2/send/buffer.4/gain 0.000000
 /percu.2/send/buffer.5/gain 0.000000
 /percu.2/send/buffer.6/gain 0.000000
@@ -1640,8 +1640,8 @@
 # 
 /percu.3/send/buffer.1/gain 0.000000
 /percu.3/send/buffer.2/gain 0.000000
-/percu.3/send/buffer.3/gain 0.000000
-/percu.3/send/buffer.4/gain 1.000000
+/percu.3/send/buffer.3/gain 1.000000
+/percu.3/send/buffer.4/gain 0.000000
 /percu.3/send/buffer.5/gain 0.000000
 /percu.3/send/buffer.6/gain 0.000000
 /percu.3/send/buffer.7/gain 0.000000
@@ -1669,9 +1669,9 @@
 /solo.1/send/buffer.7/gain 0.000000
 /solo.1/send/buffer.8/gain 0.000000
 /solo.1/send/comb/gain -70.000000
-/solo.1/send/echo.1/gain 1.000000
-/solo.1/send/echo.2/gain 1.000000
-/solo.1/send/echo.3/gain 1.000000
+/solo.1/send/echo.1/gain 0.000000
+/solo.1/send/echo.2/gain 0.000000
+/solo.1/send/echo.3/gain 0.000000
 /solo.1/send/echo.4/gain 0.000000
 /solo.1/send/spectra.1/gain 0.000000
 /solo.1/send/spectra.2/gain 0.000000

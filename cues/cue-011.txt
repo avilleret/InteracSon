@@ -1,5 +1,5 @@
 - cue "cue-011"
-- description "Fin M1"
+- description "C5 Percu 123"
 # ###########################################
 # 
 # 
@@ -34,7 +34,7 @@
 /boids/buffer/speed/min 0.250000
 /boids/buffer/updaterate 20.000000
 # 
-/boids/echo/acceleration 2.000000
+/boids/echo/acceleration 0.300000
 /boids/echo/active 1
 /boids/echo/attractionpoint/attraction 4.560000
 /boids/echo/attractionpoint/x 0.000000
@@ -53,11 +53,11 @@
 /boids/echo/match 2.270000
 /boids/echo/neighbors/distance 2.550000
 /boids/echo/neighbors/see 4
-/boids/echo/number 9
+/boids/echo/number 5
 /boids/echo/repel 1.000000
-/boids/echo/speed 1.500000
+/boids/echo/speed 0.500000
 /boids/echo/speed/max 5.000000
-/boids/echo/speed/min 0.250000
+/boids/echo/speed/min 4.000000
 /boids/echo/updaterate 20.000000
 # 
 /boids/spectral/acceleration 2.000000
@@ -78,12 +78,12 @@
 /boids/spectral/inertia 6.000000
 /boids/spectral/match 2.270000
 /boids/spectral/neighbors/distance 2.550000
-/boids/spectral/neighbors/see 4
-/boids/spectral/number 9
+/boids/spectral/neighbors/see 2
+/boids/spectral/number 5
 /boids/spectral/repel 1.000000
-/boids/spectral/speed 1.500000
-/boids/spectral/speed/max 5.000000
-/boids/spectral/speed/min 0.250000
+/boids/spectral/speed 1.000000
+/boids/spectral/speed/max 3.000000
+/boids/spectral/speed/min 3.000000
 /boids/spectral/updaterate 20.000000
 # 
 /boids(view)/attractionpoint/x 0.000000
@@ -129,17 +129,17 @@
 /buffer.2/loop/max 59999.980469
 /buffer.2/loop/min 578.888916
 /buffer.2/play 0
-/buffer.2/rec 0
+/buffer.2/rec 1
 # 
-/buffer.2/send/echo.1/gain 1.000000
-/buffer.2/send/echo.2/gain 1.000000
+/buffer.2/send/echo.1/gain 0.000000
+/buffer.2/send/echo.2/gain 0.000000
 /buffer.2/send/echo.3/gain 0.000000
 /buffer.2/send/echo.4/gain 0.000000
-/buffer.2/send/spectra.1/gain 1.000000
-/buffer.2/send/spectra.2/gain 1.000000
+/buffer.2/send/spectra.1/gain 0.000000
+/buffer.2/send/spectra.2/gain 0.000000
 /buffer.2/send/spectra.3/gain 0.000000
 /buffer.2/send/spectra.4/gain 0.000000
-/buffer.2/speed 1
+/buffer.2/speed 1.000000
 # 
 /buffer.3/clear 1.000000
 /buffer.3/file/path none
@@ -148,7 +148,7 @@
 /buffer.3/loop/max 4684.444824
 /buffer.3/loop/min 1841.859497
 /buffer.3/play 0
-/buffer.3/rec 0
+/buffer.3/rec 1
 # 
 /buffer.3/send/echo.1/gain 0.000000
 /buffer.3/send/echo.2/gain 0.000000
@@ -179,7 +179,7 @@
 /buffer.4/send/spectra.4/gain 0.000000
 /buffer.4/speed 1.000000
 # 
-/buffer.5/clear 1
+/buffer.5/clear 0.000000
 /buffer.5/file/path none
 /buffer.5/gain -70.000000
 /buffer.5/granu 0.000000
@@ -217,7 +217,7 @@
 /buffer.6/send/spectra.4/gain 0.000000
 /buffer.6/speed 1.000000
 # 
-/buffer.7/clear 1
+/buffer.7/clear 0.000000
 /buffer.7/file/path none
 /buffer.7/gain -70.000000
 /buffer.7/granu 0.000000
@@ -371,11 +371,11 @@
 /echo/analyzer~.4/send/spectra.4/gain 0.000000
 /echo/analyzer~.4/threshold 10.000000
 /echo/analyzer~.4/time 100.000000
-/echo/delay.1 3608.858643
-/echo/delay.2 750.000000
-/echo/delay.3 414.000000
-/echo/delay.4 1000.000000
-/echo/feedback/gain -14.330694
+/echo/delay.1 250.000000
+/echo/delay.2 450.000000
+/echo/delay.3 340.000000
+/echo/delay.4 500.000000
+/echo/feedback/gain -20.000000
 /echo/feedback/mode stereo
 # 
 /echo/filter.1/type lowpass
@@ -387,7 +387,7 @@
 /echo/filter.2/frequency 9407.900391
 /echo/filter.2/gain 0.000000
 /echo/filter.2/octave_bandwidth 1.764369
-/echo/gain 0.000000
+/echo/gain -70.000000
 # 
 /echo/limiter.1/active 0
 /echo/limiter.1/dcblocker/active 0
@@ -407,12 +407,12 @@
 /echo/limiter.2/release 0.000000
 /echo/limiter.2/threshold 0.000000
 # 
-/echo/send/spectra.1/gain 1.000000
-/echo/send/spectra.2/gain 1.000000
-/echo/send/spectra.3/gain 1.000000
-/echo/send/spectra.4/gain 1.000000
+/echo/send/spectra.1/gain 0.000000
+/echo/send/spectra.2/gain 0.000000
+/echo/send/spectra.3/gain 0.000000
+/echo/send/spectra.4/gain 0.000000
 # 
-/granu.1/buffer/name buffer.4-buf
+/granu.1/buffer/name buffer.3-buf
 /granu.1/duration/high 4000.000000
 /granu.1/duration/low 1000.000000
 /granu.1/enable 1
@@ -495,13 +495,13 @@
 /groupe.3/threshold 10.000000
 /groupe.3/time 100.000000
 # 
-/lfo.1/lfo 0.376000
+/lfo.1/lfo 0.144000
 /lfo.1/rate 5000.000000
 /lfo.1/active 1
 # 
 # 
 # 
-/lfo.2/lfo 0.040000
+/lfo.2/lfo 0.700000
 /lfo.2/rate 1000.000000
 /lfo.2/active 1
 # 
@@ -1595,7 +1595,7 @@
 /percu.1/audio/mute 0
 # 
 /percu.1/send/buffer.1/gain 0.000000
-/percu.1/send/buffer.2/gain 0.000000
+/percu.1/send/buffer.2/gain 1.000000
 /percu.1/send/buffer.3/gain 0.000000
 /percu.1/send/buffer.4/gain 0.000000
 /percu.1/send/buffer.5/gain 0.000000
@@ -1618,7 +1618,7 @@
 # 
 /percu.2/send/buffer.1/gain 0.000000
 /percu.2/send/buffer.2/gain 0.000000
-/percu.2/send/buffer.3/gain 0.000000
+/percu.2/send/buffer.3/gain 1.000000
 /percu.2/send/buffer.4/gain 0.000000
 /percu.2/send/buffer.5/gain 0.000000
 /percu.2/send/buffer.6/gain 0.000000
@@ -1641,7 +1641,7 @@
 /percu.3/send/buffer.1/gain 0.000000
 /percu.3/send/buffer.2/gain 0.000000
 /percu.3/send/buffer.3/gain 0.000000
-/percu.3/send/buffer.4/gain 0.000000
+/percu.3/send/buffer.4/gain 1.000000
 /percu.3/send/buffer.5/gain 0.000000
 /percu.3/send/buffer.6/gain 0.000000
 /percu.3/send/buffer.7/gain 0.000000
@@ -1707,7 +1707,7 @@
 /solo.3/send/buffer.1/gain 0.000000
 /solo.3/send/buffer.2/gain 0.000000
 /solo.3/send/buffer.3/gain 0.000000
-/solo.3/send/buffer.4/gain 1.000000
+/solo.3/send/buffer.4/gain 0.000000
 /solo.3/send/buffer.5/gain 0.000000
 /solo.3/send/buffer.6/gain 0.000000
 /solo.3/send/buffer.7/gain 0.000000
@@ -1715,8 +1715,8 @@
 /solo.3/send/comb/gain -70.000000
 /solo.3/send/echo.1/gain 0.000000
 /solo.3/send/echo.2/gain 0.000000
-/solo.3/send/echo.3/gain 1.000000
-/solo.3/send/echo.4/gain 1.000000
+/solo.3/send/echo.3/gain 0.000000
+/solo.3/send/echo.4/gain 0.000000
 /solo.3/send/spectra.1/gain 0.000000
 /solo.3/send/spectra.2/gain 0.000000
 /solo.3/send/spectra.3/gain 0.000000
