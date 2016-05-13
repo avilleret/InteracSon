@@ -131,12 +131,12 @@
 /buffer.2/play 1
 /buffer.2/rec 1
 # 
-/buffer.2/send/echo.1/gain 1.000000
-/buffer.2/send/echo.2/gain 1.000000
+/buffer.2/send/echo.1/gain 1.000000 ramp 7000
+/buffer.2/send/echo.2/gain 1.000000 ramp 7000
 /buffer.2/send/echo.3/gain 0.000000
 /buffer.2/send/echo.4/gain 0.000000
-/buffer.2/send/spectra.1/gain 1.000000
-/buffer.2/send/spectra.2/gain 1.000000
+/buffer.2/send/spectra.1/gain 1.000000 ramp 7000
+/buffer.2/send/spectra.2/gain 1.000000 ramp 7000
 /buffer.2/send/spectra.3/gain 0.000000
 /buffer.2/send/spectra.4/gain 0.000000
 /buffer.2/speed 0.500000
@@ -375,7 +375,7 @@
 /echo/delay.2 750.000000
 /echo/delay.3 1000.000000
 /echo/delay.4 1000.000000
-/echo/feedback/gain -10.472441
+/echo/feedback/gain -10.472441 ramp 7000
 /echo/feedback/mode stereo
 # 
 /echo/filter.1/type lowpass
@@ -387,7 +387,7 @@
 /echo/filter.2/frequency 9407.900391
 /echo/filter.2/gain 0.000000
 /echo/filter.2/octave_bandwidth 1.764369
-/echo/gain -6.997592
+/echo/gain -6.997592 ramp 7000
 # 
 /echo/limiter.1/active 0
 /echo/limiter.1/dcblocker/active 0
