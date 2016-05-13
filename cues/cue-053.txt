@@ -1,5 +1,5 @@
 - cue "cue-053"
-- description "C19 G2"
+- description "C19 G2 + M6"
 # ###########################################
 # 
 # 
@@ -548,8 +548,8 @@
 /map.2/input/going.up/action.2 none
 /map.2/input/going.up/action.3 none
 /map.2/input/index 0
-/map.2/input/max 1.000000
-/map.2/input/min -1.000000
+/map.2/input/max 0.700000
+/map.2/input/min -0.700000
 /map.2/input/threshold/active 0
 /map.2/input/threshold.down 0.000000
 /map.2/input/threshold.up 1.000000
@@ -571,7 +571,7 @@
 /map.3/function/parameters.1 none
 /map.3/data/active 1
 /map.3/data/bypass 0
-/map.3/input none
+/map.3/input /solo.1/loudness
 /map.3/input/going.down/action.1 none
 /map.3/input/going.down/action.2 none
 /map.3/input/going.down/action.3 none
@@ -580,7 +580,7 @@
 /map.3/input/going.up/action.3 none
 /map.3/input/index 0
 /map.3/input/max 0.000000
-/map.3/input/min -30.000000
+/map.3/input/min -50.000000
 /map.3/input/threshold/active 0
 /map.3/input/threshold.down 0.000000
 /map.3/input/threshold.up 1.000000
@@ -591,7 +591,7 @@
 /map.3/output/going.up/action.1 none
 /map.3/output/going.up/action.2 none
 /map.3/output/going.up/action.3 none
-/map.3/output/max 20.000000
+/map.3/output/max 12.000000
 /map.3/output/min 0.000000
 /map.3/output/threshold/active 0
 /map.3/output/threshold.down 0.000000
@@ -1565,10 +1565,10 @@
 # 
 # 
 # 
-/paintbrush.1/brush 2
-/paintbrush.1/size 6.855351
-/paintbrush.1/x 0.725083
-/paintbrush.1/y 0.166090
+/paintbrush.1/brush 6
+/paintbrush.1/size 0.000000
+/paintbrush.1/x 0.500000
+/paintbrush.1/y 0.500000
 # 
 /paintbrush.2/brush 5
 /paintbrush.2/size 0.000000
