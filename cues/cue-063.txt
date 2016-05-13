@@ -1,5 +1,5 @@
 - cue "cue-063"
-- description "CT23 - S2"
+- description "CT23 - S2 + M8"
 # ###########################################
 # 
 # 
@@ -495,13 +495,13 @@
 /groupe.3/threshold 10.000000
 /groupe.3/time 100.000000
 # 
-/lfo.1/lfo 0.572000
+/lfo.1/lfo 0.904000
 /lfo.1/rate 5000.000000
 /lfo.1/active 1
 # 
 # 
 # 
-/lfo.2/lfo 0.980000
+/lfo.2/lfo 0.500000
 /lfo.2/rate 1000.000000
 /lfo.2/active 1
 # 
@@ -610,7 +610,7 @@
 /map.4/input/going.up/action.2 none
 /map.4/input/going.up/action.3 none
 /map.4/input/index 0
-/map.4/input/max 0.700000
+/map.4/input/max -0.700000
 /map.4/input/min -0.700000
 /map.4/input/threshold/active 0
 /map.4/input/threshold.down 0.000000
@@ -641,7 +641,7 @@
 /map.5/input/going.up/action.2 none
 /map.5/input/going.up/action.3 none
 /map.5/input/index 0
-/map.5/input/max 0.700000
+/map.5/input/max -0.700000
 /map.5/input/min -0.700000
 /map.5/input/threshold/active 0
 /map.5/input/threshold.down 0.000000
@@ -664,7 +664,7 @@
 /map.6/function/parameters.1 none
 /map.6/data/active 1
 /map.6/data/bypass 0
-/map.6/input none
+/map.6/input /solo.2/loudness
 /map.6/input/going.down/action.1 none
 /map.6/input/going.down/action.2 none
 /map.6/input/going.down/action.3 none
@@ -1570,10 +1570,10 @@
 /paintbrush.1/x 0.576263
 /paintbrush.1/y 0.310428
 # 
-/paintbrush.2/brush 5
+/paintbrush.2/brush 8
 /paintbrush.2/size 0.000000
-/paintbrush.2/x 0.871403
-/paintbrush.2/y 0.194666
+/paintbrush.2/x 0.269053
+/paintbrush.2/y 0.759596
 # 
 /paintbrush.6/brush 0
 /paintbrush.6/size 0.200000

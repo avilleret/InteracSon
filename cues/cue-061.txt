@@ -1,5 +1,5 @@
 - cue "cue-061"
-- description "CT22 - S1"
+- description "CT22 - S1 + M7"
 # ###########################################
 # 
 # 
@@ -495,13 +495,13 @@
 /groupe.3/threshold 10.000000
 /groupe.3/time 100.000000
 # 
-/lfo.1/lfo 0.692000
+/lfo.1/lfo 0.968000
 /lfo.1/rate 5000.000000
 /lfo.1/active 1
 # 
 # 
 # 
-/lfo.2/lfo 0.500000
+/lfo.2/lfo 0.800000
 /lfo.2/rate 1000.000000
 /lfo.2/active 1
 # 
@@ -571,7 +571,7 @@
 /map.3/function/parameters.1 none
 /map.3/data/active 1
 /map.3/data/bypass 0
-/map.3/input none
+/map.3/input /solo.1/loudness
 /map.3/input/going.down/action.1 none
 /map.3/input/going.down/action.2 none
 /map.3/input/going.down/action.3 none
@@ -1565,10 +1565,10 @@
 # 
 # 
 # 
-/paintbrush.1/brush 6
+/paintbrush.1/brush 7
 /paintbrush.1/size 0.000000
-/paintbrush.1/x 0.725083
-/paintbrush.1/y 0.166090
+/paintbrush.1/x 0.576263
+/paintbrush.1/y 0.310428
 # 
 /paintbrush.2/brush 5
 /paintbrush.2/size 0.000000
@@ -1669,7 +1669,7 @@
 /solo.1/send/buffer.7/gain 0.000000
 /solo.1/send/buffer.8/gain 0.000000
 /solo.1/send/comb/gain -70.000000
-/solo.1/send/echo.1/gain 0.285098
+/solo.1/send/echo.1/gain 1.000000
 /solo.1/send/echo.2/gain 0.000000
 /solo.1/send/echo.3/gain 0.000000
 /solo.1/send/echo.4/gain 0.000000
@@ -1692,7 +1692,7 @@
 /solo.2/send/buffer.8/gain 0.000000
 /solo.2/send/comb/gain -70.000000
 /solo.2/send/echo.1/gain 0.000000
-/solo.2/send/echo.2/gain 0.000000
+/solo.2/send/echo.2/gain 1.000000
 /solo.2/send/echo.3/gain 0.000000
 /solo.2/send/echo.4/gain 0.000000
 /solo.2/send/spectra.1/gain 0.000000
@@ -1715,7 +1715,7 @@
 /solo.3/send/comb/gain -70.000000
 /solo.3/send/echo.1/gain 0.000000
 /solo.3/send/echo.2/gain 0.000000
-/solo.3/send/echo.3/gain 0.000000
+/solo.3/send/echo.3/gain 1.000000
 /solo.3/send/echo.4/gain 0.000000
 /solo.3/send/spectra.1/gain 0.000000
 /solo.3/send/spectra.2/gain 0.000000
