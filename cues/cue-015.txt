@@ -495,13 +495,13 @@
 /groupe.3/threshold 10.000000
 /groupe.3/time 100.000000
 # 
-/lfo.1/lfo 0.764000
+/lfo.1/lfo 0.792000
 /lfo.1/rate 5000.000000
 /lfo.1/active 1
 # 
 # 
 # 
-/lfo.2/lfo 0.760000
+/lfo.2/lfo 0.960000
 /lfo.2/rate 1000.000000
 /lfo.2/active 1
 # 
@@ -509,7 +509,7 @@
 /map.1/function/parameters.1 none
 /map.1/data/active 1
 /map.1/data/bypass 0
-/map.1/input none
+/map.1/input /boids/spectral/position.1/x
 /map.1/input/going.down/action.1 none
 /map.1/input/going.down/action.2 none
 /map.1/input/going.down/action.3 none
@@ -517,8 +517,8 @@
 /map.1/input/going.up/action.2 none
 /map.1/input/going.up/action.3 none
 /map.1/input/index 0
-/map.1/input/max 0.700000
-/map.1/input/min -0.700000
+/map.1/input/max 1.000000
+/map.1/input/min 0.000000
 /map.1/input/threshold/active 0
 /map.1/input/threshold.down 0.000000
 /map.1/input/threshold.up 1.000000
@@ -540,7 +540,7 @@
 /map.2/function/parameters.1 none
 /map.2/data/active 1
 /map.2/data/bypass 0
-/map.2/input none
+/map.2/input /boids/spectral/position.1/y
 /map.2/input/going.down/action.1 none
 /map.2/input/going.down/action.2 none
 /map.2/input/going.down/action.3 none
@@ -548,8 +548,8 @@
 /map.2/input/going.up/action.2 none
 /map.2/input/going.up/action.3 none
 /map.2/input/index 0
-/map.2/input/max 1.000000
-/map.2/input/min -1.000000
+/map.2/input/max 0.700000
+/map.2/input/min -0.700000
 /map.2/input/threshold/active 0
 /map.2/input/threshold.down 0.000000
 /map.2/input/threshold.up 1.000000
@@ -560,8 +560,8 @@
 /map.2/output/going.up/action.1 none
 /map.2/output/going.up/action.2 none
 /map.2/output/going.up/action.3 none
-/map.2/output/max 1.000000
-/map.2/output/min 0.000000
+/map.2/output/max 0.700000
+/map.2/output/min 0.200000
 /map.2/output/threshold/active 0
 /map.2/output/threshold.down 0.000000
 /map.2/output/threshold.up 1.000000
@@ -571,7 +571,7 @@
 /map.3/function/parameters.1 none
 /map.3/data/active 1
 /map.3/data/bypass 0
-/map.3/input none
+/map.3/input /solo.1/loudness
 /map.3/input/going.down/action.1 none
 /map.3/input/going.down/action.2 none
 /map.3/input/going.down/action.3 none
@@ -579,7 +579,7 @@
 /map.3/input/going.up/action.2 none
 /map.3/input/going.up/action.3 none
 /map.3/input/index 0
-/map.3/input/max 0.000000
+/map.3/input/max -10.000000
 /map.3/input/min -50.000000
 /map.3/input/threshold/active 0
 /map.3/input/threshold.down 0.000000
@@ -591,7 +591,7 @@
 /map.3/output/going.up/action.1 none
 /map.3/output/going.up/action.2 none
 /map.3/output/going.up/action.3 none
-/map.3/output/max 5.000000
+/map.3/output/max 8.000000
 /map.3/output/min 0.000000
 /map.3/output/threshold/active 0
 /map.3/output/threshold.down 0.000000
@@ -602,7 +602,7 @@
 /map.4/function/parameters.1 none
 /map.4/data/active 1
 /map.4/data/bypass 0
-/map.4/input none
+/map.4/input /boids/spectral/position.3/x
 /map.4/input/going.down/action.1 none
 /map.4/input/going.down/action.2 none
 /map.4/input/going.down/action.3 none
@@ -610,7 +610,7 @@
 /map.4/input/going.up/action.2 none
 /map.4/input/going.up/action.3 none
 /map.4/input/index 0
-/map.4/input/max -0.700000
+/map.4/input/max 0.700000
 /map.4/input/min -0.700000
 /map.4/input/threshold/active 0
 /map.4/input/threshold.down 0.000000
@@ -633,7 +633,7 @@
 /map.5/function/parameters.1 none
 /map.5/data/active 1
 /map.5/data/bypass 0
-/map.5/input none
+/map.5/input /boids/spectral/position.3/y
 /map.5/input/going.down/action.1 none
 /map.5/input/going.down/action.2 none
 /map.5/input/going.down/action.3 none
@@ -641,7 +641,7 @@
 /map.5/input/going.up/action.2 none
 /map.5/input/going.up/action.3 none
 /map.5/input/index 0
-/map.5/input/max -0.700000
+/map.5/input/max 0.700000
 /map.5/input/min -0.700000
 /map.5/input/threshold/active 0
 /map.5/input/threshold.down 0.000000
@@ -664,7 +664,7 @@
 /map.6/function/parameters.1 none
 /map.6/data/active 1
 /map.6/data/bypass 0
-/map.6/input none
+/map.6/input /spectral.1/analyzer~/loudness
 /map.6/input/going.down/action.1 none
 /map.6/input/going.down/action.2 none
 /map.6/input/going.down/action.3 none
@@ -672,7 +672,7 @@
 /map.6/input/going.up/action.2 none
 /map.6/input/going.up/action.3 none
 /map.6/input/index 0
-/map.6/input/max 0.000000
+/map.6/input/max -12.000000
 /map.6/input/min -50.000000
 /map.6/input/threshold/active 0
 /map.6/input/threshold.down 0.000000
@@ -684,7 +684,7 @@
 /map.6/output/going.up/action.1 none
 /map.6/output/going.up/action.2 none
 /map.6/output/going.up/action.3 none
-/map.6/output/max 5.000000
+/map.6/output/max 8.000000
 /map.6/output/min 0.000000
 /map.6/output/threshold/active 0
 /map.6/output/threshold.down 0.000000
@@ -1565,15 +1565,15 @@
 # 
 # 
 # 
-/paintbrush.1/brush 1
-/paintbrush.1/size 0.200000
-/paintbrush.1/x 0.824000
-/paintbrush.1/y 0.000000
+/paintbrush.1/brush 2
+/paintbrush.1/size 0.000000
+/paintbrush.1/x 0.483514
+/paintbrush.1/y 0.435359
 # 
-/paintbrush.2/brush 1
-/paintbrush.2/size 0.200000
-/paintbrush.2/x 0.000000
-/paintbrush.2/y 0.000000
+/paintbrush.2/brush 2
+/paintbrush.2/size 0.000000
+/paintbrush.2/x 0.634844
+/paintbrush.2/y 1.000000
 # 
 /paintbrush.6/brush 0
 /paintbrush.6/size 0.200000
