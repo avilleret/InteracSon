@@ -135,7 +135,7 @@
 /buffer.2/send/echo.2/gain 0.000000
 /buffer.2/send/echo.3/gain 0.000000
 /buffer.2/send/echo.4/gain 0.000000
-/buffer.2/send/spectra.1/gain 1.000000
+/buffer.2/send/spectra.1/gain 1.000000 ramp 1000
 /buffer.2/send/spectra.2/gain 0.000000
 /buffer.2/send/spectra.3/gain 0.000000
 /buffer.2/send/spectra.4/gain 0.000000
@@ -155,7 +155,7 @@
 /buffer.3/send/echo.3/gain 0.000000
 /buffer.3/send/echo.4/gain 0.000000
 /buffer.3/send/spectra.1/gain 0.000000
-/buffer.3/send/spectra.2/gain 1.000000
+/buffer.3/send/spectra.2/gain 1.000000 ramp 1000
 /buffer.3/send/spectra.3/gain 0.000000
 /buffer.3/send/spectra.4/gain 0.000000
 /buffer.3/speed 1.000000
@@ -175,7 +175,7 @@
 /buffer.4/send/echo.4/gain 0.000000
 /buffer.4/send/spectra.1/gain 0.000000
 /buffer.4/send/spectra.2/gain 0.000000
-/buffer.4/send/spectra.3/gain 1.000000
+/buffer.4/send/spectra.3/gain 1.000000 ramp 1000
 /buffer.4/send/spectra.4/gain 0.000000
 /buffer.4/speed 1.000000
 # 
