@@ -375,7 +375,7 @@
 /echo/delay.2 750.000000
 /echo/delay.3 1000.000000
 /echo/delay.4 1000.000000
-/echo/feedback/gain -14.330694
+/echo/feedback/gain -14.330694 ramp 4000
 /echo/feedback/mode stereo
 # 
 /echo/filter.1/type lowpass
@@ -387,7 +387,7 @@
 /echo/filter.2/frequency 9407.900391
 /echo/filter.2/gain 0.000000
 /echo/filter.2/octave_bandwidth 1.764369
-/echo/gain -70.000000
+/echo/gain -6.99759
 # 
 /echo/limiter.1/active 0
 /echo/limiter.1/dcblocker/active 0
@@ -1647,7 +1647,7 @@
 /percu.3/send/buffer.7/gain 0.000000
 /percu.3/send/buffer.8/gain 0.000000
 /percu.3/send/comb/gain -70.000000
-/percu.3/send/echo.1/gain 1.000000
+/percu.3/send/echo.1/gain 1.000000 ramp 3000
 /percu.3/send/echo.2/gain 0.000000
 /percu.3/send/echo.3/gain 0.000000
 /percu.3/send/echo.4/gain 0.000000
