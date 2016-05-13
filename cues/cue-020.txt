@@ -179,12 +179,12 @@
 /buffer.4/send/spectra.4/gain 0.000000
 /buffer.4/speed 1.000000
 # 
-/buffer.5/clear 0.000000
+/buffer.5/clear 0
 /buffer.5/file/path none
 /buffer.5/gain -70.000000
 /buffer.5/granu 0.000000
-/buffer.5/loop/max 54684.378906
-/buffer.5/loop/min 1525.147461
+/buffer.5/loop/max 28053.900391
+/buffer.5/loop/min 0.000000
 /buffer.5/play 0
 /buffer.5/rec 0
 # 
