@@ -371,22 +371,22 @@
 /echo/analyzer~.4/send/spectra.4/gain 0.000000
 /echo/analyzer~.4/threshold 10.000000
 /echo/analyzer~.4/time 100.000000
-/echo/delay.1 250.000000
-/echo/delay.2 450.000000
-/echo/delay.3 340.000000
-/echo/delay.4 500.000000
-/echo/feedback/gain -20.000000
+/echo/delay.1 399.606293
+/echo/delay.2 837.197571
+/echo/delay.3 1000.000000
+/echo/delay.4 1000.000000
+/echo/feedback/gain -16.535433
 /echo/feedback/mode stereo
 # 
 /echo/filter.1/type lowpass
-/echo/filter.1/frequency 4424.862793
+/echo/filter.1/frequency 9407.900391
 /echo/filter.1/gain 0.000000
-/echo/filter.1/octave_bandwidth 1.899969
+/echo/filter.1/octave_bandwidth 1.764369
 # 
 /echo/filter.2/type lowpass
-/echo/filter.2/frequency 4424.862793
+/echo/filter.2/frequency 9407.900391
 /echo/filter.2/gain 0.000000
-/echo/filter.2/octave_bandwidth 1.899969
+/echo/filter.2/octave_bandwidth 1.764369
 /echo/gain -70.000000
 # 
 /echo/limiter.1/active 0
@@ -413,14 +413,14 @@
 /echo/send/spectra.4/gain 0.000000
 # 
 /granu.1/buffer/name buffer.1-buf
-/granu.1/duration/high 3999.000000
-/granu.1/duration/low 1725.000000
-/granu.1/enable 0
+/granu.1/duration/high 4000.000000
+/granu.1/duration/low 1000.000000
+/granu.1/enable 1
 /granu.1/gain -1.102362
 /granu.1/location/high 750.000000
 /granu.1/location/low 250.000000
 /granu.1/metro 450
-/granu.1/panoramic/high 110
+/granu.1/panoramic/high 25
 /granu.1/panoramic/low 0
 /granu.1/play 0.000000
 /granu.1/polyphony 32
@@ -495,13 +495,13 @@
 /groupe.3/threshold 10.000000
 /groupe.3/time 100.000000
 # 
-/lfo.1/lfo 0.140000
+/lfo.1/lfo 0.260000
 /lfo.1/rate 1000.000000
 /lfo.1/active 1
 # 
 # 
 # 
-/lfo.2/lfo 0.140000
+/lfo.2/lfo 0.260000
 /lfo.2/rate 1000.000000
 /lfo.2/active 1
 # 
@@ -1746,11 +1746,11 @@
 /spectral.1/analyzer~/send/spectra.4/gain 0.000000
 /spectral.1/analyzer~/threshold 10.000000
 /spectral.1/analyzer~/time 100.000000
-/spectral.1/feedback/gain -60.000000
+/spectral.1/feedback/gain -6.472428
 /spectral.1/feedback/time 10.000000
-/spectral.1/frequency/scale -2.260000
-/spectral.1/frequency/shift -344.000000
-/spectral.1/gain -70.000000
+/spectral.1/frequency/scale -48.000000
+/spectral.1/frequency/shift 0.000000
+/spectral.1/gain 0.000000
 # 
 /spectral.1/limiter/active 0
 /spectral.1/limiter/dcblocker/active 1
@@ -1788,11 +1788,11 @@
 /spectral.2/analyzer~/send/spectra.4/gain 0.000000
 /spectral.2/analyzer~/threshold 10.000000
 /spectral.2/analyzer~/time 100.000000
-/spectral.2/feedback/gain -60.000000
+/spectral.2/feedback/gain -2.834646
 /spectral.2/feedback/time 10.000000
-/spectral.2/frequency/scale -2.260000
-/spectral.2/frequency/shift -344.000000
-/spectral.2/gain -70.000000
+/spectral.2/frequency/scale -24.000000
+/spectral.2/frequency/shift 0.000000
+/spectral.2/gain -0.551181
 # 
 /spectral.2/limiter/active 0
 /spectral.2/limiter/dcblocker/active 1
@@ -1831,10 +1831,10 @@
 /spectral.3/analyzer~/threshold 10.000000
 /spectral.3/analyzer~/time 100.000000
 /spectral.3/feedback/gain -60.000000
-/spectral.3/feedback/time 10.000000
-/spectral.3/frequency/scale -2.260000
-/spectral.3/frequency/shift -344.000000
-/spectral.3/gain -70.000000
+/spectral.3/feedback/time 99.763786
+/spectral.3/frequency/scale -9.000000
+/spectral.3/frequency/shift 0.000000
+/spectral.3/gain 0.000000
 # 
 /spectral.3/limiter/active 0
 /spectral.3/limiter/dcblocker/active 1
@@ -1874,9 +1874,9 @@
 /spectral.4/analyzer~/time 100.000000
 /spectral.4/feedback/gain -60.000000
 /spectral.4/feedback/time 10.000000
-/spectral.4/frequency/scale -2.260000
-/spectral.4/frequency/shift -344.000000
-/spectral.4/gain -70.000000
+/spectral.4/frequency/scale -12.000000
+/spectral.4/frequency/shift 0.000000
+/spectral.4/gain 0.000000
 # 
 /spectral.4/limiter/active 0
 /spectral.4/limiter/dcblocker/active 1

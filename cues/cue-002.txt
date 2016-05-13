@@ -112,12 +112,12 @@
 /buffer.1/play 0
 /buffer.1/rec 1
 # 
-/buffer.1/send/echo.1/gain 1.000000
-/buffer.1/send/echo.2/gain 1.000000
-/buffer.1/send/echo.3/gain 1.000000
+/buffer.1/send/echo.1/gain 1.000000 ramp 10000
+/buffer.1/send/echo.2/gain 1.000000 ramp 10000
+/buffer.1/send/echo.3/gain 1.000000 ramp 10000
 /buffer.1/send/echo.4/gain 0.000000
-/buffer.1/send/spectra.1/gain 0.952275
-/buffer.1/send/spectra.2/gain 1.000000
+/buffer.1/send/spectra.1/gain 1.000000 ramp 10000
+/buffer.1/send/spectra.2/gain 1.000000 ramp 10000
 /buffer.1/send/spectra.3/gain 0.000000
 /buffer.1/send/spectra.4/gain 0.000000
 /buffer.1/speed 1.000000
@@ -409,8 +409,8 @@
 # 
 /echo/send/spectra.1/gain 0.000000
 /echo/send/spectra.2/gain 0.000000
-/echo/send/spectra.3/gain 1.000000
-/echo/send/spectra.4/gain 1.000000
+/echo/send/spectra.3/gain 1.000000 ramp 10000
+/echo/send/spectra.4/gain 1.000000 ramp 10000
 # 
 /granu.1/buffer/name buffer.1-buf
 /granu.1/duration/high 4000.000000
@@ -420,13 +420,13 @@
 /granu.1/location/high 750.000000
 /granu.1/location/low 250.000000
 /granu.1/metro 450
-/granu.1/panoramic/high 110
+/granu.1/panoramic/high 110 ramp 10000
 /granu.1/panoramic/low 0
 /granu.1/play 0.000000
 /granu.1/polyphony 32
 /granu.1/speed 1.000000
 /granu.1/transposition/high 64
-/granu.1/transposition/low 9
+/granu.1/transposition/low 9 ramp 10000
 /granu.1/window none
 # 
 /groupe.1/audio/mute 0
