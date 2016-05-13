@@ -372,10 +372,10 @@
 /echo/analyzer~.4/threshold 10.000000
 /echo/analyzer~.4/time 100.000000
 /echo/delay.1 399.606293
-/echo/delay.2 837.197571
+/echo/delay.2 750.000000 ramp 10000
 /echo/delay.3 1000.000000
 /echo/delay.4 1000.000000
-/echo/feedback/gain -16.535433
+/echo/feedback/gain -70.000000 ramp 10000
 /echo/feedback/mode stereo
 # 
 /echo/filter.1/type lowpass
