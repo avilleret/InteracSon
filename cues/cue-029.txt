@@ -1,5 +1,5 @@
 - cue "cue-029"
-- description "C11 - S2"
+- description "C11 - S2 + M3"
 # ###########################################
 # 
 # 
@@ -495,13 +495,13 @@
 /groupe.3/threshold 10.000000
 /groupe.3/time 100.000000
 # 
-/lfo.1/lfo 0.968000
+/lfo.1/lfo 0.260000
 /lfo.1/rate 5000.000000
 /lfo.1/active 1
 # 
 # 
 # 
-/lfo.2/lfo 0.500000
+/lfo.2/lfo 0.300000
 /lfo.2/rate 1000.000000
 /lfo.2/active 1
 # 
@@ -548,8 +548,8 @@
 /map.2/input/going.up/action.2 none
 /map.2/input/going.up/action.3 none
 /map.2/input/index 0
-/map.2/input/max 1.000000
-/map.2/input/min -1.000000
+/map.2/input/max 0.700000
+/map.2/input/min -0.700000
 /map.2/input/threshold/active 0
 /map.2/input/threshold.down 0.000000
 /map.2/input/threshold.up 1.000000
@@ -571,7 +571,7 @@
 /map.3/function/parameters.1 none
 /map.3/data/active 1
 /map.3/data/bypass 0
-/map.3/input none
+/map.3/input /solo.2/loudness
 /map.3/input/going.down/action.1 none
 /map.3/input/going.down/action.2 none
 /map.3/input/going.down/action.3 none
@@ -580,7 +580,7 @@
 /map.3/input/going.up/action.3 none
 /map.3/input/index 0
 /map.3/input/max 0.000000
-/map.3/input/min -30.000000
+/map.3/input/min -50.000000
 /map.3/input/threshold/active 0
 /map.3/input/threshold.down 0.000000
 /map.3/input/threshold.up 1.000000
@@ -591,7 +591,7 @@
 /map.3/output/going.up/action.1 none
 /map.3/output/going.up/action.2 none
 /map.3/output/going.up/action.3 none
-/map.3/output/max 20.000000
+/map.3/output/max 4.000000
 /map.3/output/min 0.000000
 /map.3/output/threshold/active 0
 /map.3/output/threshold.down 0.000000
@@ -664,7 +664,7 @@
 /map.6/function/parameters.1 none
 /map.6/data/active 1
 /map.6/data/bypass 0
-/map.6/input none
+/map.6/input /echo/analyzer~.1/loudness
 /map.6/input/going.down/action.1 none
 /map.6/input/going.down/action.2 none
 /map.6/input/going.down/action.3 none
@@ -684,7 +684,7 @@
 /map.6/output/going.up/action.1 none
 /map.6/output/going.up/action.2 none
 /map.6/output/going.up/action.3 none
-/map.6/output/max 5.000000
+/map.6/output/max 3.000000
 /map.6/output/min 0.000000
 /map.6/output/threshold/active 0
 /map.6/output/threshold.down 0.000000
@@ -1538,20 +1538,20 @@
 # 
 # 
 # 
-/paintbrush.3/brush 1
-/paintbrush.3/size 0.200000
+/paintbrush.3/brush 3
+/paintbrush.3/size 0.000000
 /paintbrush.3/x 0.500000
 /paintbrush.3/y 0.500000
 # 
-/paintbrush.4/brush 0
-/paintbrush.4/size 0.200000
+/paintbrush.4/brush 3
+/paintbrush.4/size 0.000000
 /paintbrush.4/x 0.000000
 /paintbrush.4/y 0.000000
 # 
-/paintbrush.5/brush 0
-/paintbrush.5/size 0.200000
-/paintbrush.5/x 0.000000
-/paintbrush.5/y 0.000000
+/paintbrush.5/brush 3
+/paintbrush.5/size 0.000000
+/paintbrush.5/x 0.055858
+/paintbrush.5/y 0.142391
 # 
 /paintbrush.9/brush 0
 /paintbrush.9/size 0.200000
@@ -1565,12 +1565,12 @@
 # 
 # 
 # 
-/paintbrush.1/brush 2
+/paintbrush.1/brush 3
 /paintbrush.1/size 0.000000
 /paintbrush.1/x 0.500000
 /paintbrush.1/y 0.500000
 # 
-/paintbrush.2/brush 2
+/paintbrush.2/brush 3
 /paintbrush.2/size 0.000000
 /paintbrush.2/x 0.700000
 /paintbrush.2/y 0.700000
