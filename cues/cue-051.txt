@@ -1231,7 +1231,7 @@
 /map.24/input/going.up/action.3 none
 /map.24/input/index 0
 /map.24/input/max 0.000000
-/map.24/input/min -30.000000
+/map.24/input/min -50.000000
 /map.24/input/threshold/active 0
 /map.24/input/threshold.down 0.000000
 /map.24/input/threshold.up 1.000000
