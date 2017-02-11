@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1215.0, 100.0, 673.0, 445.0 ],
+		"rect" : [ 985.0, 560.0, 673.0, 445.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -8567,7 +8567,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1423.0, 636.0, 364.0, 347.0 ],
+						"rect" : [ 839.0, 196.0, 364.0, 347.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -12856,7 +12856,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 82.0, 570.0, 1083.0, 287.0 ],
+						"rect" : [ 254.0, 422.0, 1083.0, 287.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -12959,7 +12959,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 389.0, 675.0, 750.0, 175.0 ],
+										"rect" : [ 561.0, 527.0, 750.0, 175.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -14892,7 +14892,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 814.0, 361.0, 509.0, 639.0 ],
+						"rect" : [ 1292.0, 100.0, 509.0, 639.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -14922,15 +14922,13 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-88",
-									"linecount" : 3,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 754.0, 753.0, 50.0, 49.0 ],
+									"id" : "obj-89",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 809.0, 764.0, 34.0, 22.0 ],
 									"style" : "",
-									"text" : "write cuelist.txt"
+									"text" : "print"
 								}
 
 							}
@@ -14967,9 +14965,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 774.0, 696.0, 149.0, 22.0 ],
+									"patching_rect" : [ 774.0, 696.0, 129.0, 22.0 ],
 									"style" : "",
-									"text" : "update $1, write cuelist.txt"
+									"text" : "update $1, write/again"
 								}
 
 							}
@@ -15132,7 +15130,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 327.399994, 301.299988, 170.800003, 22.0 ],
 									"style" : "",
-									"text" : "\"Fin M1\""
+									"text" : "C3"
 								}
 
 							}
@@ -15517,17 +15515,16 @@
 								"box" : 								{
 									"fontsize" : 24.0,
 									"id" : "obj-57",
-									"linecount" : 4,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 879.0, 586.599976, 118.0, 116.0 ],
+									"patching_rect" : [ 879.0, 586.599976, 118.0, 62.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
-									"presentation_rect" : [ 327.399994, 191.300003, 170.800003, 89.0 ],
+									"presentation_rect" : [ 327.399994, 191.300003, 170.800003, 35.0 ],
 									"style" : "",
-									"text" : "\"T4 + Marqueur 1 - Solo 3\""
+									"text" : "\"T2 Group 3\""
 								}
 
 							}
@@ -16314,7 +16311,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 149.0, 143.0, 647.0, 274.0 ],
+										"rect" : [ 126.0, 199.0, 647.0, 274.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
 										"default_fontsize" : 12.0,
@@ -16641,7 +16638,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 129.0, 652.0, 621.0, 354.0 ],
+										"rect" : [ 130.0, 593.0, 621.0, 354.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -17604,6 +17601,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-89", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -17741,15 +17747,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-82", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-88", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-82", 0 ]
@@ -18470,7 +18467,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 123.0, 418.0, 902.0, 211.0 ],
+						"rect" : [ 489.0, 683.0, 902.0, 211.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -18497,6 +18494,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
