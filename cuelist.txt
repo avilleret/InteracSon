@@ -623,7 +623,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -654,7 +654,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -2563,7 +2563,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -2594,7 +2594,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -4503,7 +4503,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -4534,7 +4534,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -6443,7 +6443,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -6474,7 +6474,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -8383,7 +8383,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -8414,7 +8414,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -10323,7 +10323,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -10354,7 +10354,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -12263,7 +12263,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -12294,7 +12294,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -14203,7 +14203,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -14234,7 +14234,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -16143,7 +16143,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -16174,7 +16174,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -18083,7 +18083,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -18114,7 +18114,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -20023,7 +20023,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -20054,7 +20054,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -21963,7 +21963,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -21994,7 +21994,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -23900,7 +23900,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -23931,7 +23931,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -25837,7 +25837,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -25868,7 +25868,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -27720,7 +27720,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -27751,7 +27751,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -29660,7 +29660,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -29691,7 +29691,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -31600,7 +31600,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -31631,7 +31631,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -33540,7 +33540,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -33571,7 +33571,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -35480,7 +35480,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -35511,7 +35511,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -37420,7 +37420,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -37451,7 +37451,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -39360,7 +39360,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -39391,7 +39391,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -41300,7 +41300,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -41331,7 +41331,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -43240,7 +43240,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -43271,7 +43271,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -45180,7 +45180,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -45211,7 +45211,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -47120,7 +47120,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -47151,7 +47151,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -49060,7 +49060,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -49091,7 +49091,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -50994,7 +50994,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -51025,7 +51025,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -52934,7 +52934,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -52965,7 +52965,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -54874,7 +54874,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -54905,7 +54905,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -56814,7 +56814,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -56845,7 +56845,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -58754,7 +58754,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -58785,7 +58785,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -60694,7 +60694,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -60725,7 +60725,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -62633,7 +62633,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -62664,7 +62664,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -64572,7 +64572,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -64603,7 +64603,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -66512,7 +66512,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -66543,7 +66543,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -68452,7 +68452,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -68483,7 +68483,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -70391,7 +70391,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -70422,7 +70422,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -72330,7 +72330,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -72361,7 +72361,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -74269,7 +74269,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -74300,7 +74300,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -76209,7 +76209,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -76240,7 +76240,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -78149,7 +78149,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -78180,7 +78180,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -80089,7 +80089,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -80120,7 +80120,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -82029,7 +82029,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -82060,7 +82060,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -83967,7 +83967,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -83998,7 +83998,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -85907,7 +85907,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -85938,7 +85938,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -87847,7 +87847,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -87878,7 +87878,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -89787,7 +89787,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -89818,7 +89818,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -91727,7 +91727,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -91758,7 +91758,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -93667,7 +93667,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -93698,7 +93698,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -95606,7 +95606,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -95637,7 +95637,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -97544,7 +97544,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -97575,7 +97575,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -99484,7 +99484,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -99515,7 +99515,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -101424,7 +101424,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -101455,7 +101455,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
@@ -103361,7 +103361,7 @@
 /map.4/output/going.up/action.2 none
 /map.4/output/going.up/action.3 none
 /map.4/output/max 1.000000
-/map.4/output/min 0.000000
+/map.4/output/min -1.000000
 /map.4/output/threshold/active 0
 /map.4/output/threshold.down 0.000000
 /map.4/output/threshold.up 1.000000
@@ -103392,7 +103392,7 @@
 /map.5/output/going.up/action.2 none
 /map.5/output/going.up/action.3 none
 /map.5/output/max 1.000000
-/map.5/output/min 0.000000
+/map.5/output/min -1.000000
 /map.5/output/threshold/active 0
 /map.5/output/threshold.down 0.000000
 /map.5/output/threshold.up 1.000000
