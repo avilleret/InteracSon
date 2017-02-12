@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 265.0, 218.0, 741.0, 667.0 ],
+		"rect" : [ 1434.0, 601.0, 469.0, 340.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -305,8 +305,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -965,35 +965,35 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-2::obj-10::obj-188" : [ "live.text[6]", "live.text[1]", 0 ],
+			"obj-2::obj-10::obj-95" : [ "live.text[8]", "live.text", 0 ],
+			"obj-4::obj-10::obj-196" : [ "live.text[20]", "live.text", 0 ],
+			"obj-4::obj-8" : [ "live.text[23]", "live.text", 0 ],
 			"obj-3::obj-10::obj-196" : [ "live.text[13]", "live.text", 0 ],
 			"obj-3::obj-182" : [ "live.text[15]", "live.text[4]", 0 ],
-			"obj-4::obj-10::obj-95" : [ "live.text[19]", "live.text", 0 ],
+			"obj-4::obj-10::obj-174" : [ "live.text[18]", "live.text[1]", 0 ],
+			"obj-4::obj-182" : [ "live.text[24]", "live.text[4]", 0 ],
 			"obj-2::obj-10::obj-196" : [ "live.text[7]", "live.text", 0 ],
-			"obj-2::obj-10::obj-188" : [ "live.text[6]", "live.text[1]", 0 ],
-			"obj-2::obj-182" : [ "live.text[4]", "live.text[4]", 0 ],
-			"obj-3::obj-21" : [ "live.text[16]", "live.text", 0 ],
+			"obj-3::obj-10::obj-188" : [ "live.text[11]", "live.text[1]", 0 ],
+			"obj-4::obj-10::obj-95" : [ "live.text[19]", "live.text", 0 ],
+			"obj-4::obj-21" : [ "live.text[22]", "live.text", 0 ],
+			"obj-2::obj-10::obj-145" : [ "live.menu[1]", "live.menu", 0 ],
 			"obj-3::obj-10::obj-145" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-3::obj-8" : [ "live.text[17]", "live.text", 0 ],
+			"obj-4::obj-10::obj-188" : [ "live.text[21]", "live.text[1]", 0 ],
+			"obj-2::obj-182" : [ "live.text[4]", "live.text[4]", 0 ],
 			"obj-2::obj-8" : [ "live.text[10]", "live.text", 0 ],
-			"obj-4::obj-10::obj-196" : [ "live.text[20]", "live.text", 0 ],
-			"obj-2::obj-10::obj-174" : [ "live.text[5]", "live.text[1]", 0 ],
+			"obj-3::obj-10::obj-174" : [ "live.text[12]", "live.text[1]", 0 ],
+			"obj-3::obj-10::obj-95" : [ "live.text[14]", "live.text", 0 ],
+			"obj-3::obj-21" : [ "live.text[16]", "live.text", 0 ],
 			"obj-4::obj-10::obj-145" : [ "live.menu[3]", "live.menu", 0 ],
 			"obj-2::obj-21" : [ "live.text[9]", "live.text", 0 ],
-			"obj-2::obj-10::obj-145" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-3::obj-10::obj-95" : [ "live.text[14]", "live.text", 0 ],
-			"obj-3::obj-8" : [ "live.text[17]", "live.text", 0 ],
-			"obj-4::obj-8" : [ "live.text[23]", "live.text", 0 ],
-			"obj-2::obj-10::obj-95" : [ "live.text[8]", "live.text", 0 ],
-			"obj-3::obj-10::obj-174" : [ "live.text[12]", "live.text[1]", 0 ],
-			"obj-4::obj-10::obj-174" : [ "live.text[18]", "live.text[1]", 0 ],
-			"obj-4::obj-21" : [ "live.text[22]", "live.text", 0 ],
-			"obj-4::obj-10::obj-188" : [ "live.text[21]", "live.text[1]", 0 ],
-			"obj-4::obj-182" : [ "live.text[24]", "live.text[4]", 0 ],
-			"obj-3::obj-10::obj-188" : [ "live.text[11]", "live.text[1]", 0 ]
+			"obj-2::obj-10::obj-174" : [ "live.text[5]", "live.text[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "map-init.maxpat",
-				"bootpath" : "~/InteracSon",
+				"bootpath" : "~/dev/InteracSon",
 				"type" : "JSON",
 				"implicit" : 1
 			}
