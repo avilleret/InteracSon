@@ -549,7 +549,7 @@
 /map.2/input/going.up/action.3 none
 /map.2/input/index 0
 /map.2/input/max 1.000000
-/map.2/input/min 0.000000
+/map.2/input/min -1.000000
 /map.2/input/threshold/active 0
 /map.2/input/threshold.down 0.000000
 /map.2/input/threshold.up 1.000000
@@ -611,7 +611,7 @@
 /map.4/input/going.up/action.3 none
 /map.4/input/index 0
 /map.4/input/max 1.000000
-/map.4/input/min 0.000000
+/map.4/input/min -1.000000
 /map.4/input/threshold/active 0
 /map.4/input/threshold.down 0.000000
 /map.4/input/threshold.up 1.000000
@@ -642,7 +642,7 @@
 /map.5/input/going.up/action.3 none
 /map.5/input/index 0
 /map.5/input/max 1.000000
-/map.5/input/min 0.000000
+/map.5/input/min -1.000000
 /map.5/input/threshold/active 0
 /map.5/input/threshold.down 0.000000
 /map.5/input/threshold.up 1.000000
@@ -2489,7 +2489,7 @@
 /map.2/input/going.up/action.3 none
 /map.2/input/index 0
 /map.2/input/max 1.000000
-/map.2/input/min 0.000000
+/map.2/input/min -1.000000
 /map.2/input/threshold/active 0
 /map.2/input/threshold.down 0.000000
 /map.2/input/threshold.up 1.000000
@@ -2551,7 +2551,7 @@
 /map.4/input/going.up/action.3 none
 /map.4/input/index 0
 /map.4/input/max 1.000000
-/map.4/input/min 0.000000
+/map.4/input/min -1.000000
 /map.4/input/threshold/active 0
 /map.4/input/threshold.down 0.000000
 /map.4/input/threshold.up 1.000000
@@ -2582,7 +2582,7 @@
 /map.5/input/going.up/action.3 none
 /map.5/input/index 0
 /map.5/input/max 1.000000
-/map.5/input/min 0.000000
+/map.5/input/min -1.000000
 /map.5/input/threshold/active 0
 /map.5/input/threshold.down 0.000000
 /map.5/input/threshold.up 1.000000
@@ -4429,7 +4429,7 @@
 /map.2/input/going.up/action.3 none
 /map.2/input/index 0
 /map.2/input/max 1.000000
-/map.2/input/min 0.000000
+/map.2/input/min -1.000000
 /map.2/input/threshold/active 0
 /map.2/input/threshold.down 0.000000
 /map.2/input/threshold.up 1.000000
@@ -4491,7 +4491,7 @@
 /map.4/input/going.up/action.3 none
 /map.4/input/index 0
 /map.4/input/max 1.000000
-/map.4/input/min 0.000000
+/map.4/input/min -1.000000
 /map.4/input/threshold/active 0
 /map.4/input/threshold.down 0.000000
 /map.4/input/threshold.up 1.000000
@@ -4522,7 +4522,7 @@
 /map.5/input/going.up/action.3 none
 /map.5/input/index 0
 /map.5/input/max 1.000000
-/map.5/input/min 0.000000
+/map.5/input/min -1.000000
 /map.5/input/threshold/active 0
 /map.5/input/threshold.down 0.000000
 /map.5/input/threshold.up 1.000000
@@ -6369,7 +6369,7 @@
 /map.2/input/going.up/action.3 none
 /map.2/input/index 0
 /map.2/input/max 1.000000
-/map.2/input/min 0.000000
+/map.2/input/min -1.000000
 /map.2/input/threshold/active 0
 /map.2/input/threshold.down 0.000000
 /map.2/input/threshold.up 1.000000
@@ -6431,7 +6431,7 @@
 /map.4/input/going.up/action.3 none
 /map.4/input/index 0
 /map.4/input/max 1.000000
-/map.4/input/min 0.000000
+/map.4/input/min -1.000000
 /map.4/input/threshold/active 0
 /map.4/input/threshold.down 0.000000
 /map.4/input/threshold.up 1.000000
@@ -6462,7 +6462,7 @@
 /map.5/input/going.up/action.3 none
 /map.5/input/index 0
 /map.5/input/max 1.000000
-/map.5/input/min 0.000000
+/map.5/input/min -1.000000
 /map.5/input/threshold/active 0
 /map.5/input/threshold.down 0.000000
 /map.5/input/threshold.up 1.000000
@@ -8309,7 +8309,7 @@
 /map.2/input/going.up/action.3 none
 /map.2/input/index 0
 /map.2/input/max 1.000000
-/map.2/input/min 0.000000
+/map.2/input/min -1.000000
 /map.2/input/threshold/active 0
 /map.2/input/threshold.down 0.000000
 /map.2/input/threshold.up 1.000000
@@ -8371,7 +8371,7 @@
 /map.4/input/going.up/action.3 none
 /map.4/input/index 0
 /map.4/input/max 1.000000
-/map.4/input/min 0.000000
+/map.4/input/min -1.000000
 /map.4/input/threshold/active 0
 /map.4/input/threshold.down 0.000000
 /map.4/input/threshold.up 1.000000
@@ -8402,7 +8402,7 @@
 /map.5/input/going.up/action.3 none
 /map.5/input/index 0
 /map.5/input/max 1.000000
-/map.5/input/min 0.000000
+/map.5/input/min -1.000000
 /map.5/input/threshold/active 0
 /map.5/input/threshold.down 0.000000
 /map.5/input/threshold.up 1.000000
@@ -10249,7 +10249,7 @@
 /map.2/input/going.up/action.3 none
 /map.2/input/index 0
 /map.2/input/max 1.000000
-/map.2/input/min 0.000000
+/map.2/input/min -1.000000
 /map.2/input/threshold/active 0
 /map.2/input/threshold.down 0.000000
 /map.2/input/threshold.up 1.000000
@@ -10311,7 +10311,7 @@
 /map.4/input/going.up/action.3 none
 /map.4/input/index 0
 /map.4/input/max 1.000000
-/map.4/input/min 0.000000
+/map.4/input/min -1.000000
 /map.4/input/threshold/active 0
 /map.4/input/threshold.down 0.000000
 /map.4/input/threshold.up 1.000000
@@ -10342,7 +10342,7 @@
 /map.5/input/going.up/action.3 none
 /map.5/input/index 0
 /map.5/input/max 1.000000
-/map.5/input/min 0.000000
+/map.5/input/min -1.000000
 /map.5/input/threshold/active 0
 /map.5/input/threshold.down 0.000000
 /map.5/input/threshold.up 1.000000
@@ -12189,7 +12189,7 @@
 /map.2/input/going.up/action.3 none
 /map.2/input/index 0
 /map.2/input/max 1.000000
-/map.2/input/min 0.000000
+/map.2/input/min -1.000000
 /map.2/input/threshold/active 0
 /map.2/input/threshold.down 0.000000
 /map.2/input/threshold.up 1.000000
@@ -12251,7 +12251,7 @@
 /map.4/input/going.up/action.3 none
 /map.4/input/index 0
 /map.4/input/max 1.000000
-/map.4/input/min 0.000000
+/map.4/input/min -1.000000
 /map.4/input/threshold/active 0
 /map.4/input/threshold.down 0.000000
 /map.4/input/threshold.up 1.000000
@@ -12282,7 +12282,7 @@
 /map.5/input/going.up/action.3 none
 /map.5/input/index 0
 /map.5/input/max 1.000000
-/map.5/input/min 0.000000
+/map.5/input/min -1.000000
 /map.5/input/threshold/active 0
 /map.5/input/threshold.down 0.000000
 /map.5/input/threshold.up 1.000000
@@ -14129,7 +14129,7 @@
 /map.2/input/going.up/action.3 none
 /map.2/input/index 0
 /map.2/input/max 1.000000
-/map.2/input/min 0.000000
+/map.2/input/min -1.000000
 /map.2/input/threshold/active 0
 /map.2/input/threshold.down 0.000000
 /map.2/input/threshold.up 1.000000
@@ -14191,7 +14191,7 @@
 /map.4/input/going.up/action.3 none
 /map.4/input/index 0
 /map.4/input/max 1.000000
-/map.4/input/min 0.000000
+/map.4/input/min -1.000000
 /map.4/input/threshold/active 0
 /map.4/input/threshold.down 0.000000
 /map.4/input/threshold.up 1.000000
@@ -14222,7 +14222,7 @@
 /map.5/input/going.up/action.3 none
 /map.5/input/index 0
 /map.5/input/max 1.000000
-/map.5/input/min 0.000000
+/map.5/input/min -1.000000
 /map.5/input/threshold/active 0
 /map.5/input/threshold.down 0.000000
 /map.5/input/threshold.up 1.000000
@@ -16130,8 +16130,8 @@
 /map.4/input/going.up/action.2 none
 /map.4/input/going.up/action.3 none
 /map.4/input/index 0
-/map.4/input/max 0.700000
-/map.4/input/min -0.700000
+/map.4/input/max 1.000000
+/map.4/input/min -1.000000
 /map.4/input/threshold/active 0
 /map.4/input/threshold.down 0.000000
 /map.4/input/threshold.up 1.000000
@@ -16161,8 +16161,8 @@
 /map.5/input/going.up/action.2 none
 /map.5/input/going.up/action.3 none
 /map.5/input/index 0
-/map.5/input/max 0.700000
-/map.5/input/min -0.700000
+/map.5/input/max 1.000000
+/map.5/input/min -1.000000
 /map.5/input/threshold/active 0
 /map.5/input/threshold.down 0.000000
 /map.5/input/threshold.up 1.000000
@@ -16223,8 +16223,8 @@
 /map.7/input/going.up/action.2 none
 /map.7/input/going.up/action.3 none
 /map.7/input/index 0
-/map.7/input/max 0.700000
-/map.7/input/min -0.700000
+/map.7/input/max 1.000000
+/map.7/input/min -1.000000
 /map.7/input/threshold/active 0
 /map.7/input/threshold.down 0.000000
 /map.7/input/threshold.up 1.000000
@@ -16254,8 +16254,8 @@
 /map.8/input/going.up/action.2 none
 /map.8/input/going.up/action.3 none
 /map.8/input/index 0
-/map.8/input/max 0.700000
-/map.8/input/min -0.700000
+/map.8/input/max 1.000000
+/map.8/input/min -1.000000
 /map.8/input/threshold/active 0
 /map.8/input/threshold.down 0.000000
 /map.8/input/threshold.up 1.000000
@@ -25762,8 +25762,8 @@
 /map.2/input/going.up/action.2 none
 /map.2/input/going.up/action.3 none
 /map.2/input/index 0
-/map.2/input/max 0.700000
-/map.2/input/min -0.700000
+/map.2/input/max 1.000000
+/map.2/input/min -1.000000
 /map.2/input/threshold/active 0
 /map.2/input/threshold.down 0.000000
 /map.2/input/threshold.up 1.000000
@@ -25824,8 +25824,8 @@
 /map.4/input/going.up/action.2 none
 /map.4/input/going.up/action.3 none
 /map.4/input/index 0
-/map.4/input/max 0.700000
-/map.4/input/min -0.700000
+/map.4/input/max 1.000000
+/map.4/input/min -1.000000
 /map.4/input/threshold/active 0
 /map.4/input/threshold.down 0.000000
 /map.4/input/threshold.up 1.000000
@@ -25855,8 +25855,8 @@
 /map.5/input/going.up/action.2 none
 /map.5/input/going.up/action.3 none
 /map.5/input/index 0
-/map.5/input/max 0.700000
-/map.5/input/min -0.700000
+/map.5/input/max 1.000000
+/map.5/input/min -1.000000
 /map.5/input/threshold/active 0
 /map.5/input/threshold.down 0.000000
 /map.5/input/threshold.up 1.000000
@@ -33332,7 +33332,7 @@
 /granu.1/buffer/name buffer.3-buf
 /granu.1/duration/high 4000.000000
 /granu.1/duration/low 1000.000000
-/granu.1/enable 0
+/granu.1/enable 1
 /granu.1/gain -1.102362
 /granu.1/location/high 750.000000
 /granu.1/location/low 250.000000
@@ -35272,7 +35272,7 @@
 /granu.1/buffer/name buffer.3-buf
 /granu.1/duration/high 4000.000000
 /granu.1/duration/low 1000.000000
-/granu.1/enable 0
+/granu.1/enable 1
 /granu.1/gain -1.102362
 /granu.1/location/high 750.000000
 /granu.1/location/low 250.000000
@@ -37212,7 +37212,7 @@
 /granu.1/buffer/name buffer.3-buf
 /granu.1/duration/high 4000.000000
 /granu.1/duration/low 1000.000000
-/granu.1/enable 0
+/granu.1/enable 1
 /granu.1/gain -1.102362
 /granu.1/location/high 750.000000
 /granu.1/location/low 250.000000
@@ -39152,7 +39152,7 @@
 /granu.1/buffer/name buffer.3-buf
 /granu.1/duration/high 4000.000000
 /granu.1/duration/low 1000.000000
-/granu.1/enable 0
+/granu.1/enable 1
 /granu.1/gain -1.102362
 /granu.1/location/high 750.000000
 /granu.1/location/low 250.000000
@@ -41092,7 +41092,7 @@
 /granu.1/buffer/name buffer.3-buf
 /granu.1/duration/high 4000.000000
 /granu.1/duration/low 1000.000000
-/granu.1/enable 0
+/granu.1/enable 1
 /granu.1/gain -1.102362
 /granu.1/location/high 750.000000
 /granu.1/location/low 250.000000
@@ -43032,7 +43032,7 @@
 /granu.1/buffer/name buffer.3-buf
 /granu.1/duration/high 4000.000000
 /granu.1/duration/low 1000.000000
-/granu.1/enable 0
+/granu.1/enable 1
 /granu.1/gain -1.102362
 /granu.1/location/high 750.000000
 /granu.1/location/low 250.000000
@@ -46912,7 +46912,7 @@
 /granu.1/buffer/name buffer.3-buf
 /granu.1/duration/high 4000.000000
 /granu.1/duration/low 1000.000000
-/granu.1/enable 0
+/granu.1/enable 1
 /granu.1/gain -1.102362
 /granu.1/location/high 750.000000
 /granu.1/location/low 250.000000
